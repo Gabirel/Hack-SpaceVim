@@ -1,6 +1,5 @@
 [![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)
 [![Build Status](https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master)](https://travis-ci.org/Gabirel/Hack-SpaceVim)
-[![spacevim-version](https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/9293d3c55953e1615a134261b2885d0d683f6fcd/spacevim-0.3.0-dev.svg)](https://spacevim.org)
 
 # Hack-SpaceVim
 
