@@ -1,0 +1,11 @@
+sudo: required
+os: linux
+
+language: python
+python:
+  - "2.7"
+
+before_install:
+  - pip install hint
+script: 
+  - hint .
