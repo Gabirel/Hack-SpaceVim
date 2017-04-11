@@ -1,11 +1,17 @@
 # Hack-SpaceVim
-Tell you how to hack SpaceVim
+
+[![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)
+`Hack-SpaceVim` will tell you how to hack SpaceVim faster, more efficiently and more powerfully.
+
+This page hasn't been finished yet. Please use [issue tracker](https://github.com/Gabirel/Hack-SpaceVim/issues) to ask whatever you want to know.
+
+Please submit a new issue under [SpaceVim::issue-tracker](https://github.com/spacevim/spacevim/issue/) if you have any errors when using `SpaceVim`.
+`Hack-SpaceVim` won't fix any errors, however you can ask if encountering any problems.
 
 
-This page isn't finish yet. Please go to issue to ask what you want to know.
 
-If any errors happen, please create a new issue under [SpaceVim:issue](https://github.com/spacevim/spacevim/issue/). `Hack-SpaceVim` won't fix any errors issue, however you can ask if encountering any problems.
-
+---------------------------
 # Reference
 
+New to Vim: [vim-galore](https://github.com/mhinz/vim-galore)
 Official SpaceVim: [SpaceVim/SpaceVim](https://github.com/spacevim/spacevim)
