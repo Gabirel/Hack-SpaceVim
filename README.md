@@ -1,4 +1,4 @@
-[![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)
+[![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)  [![Build Status](https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master)](https://travis-ci.org/Gabirel/Hack-SpaceVim)
 
 # Hack-SpaceVim
 `Hack-SpaceVim` will tell you how to hack SpaceVim faster, more efficiently and more powerfully.
