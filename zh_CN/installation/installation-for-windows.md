@@ -4,7 +4,7 @@
 
 ### 在线安装基本要求
 
-    - git: 用于下载与更新插件，[点我下载][git-download]
+    - [git][git-download]: 用于下载与更新插件，点我下载
     
     - [lua][lua-download]: 用于neocomplete补全
     - [python(2/3)][python-download]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
