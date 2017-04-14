@@ -4,6 +4,8 @@
 [![spacevim-version](https://img.shields.io/badge/spacevim-v0.3.0--dev-ff69b4.svg)](https://spacevim.org)
 # Hack-SpaceVim
 
+[English Document](README.md)
+
 `Hack-SpaceVim` 会教你如何更快地，更加高效地去hack SpaceVim.
 
 当前页面还未完成。如果你有任何想问的，请使用[issue tracker](https://github.com/Gabirel/Hack-SpaceVim/issues)来问任何你想知道的。我们会竭尽所能地帮助您去Hack SpaceVim。
