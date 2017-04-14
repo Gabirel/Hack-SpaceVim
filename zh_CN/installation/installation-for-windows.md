@@ -33,32 +33,24 @@
 正确结果✅：
 > git version 2.12.2.windows.2
 
-错误结果❌：
-> 'git'不是内部或外部命令，也不是可运行程序，或批处理文件
-
 2. lua53 -v
 
 正确结果✅：
 > Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
-
-错误结果❌：
-> 'lua53'不是内部或外部命令，也不是可运行程序，或批处理文件
 
 3. python -v
 
 正确结果✅：
 > Python 3.6.1
 
-错误结果❌：
-> 'python'不是内部或外部命令，也不是可运行程序，或批处理文件
-
 4. gvim
 
 正确结果✅：
 > 打开一个窗口
 
-错误结果❌：
-> 'gvim'不是内部或外部命令，也不是可运行程序，或批处理文件
+**注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见下图：**
+*位置：此电脑->属性->高级系统设置->环境变量->系统变量->找到Path->编辑*
+[path][path-config]
 
 #### 正式安装
 
@@ -72,3 +64,4 @@
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 [dein.vim]: https://github.com/Shougo/dein.vim.git
 [SpaceVim-download]: https://github.com/SpaceVim/SpaceVim.git
+[path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
