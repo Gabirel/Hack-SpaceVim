@@ -20,7 +20,7 @@ Table of Contents
 =================
 
 1. [在Windows上安装SpaceVim][1]
-   * [Table of Contents](#table-of-contents)
+   * [Table of Contents][table-of-content]
    * [在Windows上安装SpaceVim](#在windows上安装spacevim)
       * [基础环境](#基础环境)
          * [在线安装基本要求](#在线安装基本要求)
@@ -43,3 +43,4 @@ Vim新人: [vim-galore][3]
 [2]: https://github.com/spacevim/spacevim/issue
 [3]: https://github.com/mhinz/vim-galore
 [4]: https://github.com/spacevim/spacevim
+[table-of-content]: installation/installation-for-windows.md#table-of-contents
