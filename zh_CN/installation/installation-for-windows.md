@@ -38,21 +38,23 @@
 
 2. lua53 -v
 
-正确结果❌：
+正确结果✅：
 > Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
 
 错误结果❌：
 > 'lua53'不是内部或外部命令，也不是可运行程序，或批处理文件
 
 3. python -v
-正确结果❌：
+
+正确结果✅：
 > Python 3.6.1
 
 错误结果❌：
 > 'python'不是内部或外部命令，也不是可运行程序，或批处理文件
 
 4. gvim
-正确结果❌：
+
+正确结果✅：
 > 打开一个窗口
 
 错误结果❌：
@@ -61,7 +63,6 @@
 #### 正式安装
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
-
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
