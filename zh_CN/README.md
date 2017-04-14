@@ -15,7 +15,7 @@ Table of Contents
 
 
 [1]: /installation/installation-for-windows.md
-[1-0]: /installation/installation-for-windows.md#table-of-contents
+[1-0]: installation/installation-for-windows.md#table-of-contents
 [1-1]: /installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim
 [1-1-1]: /installation/installation-for-windows.md#%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83
 [1-1-1-1]: /installation/installation-for-windows.md#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82
