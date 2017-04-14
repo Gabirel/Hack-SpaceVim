@@ -4,7 +4,7 @@
 
 ### 在线安装基本要求
 
-    - [git](https://github.com) [git-download]: 用于下载与更新插件
+    - [git]: 用于下载与更新插件
     - [lua][lua-download]: 用于neocomplete补全
     - [python(2/3)][python-download]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
     - [gvim][gvim-download]: Vim主要程序
@@ -28,7 +28,7 @@
     2. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
     3. vcruntime140.dll
 
-[git-download]: https://git-scm.com/download
+[git]: https://git-scm.com/download
 [lua-download]: http://luabinaries.sourceforge.net/download.html
 [python-download]: https://www.python.org/downloads
 [gvim-download]: https://github.com/vim/vim-win32-installer/releases
