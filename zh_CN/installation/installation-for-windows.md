@@ -28,27 +28,35 @@
 
 #### 检查基础环境是否已安装
 
-1. > git --version
+1. git --version
 
-正确结果![][correct]：> git version 2.12.2.windows.2
-错误结果![][wrong]：> 'git'不是内部或外部命令，也不是可运行程序，或批处理文件
+正确结果✅：
+> git version 2.12.2.windows.2
+错误结果❌：
+> 'git'不是内部或外部命令，也不是可运行程序，或批处理文件
 
-2. > lua53 -v
+2. lua53 -v
 
-正确结果![][correct]：> Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
-错误结果![][wrong]：> 'lua53'不是内部或外部命令，也不是可运行程序，或批处理文件
+正确结果❌：
+> Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
+错误结果❌：
+> 'lua53'不是内部或外部命令，也不是可运行程序，或批处理文件
 
-3. > python -v
-正确结果![][correct]：> Python 3.6.1
-错误结果![][wrong]：> 'python'不是内部或外部命令，也不是可运行程序，或批处理文件
+3. python -v
+正确结果❌：
+> Python 3.6.1
+错误结果❌：
+> 'python'不是内部或外部命令，也不是可运行程序，或批处理文件
 
-4. > gvim
-正确结果![][correct]：> 打开一个窗口
-错误结果![][wrong]：> 'gvim'不是内部或外部命令，也不是可运行程序，或批处理文件
+4. gvim
+正确结果❌：
+> 打开一个窗口
+错误结果❌：
+> 'gvim'不是内部或外部命令，也不是可运行程序，或批处理文件
 
 #### 正式安装
 
-1. > git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
 
 [git]: https://git-scm.com/download
@@ -59,5 +67,3 @@
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 [dein.vim]: https://github.com/Shougo/dein.vim.git
 [SpaceVim-download]: https://github.com/SpaceVim/SpaceVim.git
-[correct]: https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png
-[wrong]: https://assets-cdn.github.com/images/icons/emoji/unicode/274c.png
