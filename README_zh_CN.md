@@ -43,4 +43,4 @@ Vim新人: [vim-galore][3]
 [2]: https://github.com/spacevim/spacevim/issue
 [3]: https://github.com/mhinz/vim-galore
 [4]: https://github.com/spacevim/spacevim
-[table-of-content]: installation/installation-for-windows.md#table-of-contents
+[table-of-content]: zh_CN/installation/installation-for-windows.md#table-of-contents
