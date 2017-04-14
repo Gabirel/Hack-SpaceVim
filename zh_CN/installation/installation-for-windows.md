@@ -60,15 +60,20 @@ Table of Contents
 正确结果✅：
 > 打开一个窗口
 
-**注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见下图：**
+**注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见：**[常见问题](##常见问题)
+
+#### 正式安装
+
+1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+
+## 常见问题
+
+1. 如何配置环境变量？
 
 *位置：此电脑->属性->高级系统设置->环境变量->系统变量->找到Path->编辑*
 
 ![path][path-config]
 
-#### 正式安装
-
-1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
