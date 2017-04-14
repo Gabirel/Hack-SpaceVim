@@ -4,23 +4,23 @@
 
 ### 在线安装基本要求
 
-    - [git][]: 用于下载与更新插件
-    - [lua][]: 用于neocomplete补全
-    - [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
-    - [gvim][]: Vim主要程序
-    - [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
-    - [vimproc_win64(32).dll][]: 针对vimruntime140 Error（当必要时下载）
+- [git][]: 用于下载与更新插件
+- [lua][]: 用于neocomplete补全
+- [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
+- [gvim][]: Vim主要程序
+- [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
+- [vimproc_win64(32).dll][]: 针对vimruntime140 Error（当必要时下载）
 
 ### 离线安装基本要求
 
-    - [git][]: 用于下载与更新插件
-    - [lua][]: 用于neocomplete补全
-    - [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
-    - [gvim][]: Vim主要程序
-    - [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
-    - [vimproc_win64(32).dll][]: 针对vimruntime140 Error（当必要时下载）
-    - [dein.vim][]: SpaceVim的插件管理器（**必须**）
-    - [SpaceVim][SpaceVim-download]
+- [git][]: 用于下载与更新插件
+- [lua][]: 用于neocomplete补全
+- [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
+- [gvim][]: Vim主要程序
+- [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
+- [vimproc_win64(32).dll][]: 针对vimruntime140 Error（当必要时下载）
+- [dein.vim][]: SpaceVim的插件管理器（**必须**）
+- [SpaceVim][SpaceVim-download]
 
 ## 开始安装
 
