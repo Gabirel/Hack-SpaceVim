@@ -22,6 +22,33 @@
 - [dein.vim][]: SpaceVim的插件管理器（**必须**）
 - [SpaceVim][SpaceVim-download]
 
+ 安装python3，如果你有特殊需求，可以选择安装python2
+
+
+
+oad]: SpaceVim的Aireline所需字体
+
+0 Error（当必要时下载）
+
+
+
+
+
+
+
+ 安装python3，如果你有特殊需求，可以选择安装python2
+
+
+
+oad]: SpaceVim的Aireline所需字体
+
+0 Error（当必要时下载）
+
+*）
+
+
+
+
 ## 开始安装
 
     1. git --version
