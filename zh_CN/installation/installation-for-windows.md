@@ -75,10 +75,10 @@ Table of Contents
 3. SpaceVim会自动出发下载插件模式(SpaceVim-v0.3.0-dev是如此)，等待完成即可
 ![download-plugins][download-plugin]
 
-4. 检查vim是否有Lua和python(2/3)特性支持，输命令：`:versioin`以查看：
+4. 检查vim是否有Lua和python(2/3)特性支持，输命令：`:version`以查看：
 ![vim-version][vim-version-check]
 
-5. 检查Lua和python(2/3)支持是否真的在其作用，通过两个命令：`echo has('lua')`和`echo has('python3')`或者`echo has('python2')`:
+5. 检查Lua和python(2/3)支持是否真的在起作用，通过两个命令：`echo has('lua')`和`echo has('python3')`或者`echo has('python2')`:
     * Lua返回值为：1
     * python返回值：1
 
