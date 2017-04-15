@@ -1,7 +1,6 @@
 # 在Windows上安装SpaceVim
 
-Table of Contents
-=================
+## Table of Contents
 
    * [在Windows上安装SpaceVim](#在windows上安装spacevim)
       * [基础环境](#基础环境)
@@ -18,25 +17,25 @@ Table of Contents
 
 ### 在线安装基本要求
 
-- [git][]: 用于下载与更新插件
-- [lua][]: 用于neocomplete补全
-- [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
-- [gvim][]: Vim主要程序
-- [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
-- [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
-- [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
+* [git][]: 用于下载与更新插件
+* [lua][]: 用于neocomplete补全
+* [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
+* [gvim][]: Vim主要程序
+* [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
+* [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
+* [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
 
 ### 离线安装基本要求
 
-- [git][]: 用于下载与更新插件
-- [lua][]: 用于neocomplete补全
-- [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
-- [gvim][]: Vim主要程序
-- [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
-- [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
-- [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
-- [dein.vim][]: SpaceVim的插件管理器（**没错！这也是必须的):D**）
-- [SpaceVim][SpaceVim-download]
+* [git][]: 用于下载与更新插件
+* [lua][]: 用于neocomplete补全
+* [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
+* [gvim][]: Vim主要程序
+* [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
+* [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
+* [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
+* [dein.vim][]: SpaceVim的插件管理器（**没错！这也是必须的):D**）
+* [SpaceVim][SpaceVim-download]
 
 ## 开始安装
 
@@ -71,12 +70,15 @@ Table of Contents
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
 2. 双击桌面的gvim图标，或打开cmd.exe后运行gvim，正常情况下会打开一个新的终端克隆`dein.vim`，如图所示：
+
 ![dein.vim-clone][clone-dein.vim]
 
 3. SpaceVim会自动出发下载插件模式(SpaceVim-v0.3.0-dev是如此)，等待完成即可
+
 ![download-plugins][download-plugin]
 
 4. 检查vim是否有Lua和python(2/3)特性支持，输命令：`:version`以查看：
+
 ![vim-version][vim-version-check]
 
 5. 检查Lua和python(2/3)支持是否真的在起作用，通过两个命令：`echo has('lua')`和`echo has('python3')`或者`echo has('python2')`:
@@ -90,15 +92,17 @@ Table of Contents
 6. 安装字体，字体下载：[DejaVu Sans Mono for PowerLine.ttf][font-download]，安装完字体后状态栏即可正常显示
 
 7. 解决`vimproc.dll错误`，错误如下图：
+
 ![vimproc-dll][vimproc_dll-error]
 
 [点我下载][vimproc_win64(32).dll]，位置放在：`C:\Users\<Your Name>\.cache\vimfiles\repos\github.com\Shougo\vimproc.vim\lib`
 
 
-**恭喜，完成！**
+   **恭喜，完成！**
 
 
 ## 常见问题 
+
 1. 如何配置环境变量？
 
 A: *位置：此电脑->属性->高级系统设置->环境变量->系统变量->找到Path->编辑*
@@ -109,18 +113,18 @@ A: *位置：此电脑->属性->高级系统设置->环境变量->系统变量->
 
 A: 请检查是否满足以下条件：
 
-- 在cmd.exe中，查看python命令是否存在
-- vim是64位，python就必须安装64位；反之亦然
-- vim必须要有`+python/dyn`或`+python3/dyn`或者`+python/dyn;+python3/dyn`
+* 在cmd.exe中，查看python命令是否存在
+* vim是64位，python就必须安装64位；反之亦然
+* vim必须要有`+python/dyn`或`+python3/dyn`或者`+python/dyn;+python3/dyn`
 
 3. 我觉得SpaceVim用起来有点卡顿，怎么回事？
 
 A: 目前有以下可能性：
 
-- 查看你的Lua本地是否支持，vim是否有+lua支持，如果没有lua支持，neocomplete就不会其作用，而是neocomplcache，这就会造成你的卡顿
-- 你所使用的SpaceVim有功能性的bug，可以尝试使用SpaceVim的[issue tracker][spacevim-issue-tracker]来帮助你解决
-- 你的配置文件可能不恰当，导致占用了大量的内存和磁盘使用。譬如，nodejs里使用ternjs时候对于`loadEagerly`赋值为`**/*.js`就会造成这种现象
-- 某一个插件的bug或者某一个插件和另一个插件产生了冲突，若发生了这种现象，请在提交[issue tracker][spacevim-issue-tracker]来修复该问题
+* 查看你的Lua本地是否支持，vim是否有+lua支持，如果没有lua支持，neocomplete就不会其作用，而是neocomplcache，这就会造成你的卡顿
+* 你所使用的SpaceVim有功能性的bug，可以尝试使用SpaceVim的[issue tracker][spacevim-issue-tracker]来帮助你解决
+* 你的配置文件可能不恰当，导致占用了大量的内存和磁盘使用。譬如，nodejs里使用ternjs时候对于`loadEagerly`赋值为`**/*.js`就会造成这种现象
+* 某一个插件的bug或者某一个插件和另一个插件产生了冲突，若发生了这种现象，请在提交[issue tracker][spacevim-issue-tracker]来修复该问题
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html

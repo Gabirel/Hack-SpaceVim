@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master)](https://travis-ci.org/Gabirel/Hack-SpaceVim)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![spacevim-version](https://img.shields.io/badge/spacevim-v0.3.0--dev-ff69b4.svg)](https://spacevim.org)
+
 # Hack-SpaceVim
 
 [SpaceVim][4] | [中文文档](README_zh_CN.md) | [Hack-SpaceVim:issue][1] | [SpaceVim:issue][2]
@@ -15,6 +16,7 @@ Please open a new issue under [SpaceVim:issue-tracker][2] if you have any errors
 `Hack-SpaceVim` won't fix any errors, however you can ask if encountering any problems.
 
 ---------------------------
+
 # Reference
 
 New to Vim: [vim-galore][3]

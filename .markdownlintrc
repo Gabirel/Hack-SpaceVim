@@ -1,10 +1,14 @@
 {
   "default": true,
-  "MD003": { "style": "atx" },
-  "MD007": { "indent": 4 },
+  "MD003": false,
+  "MD006": false,
+  "MD007": { "indent": 3 },
   "MD013": { "line_length": 100 },
+  "MD029": false,
   "MD033": false,
   "MD034": false,
+  "MD041": false,
   "no-hard-tabs": false,
-  "whitespace": false
+  "whitespace": false,
+  "no-emphasis-as-header": false
 }

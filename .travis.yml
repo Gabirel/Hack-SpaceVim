@@ -9,4 +9,4 @@ install:
   - npm install -g markdownlint-cli
 
 script: 
-  - markdownlint -c .markdownlintrc *.md
+  - markdownlint -c .markdownlintrc **/*.md
