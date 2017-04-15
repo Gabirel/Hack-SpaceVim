@@ -190,7 +190,7 @@ A: [点我下载][vcruntime140.dll]，根据自己的操作系统类型选择相
 [vimproc_win64(32).dll]: https://github.com/Shougo/vimproc.vim/releases
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
-[plugins-zip]: https://github.com/Shougo/dein.vim.git
+[plugins-zip]: https://github.com/Gabirel/Hack-SpaceVim/releases
 [SpaceVim-download]: https://github.com/SpaceVim/SpaceVim.git
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [clone-dein.vim]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/2ac0304f46db1c6470f8f4982296d08875de2894/clone-dein.vim.PNG
