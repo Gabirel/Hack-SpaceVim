@@ -67,3 +67,4 @@ Table of Contents
 
 [vim-galore]: https://github.com/mhinz/vim-galore
 [spacevim]: https://github.com/spacevim/spacevim
+[SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issue
