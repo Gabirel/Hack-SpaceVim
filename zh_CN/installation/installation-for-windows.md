@@ -3,14 +3,24 @@
 ## Table of Contents
 
    * [在Windows上安装SpaceVim](#在windows上安装spacevim)
+      * [Table of Contents](#table-of-contents)
       * [基础环境](#基础环境)
          * [在线安装基本要求](#在线安装基本要求)
          * [离线安装基本要求](#离线安装基本要求)
       * [开始安装](#开始安装)
          * [在线安装](#在线安装)
-            * [检查基础环境是否已安装](#检查基础环境是否已安装)
+            * [检查基础环境](#检查基础环境)
             * [正式安装](#正式安装)
+      * [离线安装](#离线安装)
+         * [检查基础环境](#检查基础环境-1)
+         * [正式安装](#正式安装-1)
+      * [安装Neovim](#安装neovim)
       * [常见问题](#常见问题)
+         * [配置环境变量](#配置环境变量)
+         * [python不支持](#python不支持)
+         * [SpaceVim卡顿](#spacevim卡顿)
+         * [vcruntime140.dll错误](#vcruntime140dll错误)
+         * [Windows上安装繁琐](#windows上安装繁琐)
 
 
 ## 基础环境
