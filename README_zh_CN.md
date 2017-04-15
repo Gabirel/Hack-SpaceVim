@@ -7,13 +7,16 @@
 
 [SpaceVim][spacevim] | [English Document](README.md) | [Hack-SpaceVim:issue][1] | [SpaceVim:issue][SpaceVim:issue-tracker]
 
-`Hack-SpaceVim` 会教你如何更快地，更加高效地去hack SpaceVim.
+## 你能从Hack-SpaceVim得到什么
 
-当前页面还未完成。如果你有任何想问的，请使用[issue tracker][Hack-SpaceVim:issue-tracker]来问任何你想知道的。我们会竭尽所能地帮助您去Hack SpaceVim。
-
-如果你在使用SpaceVim的时候遇到了任何功能性错误，请在[SpaceVim:issue-tracker][SpaceVim:issue-tracker]下提交一个issue来帮助您解决的问题。 
-
-`Hack-SpaceVim`不会去修复任何SpaceVim的功能性错误，但是如果你有疑惑，你可以在Hack-SpaceVim里面问。
+* **手把手**教你如何安装SpaceVim
+* 快速地部署开发环境
+* 开发者速成
+* 帮助你熟悉多到吐的插件
+* 让你成为专业的vimmer
+* 用SpaceVim征服整个星球
+* 告诉你鲜为人知的彩单
+* 一些你永远不会知道的技巧（噢，这好像矛盾了 |-:D ）
 
 ---------------------------
 

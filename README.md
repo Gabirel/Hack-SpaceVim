@@ -7,13 +7,16 @@
 
 [SpaceVim][4] | [中文文档](README_zh_CN.md) | [Hack-SpaceVim:issue][1] | [SpaceVim:issue][2]
 
-`Hack-SpaceVim` will tell you how to hack SpaceVim faster, more efficiently and more powerfully.
+## What can you get from Hack-SpaceVim
 
-This page hasn't been finished yet. Please use [issue tracker][1] to ask whatever you want to know.
-
-Please open a new issue under [SpaceVim:issue-tracker][2] if you have any errors when using `SpaceVim`.
-
-`Hack-SpaceVim` won't fix any errors, however you can ask if encountering any problems.
+* Introductions about how to install SpaceVim with **step by step**
+* Set up developing environments very fast
+* Become a developer very quickly
+* Help you get acquainted with mountains of plugins
+* Make you a professional vimmer
+* Let you hack this planet with SpaceVim
+* Tell you some facts somebody else won't tell you
+* Tricks you will never know(contradictory statements |-:D)
 
 ---------------------------
 
