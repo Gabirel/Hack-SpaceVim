@@ -101,27 +101,26 @@ Table of Contents
 ## 常见问题 
 1. 如何配置环境变量？
 
-A:
-*位置：此电脑->属性->高级系统设置->环境变量->系统变量->找到Path->编辑*
+A: *位置：此电脑->属性->高级系统设置->环境变量->系统变量->找到Path->编辑*
 
 ![path][path-config]
 
 2. `echo has('python')`返回值均为0，我该怎么办？
 
-A:
-请检查是否满足以下条件：
-    - 在cmd.exe中，查看python命令是否存在
-    - vim是64位，python就必须安装64位；反之亦然
-    - vim必须要有`+python/dyn`或`+python3/dyn`或者`+python/dyn;+python3/dyn`
+A: 请检查是否满足以下条件：
+
+- 在cmd.exe中，查看python命令是否存在
+- vim是64位，python就必须安装64位；反之亦然
+- vim必须要有`+python/dyn`或`+python3/dyn`或者`+python/dyn;+python3/dyn`
 
 3. 我觉得SpaceVim用起来有点卡顿，怎么回事？
 
-A:
-目前有以下可能性：
-    - 查看你的Lua本地是否支持，vim是否有+lua支持，如果没有lua支持，neocomplete就不会其作用，而是neocomplcache，这就会造成你的卡顿
-    - 你所使用的SpaceVim有功能性的bug，可以尝试使用SpaceVim的[issue tracker][spacevim-issue-tracker]来帮助你解决
-    - 你的配置文件可能不恰当，导致占用了大量的内存和磁盘使用。譬如，nodejs里使用ternjs时候对于`loadEagerly`赋值为`**/*.js`就会造成这种现象
-    - 某一个插件的bug或者某一个插件和另一个插件产生了冲突，若发生了这种现象，请在提交[issue tracker][spacevim-issue-tracker]来修复该问题
+A: 目前有以下可能性：
+
+- 查看你的Lua本地是否支持，vim是否有+lua支持，如果没有lua支持，neocomplete就不会其作用，而是neocomplcache，这就会造成你的卡顿
+- 你所使用的SpaceVim有功能性的bug，可以尝试使用SpaceVim的[issue tracker][spacevim-issue-tracker]来帮助你解决
+- 你的配置文件可能不恰当，导致占用了大量的内存和磁盘使用。譬如，nodejs里使用ternjs时候对于`loadEagerly`赋值为`**/*.js`就会造成这种现象
+- 某一个插件的bug或者某一个插件和另一个插件产生了冲突，若发生了这种现象，请在提交[issue tracker][spacevim-issue-tracker]来修复该问题
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
