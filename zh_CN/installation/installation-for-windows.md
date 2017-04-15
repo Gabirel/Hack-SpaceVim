@@ -142,6 +142,8 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 **恭喜，离线安装完成！**
 
 
+
+
 ## 常见问题 
 
 ### 配置环境变量
@@ -182,6 +184,12 @@ A: [点我下载][vcruntime140.dll]，根据自己的操作系统类型选择相
 32位系统位置：`C:\Windows\System32\``
 64位系统位置：`C:\Windows\SysWOW64\``
 
+
+### Windows上安装繁琐
+
+5. 为什么Windows上安装SpaceVim如此麻烦？有更加简单的步骤吗？
+
+A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好，完全不建议在Windows上安装；若安装，请不要去碰Neovim，这是一个禁忌领域！请为了自己的身心健康，请安装Vim
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
