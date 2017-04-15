@@ -141,8 +141,42 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 **恭喜，离线安装完成！**
 
+## 安装Neovim
+
+**注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……([@wsdjeg][wsdjeg])**
+
+1. 根据施主的操作系统，选择下载[Neovim][Neovim-download]
+
+2. 把Neovim的`bin`目录加入path中
+
+3. 运行neovim
+
+4. 如果缺少`vcruntime140.dll`，请[点我下载][vcruntime140.dll]
+
+5. 安装python2或者python3或者均安装，Neovim支持python2/3同时存在
+
+6. 添加neovim-python
+
+* python2: 
+> py -2 pip install --user --upgrade neovim
+
+* python3:
+> py -3 pip install --user --upgrade neovim
+
+7. 在neovim-qt.exe中，执行命令：`:CheckHealth` 来查看python2/3是否支持，支持的结果如图所示：
+
+有python2支持：
+![nvim-python2-support-success][]
+
+没有python3支持：
+![nvim-python3-support-failure][]
+
+若想要有python3支持，请按照第6步进行安装；同样，如果想要有ruby支持按照建议的命令执行即可
 
 
+**恭喜，安装完成**
+
+**注意：neovim中不需要安装Lua支持，因为neovim(v0.2)目前不支持Lua，因此SpaceVim不会使用neocomplete，而会使用deopelete**
 
 ## 常见问题 
 
@@ -198,6 +232,9 @@ A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好�
 [vimproc_win64(32).dll]: https://github.com/Shougo/vimproc.vim/releases
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
+[Neovim-download]: https://github.com/neovim/neovim/wiki/Installing-Neovim#windows
+[nvim-python2-support-success]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/5aff57c9397cd26dba23dd0d81b94fa9cf061b56/nvim-python2-support-success.PNG
+[nvim-python3-support-failure]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/5aff57c9397cd26dba23dd0d81b94fa9cf061b56/nvim-python3-support-failure.PNG
 [plugins-zip]: https://github.com/Gabirel/Hack-SpaceVim/releases
 [SpaceVim-download]: https://github.com/SpaceVim/SpaceVim.git
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
@@ -206,3 +243,4 @@ A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好�
 [vim-version-check]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/1711e0d2ca9e22d8e3b4942498b0a77f9b25dd2c/vim-version-check.PNG
 [vimproc_dll-error]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/e7f27e84947f13bc9c91812881e47f2961162fc2/vimproc-dll-error.PNG
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
+[wsdjeg]: https://github.com/wsdjeg
