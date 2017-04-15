@@ -1,11 +1,12 @@
-sudo: required
+sudo: false
 os: linux
 
-language: python
-python:
-  - "2.7"
+language: node_js
+node_js:
+  - "node"
 
-before_install:
-  - pip install hint
+install:
+  - npm install -g markdownlint-cli
+
 script: 
-  - hint .
+  - markdownlint -c .markdownlintrc *.md
