@@ -1,3 +1,5 @@
+# 在Windows上安装SpaceVim
+
 Table of Contents
 =================
 
@@ -11,7 +13,6 @@ Table of Contents
             * [正式安装](#正式安装)
       * [常见问题](#常见问题)
 
-# 在Windows上安装SpaceVim
 
 ## 基础环境
 
