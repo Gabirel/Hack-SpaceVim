@@ -31,7 +31,7 @@
 * [lua][]: 用于neocomplete补全
 * [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
 * [gvim][]: Vim主要程序
-* [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
+* [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Airline所需字体
 * [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
 * [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
 * [插件压缩包][plugins-zip]: SpaceVim的插件离线包（**建议自行打包下载**）
