@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master)](https://travis-ci.org/Gabirel/Hack-SpaceVim)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![spacevim-version](https://img.shields.io/badge/spacevim-v0.3.0--dev-ff69b4.svg)](https://spacevim.org)
+
 # Hack-SpaceVim
 
 [SpaceVim][spacevim] | [English Document](README.md) | [Hack-SpaceVim:issue][1] | [SpaceVim:issue][SpaceVim:issue-tracker]
