@@ -36,8 +36,6 @@ Table of Contents
 
 Vim新人: [vim-galore][]
 
-官方SpaceVim: [SpaceVim/SpaceVim][spacevim]
-
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issue
 

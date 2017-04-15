@@ -19,7 +19,6 @@ Please open a new issue under [SpaceVim:issue-tracker][2] if you have any errors
 
 New to Vim: [vim-galore][3]
 
-Official SpaceVim: [SpaceVim/SpaceVim][4]
 
 [1]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [2]: https://github.com/spacevim/spacevim/issue
