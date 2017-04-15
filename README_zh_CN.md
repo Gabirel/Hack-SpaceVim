@@ -5,7 +5,7 @@
 
 # Hack-SpaceVim
 
-[SpaceVim][spacevim] | [English Document](README.md) | [Hack-SpaceVim:issue][1] | [SpaceVim:issue][SpaceVim:issue-tracker]
+[SpaceVim][spacevim] | [English Document](README.md) | [Hack-SpaceVim:issue][Hack-SpaceVim:issue-tracker] | [SpaceVim:issue][SpaceVim:issue-tracker]
 
 ## 你能从Hack-SpaceVim得到什么
 
@@ -67,4 +67,5 @@ Table of Contents
 
 [vim-galore]: https://github.com/mhinz/vim-galore
 [spacevim]: https://github.com/spacevim/spacevim
+[Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issue
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issue
