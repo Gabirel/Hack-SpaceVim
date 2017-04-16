@@ -82,7 +82,7 @@
 
 ![dein.vim-clone][clone-dein.vim]
 
-3. SpaceVim会自动出发下载插件模式(SpaceVim-v0.3.0-dev是如此)，等待完成即可
+3. SpaceVim会自动触发下载插件模式(SpaceVim-v0.3.0-dev是如此)，等待完成即可
 
 ![download-plugins][download-plugin]
 
@@ -152,7 +152,7 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 ## 安装Neovim
 
-**注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……([@wsdjeg][wsdjeg])**
+**注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……(另一位施主也请回头是岸[@wsdjeg][wsdjeg])**
 
 1. 根据施主的操作系统，选择下载[Neovim][Neovim-download]
 
