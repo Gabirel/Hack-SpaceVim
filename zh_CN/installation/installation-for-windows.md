@@ -183,6 +183,11 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 若施主想要有python3支持，请按照第6步进行安装；同样，如果想要有ruby支持按照建议的命令执行即可
 
 
+8. 安装SpaceVim
+
+> git clone https://github.com/SpaceVim/SpaceVim.git %userprofile%\AppData\Local\nvim\
+
+
 **恭喜，施主安装完成，已达苦海……回头是岸**
 
 **注意：neovim中施主不需要安装Lua支持，因为neovim(v0.2)目前不支持Lua，因此SpaceVim不会使用neocomplete，而会使用deopelete**
