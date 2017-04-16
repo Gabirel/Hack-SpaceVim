@@ -224,8 +224,9 @@ A: 目前有以下可能性：
 
 A: [点我下载][vcruntime140.dll]，根据自己的操作系统类型选择相应的文件夹：
 
-32位系统位置：`C:\Windows\System32\``
-64位系统位置：`C:\Windows\SysWOW64\``
+32位系统位置：`C:\Windows\System32\`
+
+64位系统位置：`C:\Windows\SysWOW64\`
 
 
 ### Windows上安装繁琐
