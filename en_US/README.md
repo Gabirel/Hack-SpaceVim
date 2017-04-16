@@ -22,6 +22,20 @@ Table of Contents
          * [vcruntime140.dll Error][1-1-4-4]
          * [Installing on Windows is too complicated][1-1-4-5]
 
+2. [Install SpaceVim on Linux][2]
+   * [Install SpaceVim on Linux][2-1]
+      * [Table of Contents][2-1-0]
+      * [Install prerequisites][2-1-1]
+         * [Install online prerequisites][2-1-1-1]
+         * [Install offline prerequisites][2-1-1-2]
+      * [Start to install][2-1-2]
+         * [Install online][2-1-2-1]
+            * [Check prerequisites][2-1-2-1-1]
+            * [Start to install][2-1-2-1-2]
+         * [Install offline][2-1-2-2]
+            * [Check prerequisites][2-1-2-2-1]
+            * [Start to install][2-1-2-2-2]
+
 [1]: installation/installation-for-windows.md
 [1-1]: installation/installation-for-windows.md#install-spacevim-on-windows
 [1-1-0]: installation/installation-for-windows.md#table-of-contents
@@ -42,3 +56,16 @@ Table of Contents
 [1-1-4-3]: installation/installation-for-windows.md#spacevim-gets-frozen-easily
 [1-1-4-4]: installation/installation-for-windows.md#vcruntime140dll-error
 [1-1-4-5]: installation/installation-for-windows.md#installing-on-windows-is-too-complicated
+[2]: installation/installation-for-linux.md
+[2-1]: installation/installation-for-linux.md#install-spacevim-on-linux
+[2-1-0]: installation/installation-for-linux.md#table-of-contents
+[2-1-1]: installation/installation-for-linux.md#install-prerequisites
+[2-1-1-1]: installation/installation-for-linux.md#install-online-prerequisites
+[2-1-1-2]: installation/installation-for-linux.md#install-offline-prerequisites
+[2-1-2]: installation/installation-for-linux.md#start-to-install
+[2-1-2-1]: installation/installation-for-linux.md#install-online
+[2-1-2-1-1]: installation/installation-for-linux.md#check-prerequisites
+[2-1-2-1-2]: installation/installation-for-linux.md#start-to-install-1
+[2-1-2-2]: installation/installation-for-linux.md#install-offline
+[2-1-2-2-1]: installation/installation-for-linux.md#check-prerequisites-1
+[2-1-2-2-2]: installation/installation-for-linux.md#start-to-install-2
