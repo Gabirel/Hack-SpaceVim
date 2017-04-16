@@ -129,27 +129,21 @@ Still this part has the same introductions in [Install online](#Install online).
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
-2. Open a new `cmd.exe`, and execute:
-
-> mkdir .cache\vimfiles\repos\github.com\Shougo
-
-After finishing this, please make sure that that folder really exists.
-
-3. Extract the package to:
+2. Extract the package to:
 
 > C:\Users\<Your Name>
 
 dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting gvim the first time. So you have to download it in advance.
 
-**Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.
+**Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.**
 
-4. Open gvim to check out whether SpaceVim could start without any errors.
+3. Open gvim to check out whether SpaceVim could start without any errors.
 
 **Notice: Please make sure that vimproc_dll exists if you are using your own package.**
 
 If you have `vimproc's dll`, please fix this according to the manual of [Install online](#Install online).
 
-5. Check whether gvim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+4. Check whether gvim has lua and python's full support, these steps are the same as [Install online](#Installl online)
 
 **Congratulations! Install online successfully!**
 
