@@ -5,13 +5,13 @@
    * [Install SpaceVim on Windows](#install-spacevim-on-windows)
       * [Table of Contents](#table-of-contents)
       * [Install prerequisites](#install-prerequisites)
-         * [Install online](#install-online)
-         * [Install offline](#install-offline)
+         * [Install online prerequisites](#install-online-prerequisites)
+         * [Install offline prerequisites](#install-offline-prerequisites)
       * [Start to install](#start-to-install)
-         * [Install online](#install-online-1)
+         * [Install online](#install-online)
             * [Check prerequisites](#check-prerequisites)
             * [Start to install](#start-to-install-1)
-         * [Install offline](#install-offline-1)
+         * [Install offline](#install-offline)
             * [Check prerequisites](#check-prerequisites-1)
             * [Start to install](#start-to-install-2)
       * [Install Neovim](#install-neovim)
@@ -24,7 +24,7 @@
 
 ## Install prerequisites
 
-### Install online
+### Install online prerequisites
 
 * [git][]: For downloading and updating plugins of SpaceVim
 * [lua][]: For neocomplete
@@ -34,7 +34,7 @@
 * [vimproc_win64(32).dll][]: vimporc needs this, **NECESSARY**
 * [vcruntime140.dll][]: Fix vimruntime140 Error(download it when you really need)
 
-### Install offline
+### Install offline prerequisites
 
 * [git][]: For downloading and updating plugins of SpaceVim
 * [lua][]: For neocomplete
