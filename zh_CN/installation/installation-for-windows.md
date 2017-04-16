@@ -142,6 +142,10 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 4. 检查lua和python是否完全支持，步骤如[在线安装](#在线安装)相同
 
+5. 安装字体，请**提前下载好**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+
+在安装完字体后，状态栏应该就可以正常工作了。
+
 **恭喜，离线安装完成！**
 
 ## 安装Neovim
