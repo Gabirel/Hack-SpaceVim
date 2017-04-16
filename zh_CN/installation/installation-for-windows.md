@@ -126,13 +126,7 @@
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
-2. 打开一个新的cmd.exe，并执行以下命令：
-
-> mkdir .cache\vimfiles\repos\github.com\Shougo
-
-执行完成后，确保文件夹存在再进行第3步
-
-3. 解压打包好的插件列表至：
+2. 解压打包好的插件列表至：
 
 > C:\Users\<Your Name>
 
@@ -140,19 +134,19 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 **注意：你也可以下载打包好的插件离线包，但是官方强烈建议自行在本地下载后打包以便于使让各个插件处于最新的状态，让各个插件能为你高效地工作。**
 
-4. 打开gvim查看SpaceVim是否正常启动
+3. 打开gvim查看SpaceVim是否正常启动
 
 **注意：如果是自行打包的插件离线包，请注意vimproc_dll是否存在。**
 
 若有`vimproc's dll`，请按照[在线安装](#在线安装)中的安装手册来进行修补。
 
-5. 检查lua和python是否完全支持，步骤如[在线安装](#在线安装)相同
+4. 检查lua和python是否完全支持，步骤如[在线安装](#在线安装)相同
 
 **恭喜，离线安装完成！**
 
 ## 安装Neovim
 
-**注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……(另一位施主也请回头是岸[@wsdjeg][wsdjeg])**
+**注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……(另一位施主也请回头是岸6[@wsdjeg][wsdjeg])**
 
 1. 根据施主的操作系统，选择下载[Neovim][Neovim-download]
 
