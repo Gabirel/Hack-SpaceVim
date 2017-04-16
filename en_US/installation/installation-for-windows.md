@@ -1,4 +1,4 @@
-# 在Windows上安装SpaceVim
+# Install SpaceVim on Windows
 
 ## Table of Contents
 
@@ -22,149 +22,156 @@
          * [vcruntime140.dll错误](#vcruntime140dll错误)
          * [Windows上安装繁琐](#windows上安装繁琐)
 
-## 基础环境
+## Install prerequisites
 
-### 在线安装基本要求
+### Install online
 
-* [git][]: 用于下载与更新插件
-* [lua][]: 用于neocomplete补全
-* [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
-* [gvim][]: Vim主要程序
-* [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
-* [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
-* [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
+* [git][]: For downloading and updating plugins of SpaceVim
+* [lua][]: For neocomplete
+* [python(2/3)][]: Support job and part of plugins. Recommend to install `python3`
+* [gvim][]: Vim's main program
+* [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
+* [vimproc_win64(32).dll][]: vimporc needs this, **NECESSARY**
+* [vcruntime140.dll][]: Fix vimruntime140 Error(download it when you really need)
 
-### 离线安装基本要求
+### Install offline
 
-* [git][]: 用于下载与更新插件
-* [lua][]: 用于neocomplete补全
-* [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
-* [gvim][]: Vim主要程序
-* [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Airline所需字体
-* [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
-* [vcruntime140.dll][]: 针对vimruntime140 Error（当必要时下载）
-* [插件压缩包][plugins-zip]: SpaceVim的插件离线包（**建议自行打包下载**）
+* [git][]: For downloading and updating plugins of SpaceVim
+* [lua][]: For neocomplete
+* [python(2/3)][]: Support job and part of plugins. Recommend to install `python3`
+* [gvim][]: Vim's main program
+* [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
+* [vimproc_win64(32).dll][]: vimporc needs this, **NECESSARY**
+* [vcruntime140.dll][]: Fix vimruntime140 Error(download it when you really need)
+* [Plugins Offline package][plugins-zip]: All plugins of SpaceVim（**Recommend packing it by yourself**）
 * [SpaceVim][SpaceVim-download]
 
-## 开始安装
+## Start to install
 
-### 在线安装
+### Install online
 
-#### 检查基础环境
+#### Check prerequisites
 
 1. git --version
 
-正确结果✅：
+The correct result✅：
 > git version 2.12.2.windows.2
 
 2. lua53 -v
 
-正确结果✅：
+The correct result✅：
 > Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
 
 3. python -v
 
-正确结果✅：
+The correct result✅：
 > Python 3.6.1
 
 4. gvim
 
-正确结果✅：
-> 打开一个窗口
+The correct result✅：
+> Opened a program
 
-**注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见：**[常见问题-1](#常见问题)
+**Notice：If you happen to command not find, please install them correctly and set up your path correctly. 
+See how to set up your path:**[常见问题-1](#常见问题)
 
-#### 正式安装
+#### Start to install
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
-2. 双击桌面的gvim图标，或打开cmd.exe后运行gvim，正常情况下会打开一个新的终端克隆`dein.vim`，如图所示：
+2. Double-click Gvim's icon, or open a new `cmd.exe` and execute `gvim`. Normally it should open a new terminal to clone `dein.vim`. As it shows below:
 
 ![dein.vim-clone][clone-dein.vim]
 
-3. SpaceVim会自动触发下载插件模式(SpaceVim-v0.3.0-dev是如此)，等待完成即可
+3. SpaceVim will trigger downloading plugins mode(SpaceVim-v0.3.0 is so that). Wait to finish downloading plugins.
 
 ![download-plugins][download-plugin]
 
-4. 检查vim是否有Lua和python(2/3)特性支持，输命令：`:version`以查看：
+4. Check whether your vim has `+Lua` and `+python` feature. Use `:version` to check out:
 
 ![vim-version][vim-version-check]
 
-5. 检查Lua和python(2/3)支持是否真的在起作用，通过两个命令：`echo has('lua')`和`echo has('python3')`或者`echo has('python2')`:
-    * Lua返回值为：1
-    * python返回值：1
+5. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')` and `echo has('python3')` or `echo has('python2')`
+    * Lua returns: 1
+    * Python returns: 1
 
-**注意：`echo has('python2')`和`echo has('python3')`的值只会返回一个，不会同时为1，这是由vim的特性决定的**
+**Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
 
-*若，`echo has('python')`返回值均为0，请查看：* [常见问题-2](#常见问题)
+*If `echo has('python2/3')` returns 0 both, check this: * [常见问题-2](#常见问题)
 
-6. 安装字体，字体下载：[DejaVu Sans Mono for PowerLine.ttf][font-download]，安装完字体后状态栏即可正常显示
+6. Install fonts, download fonts: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
-7. 解决`vimproc.dll错误`，错误如下图：
+After finishing installing fonts, your status bar should work very well.
+
+7. Fix `vimproc.dll error`. As it shows below:
 
 ![vimproc-dll][vimproc_dll-error]
 
-[点我下载][vimproc_win64(32).dll]，位置放在：`C:\Users\<Your Name>\.cache\vimfiles\repos\github.com\Shougo\vimproc.vim\lib`
+[Click me to download][vimproc_win64(32).dll]. Copy it to: `C:\Users\<Your Name>\.cache\vimfiles\repos\github.com\Shougo\vimproc.vim\lib`
 
 
-**恭喜，安装完成！**
+**Congratulations. You'are done!**
 
-### 离线安装
+### Install offline
 
-#### 检查基础环境
+#### Check prerequisites
 
-检查列表同[在线安装](#在线安装)相同，故不再赘述：
+List is the same as [Install online](#Install online). So I won't repeat it:
 
 * git
 * lua
 * python(2/3)
 * gvim
 
-#### 正式安装
+#### Start to install
 
-因[在线安装](#在线安装)中已有详细说明，故不赘述重复部分，只对不同点作出详细说明：
+Still this part has the same introductions in [Install online](#Install online). I will skip the same part. Only explain at different parts.
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
-2. 打开一个新的cmd.exe，并执行以下命令：
+2. Open a new `cmd.exe`, and execute:
 
 > mkdir .cache\vimfiles\repos\github.com\Shougo
 
-执行完成后，确保文件夹存在再进行第3步
+After finishing this, please make sure that that folder really exists.
 
-3. 解压打包好的插件列表至：
+3. Extract the package to:
 
 > C:\Users\<Your Name>
 
-dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发下载的，因当前的离线安装环境，就必须要提前下载下来
+dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting gvim the first time. So you have to download it in advance.
 
-**注意：你也可以下载打包好的插件离线包，但是官方强烈建议自行在本地下载后打包以便于使让各个插件处于最新的状态，让各个插件能为你高效地工作。**
+**Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.
 
-4. 打开gvim查看SpaceVim是否正常启动
+4. Open gvim to check out whether SpaceVim could start without any errors.
 
-**注意：如果是自行打包的插件离线包，请注意vimproc_dll是否存在。**
+**Notice: Please make sure that vimproc_dll exists if you are using your own package.**
 
-若有`vimproc's dll`，请按照[在线安装](#在线安装)中的安装手册来进行修补。
+If you have `vimproc's dll`, please fix this according to the manual of [Install online](#Install online).
 
-5. 检查lua和python是否完全支持，步骤如[在线安装](#在线安装)相同
+5. Check whether gvim has lua and python's full support, these steps are the same as [Install online](#Installl online)
 
-**恭喜，离线安装完成！**
+**Congratulations! Install online successfully!**
 
-## 安装Neovim
+## Install Neovim
 
-**注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……(另一位施主也请回头是岸[@wsdjeg][wsdjeg])**
+**Notice: You've entered the taboo areas.**
 
-1. 根据施主的操作系统，选择下载[Neovim][Neovim-download]
+> The sea of suffering is boundless; yet a turn of the gear is the other shore.
 
-2. 把Neovim的`bin`目录加入path中
+*Let's go back to our shore [@wsdjeg][wsdjeg] |:(*
 
-3. 运行neovim
+1. According to your own OS, select your version of [Neovim][Neovim-download]
 
-4. 如果缺少`vcruntime140.dll`，请[点我下载][vcruntime140.dll]
+2. Add Neovim's `bin` folder to your `PATH`
 
-5. 安装python2或者python3或者均安装，Neovim支持python2/3同时存在
+3. Execute neovim
 
-6. 添加neovim-python
+4. If you are missing `vcruntime140.dll`, please [click me to download][vcruntime140.dll]
+
+5. Install python2/python3 or both, which is allowed by Neovim
+
+6. Install full support of python of neovim:
 
 * python2: 
 > py -2 pip install --user --upgrade neovim
@@ -172,73 +179,75 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 * python3:
 > py -3 pip install --user --upgrade neovim
 
-7. 在neovim-qt.exe中，执行命令：`:CheckHealth` 来查看python2/3是否支持，支持的结果如图所示：
+7. Execute neovim-qt.exe, and use `:CheckHealth` to check out whether your neovim supports python2/3. As results shows below:
 
-有python2支持：
+With python2 support:
 ![nvim-python2-support-success][]
 
-没有python3支持：
+Without python3 support:
 ![nvim-python3-support-failure][]
 
-若施主想要有python3支持，请按照第6步进行安装；同样，如果想要有ruby支持按照建议的命令执行即可
+If you want to has python3 support, please install it according to step 6; Also, use commands suggested by neovim to has ruby support.
 
-
-8. 安装SpaceVim
+8. Install SpaceVim
 
 > git clone https://github.com/SpaceVim/SpaceVim.git %userprofile%\AppData\Local\nvim\
 
 
-**恭喜，施主安装完成，已达苦海……回头是岸**
+**Congratulations! You've installed it successfully. You've reached the boundless sea of suffering. Congratulations again.**
 
-**注意：neovim中施主不需要安装Lua支持，因为neovim(v0.2)目前不支持Lua，因此SpaceVim不会使用neocomplete，而会使用deopelete**
+**Notice: Neovim doesn't support lua(For now) in neovim-v0.2. So, SpaceVim uses deopelete for auto-completing code instead of neocomplete.**
 
-## 常见问题 
+## FAQ
 
-### 配置环境变量
+### Set up your PATH
 
-**1. 如何配置环境变量？**
+**1. How to set up my PATH on Windows?**
 
-A: *位置：此电脑->属性->高级系统设置->环境变量->系统变量->找到Path->编辑*
+A: *Location: My computer->properties->Advance System Setting->Environment variables->System variables->Find Path->Edit*
 
 ![path][path-config]
 
-### python不支持
+### without python support
 
-**2. `echo has('python')`返回值均为0，我该怎么办？**
+**2. `echo has('python')` always returns 0. What should I do?**
 
-A: 请检查是否满足以下条件：
+A: Please check out whether you meet all these requirements:
 
-* 在cmd.exe中，查看python命令是否存在
-* vim是64位，python就必须安装64位；反之亦然
-* vim必须要有`+python/dyn`或`+python3/dyn`或者`+python/dyn;+python3/dyn`
+* Open a new `cmd.exe` to check out whether you can execute command: python
+* If you install 64bit-gvim, make sure you install 64bit python as well. Vice Versa.
+* Gvim must has `+python/dyn` or `+python3/dyn` or `+python/dyn;+python3/dyn`
 
-### SpaceVim卡顿
+### SpaceVim gets frozen easily
 
-**3. 我觉得SpaceVim用起来有点卡顿，怎么回事？**
+**3. I can feel my SpaceVim gets frozen a little bit. What's exactly going on?**
 
-A: 目前有以下可能性：
+A: There are 4 kind of possibilities:
 
-* 查看你的Lua本地是否支持，vim是否有+lua支持，如果没有lua支持，neocomplete就不会其作用，而是neocomplcache，这就会造成你的卡顿
-* 你所使用的SpaceVim有功能性的bug，可以尝试使用SpaceVim的[issue tracker][spacevim-issue-tracker]来帮助你解决
-* 你的配置文件可能不恰当，导致占用了大量的内存和磁盘使用。譬如，nodejs里使用ternjs时候对于`loadEagerly`赋值为`**/*.js`就会造成这种现象
-* 某一个插件的bug或者某一个插件和另一个插件产生了冲突，若你怀疑有这种现象，请在[issue tracker][spacevim-issue-tracker]提交来修复该问题
+* Check out whether you can execute `lua` command in your new terminal and your gvim has `+lua` feature.
+    SpaceVim will use `neocomplcache` instead of `neocomplete` without lua support, which makes SpaceVim gets frozen or have some delay.
 
-### vcruntime140.dll错误
+* You may encounter bugs of SpaceVim. Feel free to use [issue tracker][spacevim-issue-tracker] to solve this.
+* Your config file is probably the problem. For example, your SpaceVim will get frozen totally if you make `loadEagerly` as `**/*.js` when writing nodejs file.
+* Maybe one of plugins has some conflicts with another plugin. Please open a new [issue][spacevim-issue-tracker] to help you fix this problem if you suspect.
 
-**4. 我运行gvim后无法启动，报缺少vcruntime140.dll的错误，我该怎么解决？**
+### vcruntime140.dll Error
 
-A: [点我下载][vcruntime140.dll]，根据自己的操作系统类型选择相应的文件夹：
+**4. I can't start gvim. It says that vcruntime140.dll errors. What should I do?**
 
-32位系统位置：`C:\Windows\System32\`
+A: [Click me to download][vcruntime140.dll]. Copyt it to the corresponding folder according to your own OS:
 
-64位系统位置：`C:\Windows\SysWOW64\`
+32bit OS: `C:\Windows\System32\`
+
+64bit OS: `C:\Windows\SysWOW64\`
 
 
-### Windows上安装繁琐
+### Installing on Windows is too complicated
 
-**5. 为什么Windows上安装SpaceVim如此麻烦？有更加简单的步骤吗？**
+**5. Why installing SpaceVim on Windows is so complicated? Is there more simple wat to do this?**
 
-A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好，完全不建议在Windows上安装；若安装，请不要去碰Neovim，这是一个禁忌领域！请为了自己的身心健康，请安装Vim
+A: I'm sorry! Nope. Setting up developing environments is killing yourself. I'm HIGHLY RECOMMEND leaving Windows alone.
+If you have to, please DO NOT touch Neovim. Please use vim for your mental and physicial helath.
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
