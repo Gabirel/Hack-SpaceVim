@@ -2,25 +2,25 @@
 
 ## Table of Contents
 
-   * [在Windows上安装SpaceVim](#在windows上安装spacevim)
+   * [Install SpaceVim on Windows](#install-spacevim-on-windows)
       * [Table of Contents](#table-of-contents)
-      * [基础环境](#基础环境)
-         * [在线安装基本要求](#在线安装基本要求)
-         * [离线安装基本要求](#离线安装基本要求)
-      * [开始安装](#开始安装)
-         * [在线安装](#在线安装)
-            * [检查基础环境](#检查基础环境)
-            * [正式安装](#正式安装)
-         * [离线安装](#离线安装)
-            * [检查基础环境](#检查基础环境-1)
-            * [正式安装](#正式安装-1)
-      * [安装Neovim](#安装neovim)
-      * [常见问题](#常见问题)
-         * [配置环境变量](#配置环境变量)
-         * [python不支持](#python不支持)
-         * [SpaceVim卡顿](#spacevim卡顿)
-         * [vcruntime140.dll错误](#vcruntime140dll错误)
-         * [Windows上安装繁琐](#windows上安装繁琐)
+      * [Install prerequisites](#install-prerequisites)
+         * [Install online](#install-online)
+         * [Install offline](#install-offline)
+      * [Start to install](#start-to-install)
+         * [Install online](#install-online-1)
+            * [Check prerequisites](#check-prerequisites)
+            * [Start to install](#start-to-install-1)
+         * [Install offline](#install-offline-1)
+            * [Check prerequisites](#check-prerequisites-1)
+            * [Start to install](#start-to-install-2)
+      * [Install Neovim](#install-neovim)
+      * [FAQ](#faq)
+         * [Set up your PATH](#set-up-your-path)
+         * [without python support](#without-python-support)
+         * [SpaceVim gets frozen easily](#spacevim-gets-frozen-easily)
+         * [vcruntime140.dll Error](#vcruntime140dll-error)
+         * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
 
 ## Install prerequisites
 
@@ -73,7 +73,7 @@ The correct result✅：
 > Opened a program
 
 **Notice：If you happen to command not find, please install them correctly and set up your path correctly. 
-See how to set up your path:**[常见问题-1](#常见问题)
+See how to set up your path:**[FAQ-Set up your PATH](#set-up-your-path)
 
 #### Start to install
 
@@ -97,7 +97,7 @@ See how to set up your path:**[常见问题-1](#常见问题)
 
 **Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
 
-*If `echo has('python2/3')` returns 0 both, check this: * [常见问题-2](#常见问题)
+*If `echo has('python2/3')` returns 0 both, check this: * [FAQ: Without-python-support](#without-python-support)
 
 6. Install fonts, download fonts: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
@@ -205,6 +205,8 @@ If you want to has python3 support, please install it according to step 6; Also,
 **1. How to set up my PATH on Windows?**
 
 A: *Location: My computer->properties->Advance System Setting->Environment variables->System variables->Find Path->Edit*
+
+*I'm sorry. I don't use Windows. I can't use English on my VirtualOS. Windows won't let me do this. ):*
 
 ![path][path-config]
 
