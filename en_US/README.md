@@ -21,7 +21,6 @@ Table of Contents
          * [SpaceVim gets frozen easily][1-1-4-3]
          * [vcruntime140.dll Error][1-1-4-4]
          * [Installing on Windows is too complicated][1-1-4-5]
-
 2. [Install SpaceVim on Linux][2]
    * [Install SpaceVim on Linux][2-1]
       * [Table of Contents][2-1-0]
