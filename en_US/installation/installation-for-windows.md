@@ -145,7 +145,11 @@ If you have `vimproc's dll`, please fix this according to the manual of [Install
 
 4. Check whether gvim has lua and python's full support, these steps are the same as [Install online](#Installl online)
 
-**Congratulations! Install online successfully!**
+5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+
+After finishing installing fonts, the status bar should work very well.
+
+**Congratulations! Install offline successfully!**
 
 ## Install Neovim
 
