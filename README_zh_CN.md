@@ -77,7 +77,7 @@ Table of Contents
 [2-1-1-1]: zh_CN/installation/installation-for-linux.md#在线安装依赖
 [2-1-1-2]: zh_CN/installation/installation-for-linux.md#离线安装依赖
 [2-1-2]: zh_CN/installation/installation-for-linux.md#开始安装
-[2-1-2-1]: zh_CN/installation/installation-for-linux.md##在线安装
+[2-1-2-1]: zh_CN/installation/installation-for-linux.md#在线安装
 [2-1-2-1-1]: zh_CN/installation/installation-for-linux.md#检查依赖
 [2-1-2-1-2]: zh_CN/installation/installation-for-linux.md#开始安装-1
 [2-1-2-2]: zh_CN/installation/installation-for-linux.md#离线安装
