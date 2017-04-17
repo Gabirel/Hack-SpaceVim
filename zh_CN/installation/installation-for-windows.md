@@ -15,12 +15,6 @@
             * [检查基础环境](#检查基础环境-1)
             * [正式安装](#正式安装-1)
       * [安装Neovim](#安装neovim)
-      * [常见问题](#常见问题)
-         * [配置环境变量](#配置环境变量)
-         * [python不支持](#python不支持)
-         * [SpaceVim卡顿](#spacevim卡顿)
-         * [vcruntime140.dll错误](#vcruntime140dll错误)
-         * [Windows上安装繁琐](#windows上安装繁琐)
 
 ## 基础环境
 
