@@ -43,6 +43,19 @@ Table of Contents
          * [SpaceVim卡顿][1-1-4-3]
          * [vcruntime140.dll错误][1-1-4-4]
          * [Windows上安装繁琐][1-1-4-5]
+2. [在Linux上安装SpaceVim][2]
+    * [在Linux上安装SpaceVim][2-1]
+      * [Table of Contents][2-1-0]
+      * [安装依赖][2-1-1]
+         * [在线安装依赖][2-1-1-1]
+         * [离线安装依赖][2-1-1-2]
+      * [开始安装][2-1-2]
+         * [在线安装][2-1-2-1]
+            * [检查依赖][2-1-2-1-1]
+            * [开始安装][2-1-2-1-2]
+         * [离线安装][2-1-2-2]
+            * [检查依赖][2-1-2-2-1]
+            * [开始安装][2-1-2-2-2]
 
 [1]: zh_CN/installation/installation-for-windows.md
 [1-1]: zh_CN/installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim
@@ -64,6 +77,19 @@ Table of Contents
 [1-1-4-3]: zh_CN/installation/installation-for-windows.md#spacevim%E5%8D%A1%E9%A1%BF
 [1-1-4-4]: zh_CN/installation/installation-for-windows.md#vcruntime140dll%E9%94%99%E8%AF%AF
 [1-1-4-5]: zh_CN/installation/installation-for-windows.md#windows%E4%B8%8A%E5%AE%89%E8%A3%85%E7%B9%81%E7%90%90
+[2]: zh_CN/installation/installation-for-linux.md
+[2-1]: zh_CN/installation/installation-for-linux.md#在linux上安装spacevim
+[2-1-0]: zh_CN/installation/installation-for-linux.md#table-of-contents
+[2-1-1]: zh_CN/installation/installation-for-linux.md#安装依赖
+[2-1-1-1]: zh_CN/installation/installation-for-linux.md#在线安装依赖
+[2-1-1-2]: zh_CN/installation/installation-for-linux.md#离线安装依赖
+[2-1-2]: zh_CN/installation/installation-for-linux.md#开始安装
+[2-1-2-1]: zh_CN/installation/installation-for-linux.md##在线安装
+[2-1-2-1-1]: zh_CN/installation/installation-for-linux.md#检查依赖
+[2-1-2-1-2]: zh_CN/installation/installation-for-linux.md#开始安装-1
+[2-1-2-2]: zh_CN/installation/installation-for-linux.md#离线安装
+[2-1-2-2-1]: zh_CN/installation/installation-for-linux.md#检查依赖-1
+[2-1-2-2-2]: zh_CN/installation/installation-for-linux.md#开始安装-2
 
 [vim-galore]: https://github.com/mhinz/vim-galore
 [spacevim]: https://github.com/spacevim/spacevim
