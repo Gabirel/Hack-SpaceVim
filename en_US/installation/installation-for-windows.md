@@ -91,7 +91,7 @@ See how to set up your path:**[FAQ-Set up your PATH][set-up-your-path]
 
 **Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
 
-*If `echo has('python2/3')` returns 0 both, check this: * [FAQ: Without-python-support][without-python-support]
+**If `echo has('python2/3')` returns 0 both, check this: **[FAQ: Without-python-support][without-python-support]
 
 6. Install fonts, download fonts: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
