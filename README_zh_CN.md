@@ -25,7 +25,6 @@ Table of Contents
 
 1. [在Windows上的SpaceVim][1]
     * [在Windows上安装SpaceVim][1-1]
-      * [Table of Contents][1-1-0]
       * [基础环境][1-1-1]
          * [在线安装基本要求][1-1-1-1]
          * [离线安装基本要求][1-1-1-2]
@@ -37,15 +36,8 @@ Table of Contents
             * [检查基础环境][1-1-2-2-1]
             * [正式安装][1-1-2-2-2]
       * [安装Neovim][1-1-3]
-      * [常见问题][1-1-4]
-         * [配置环境变量][1-1-4-1]
-         * [python不支持][1-1-4-2]
-         * [SpaceVim卡顿][1-1-4-3]
-         * [vcruntime140.dll错误][1-1-4-4]
-         * [Windows上安装繁琐][1-1-4-5]
 2. [在Linux上的SpaceVim][2]
     * [在Linux上安装SpaceVim][2-1]
-      * [Table of Contents][2-1-0]
       * [安装依赖][2-1-1]
          * [在线安装依赖][2-1-1-1]
          * [离线安装依赖][2-1-1-2]
@@ -56,6 +48,13 @@ Table of Contents
          * [离线安装][2-1-2-2]
             * [检查依赖][2-1-2-2-1]
             * [开始安装][2-1-2-2-2]
+3.  [常见问题][faq]
+    * [Windows][faq-windows]
+      * [配置环境变量][set-up-your-path]
+      * [python不支持][without-python-support]
+      * [SpaceVim卡顿][spacevim-gets-frozen-easily]
+      * [vcruntime140.dll错误][vcruntime140dll-error]
+      * [Windows上安装繁琐][installing-on-windows-is-too-complicated]
 
 [1]: zh_CN/installation/installation-for-windows.md
 [1-1]: zh_CN/installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim
@@ -71,12 +70,6 @@ Table of Contents
 [1-1-2-2-1]: zh_CN/installation/installation-for-windows.md#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83-1
 [1-1-2-2-2]: zh_CN/installation/installation-for-windows.md#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-1
 [1-1-3]: zh_CN/installation/installation-for-windows.md#%E5%AE%89%E8%A3%85neovim
-[1-1-4]: zh_CN/installation/installation-for-windows.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98
-[1-1-4-1]: zh_CN/installation/installation-for-windows.md#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F
-[1-1-4-2]: zh_CN/installation/installation-for-windows.md#python%E4%B8%8D%E6%94%AF%E6%8C%81
-[1-1-4-3]: zh_CN/installation/installation-for-windows.md#spacevim%E5%8D%A1%E9%A1%BF
-[1-1-4-4]: zh_CN/installation/installation-for-windows.md#vcruntime140dll%E9%94%99%E8%AF%AF
-[1-1-4-5]: zh_CN/installation/installation-for-windows.md#windows%E4%B8%8A%E5%AE%89%E8%A3%85%E7%B9%81%E7%90%90
 [2]: zh_CN/installation/installation-for-linux.md
 [2-1]: zh_CN/installation/installation-for-linux.md#在linux上安装spacevim
 [2-1-0]: zh_CN/installation/installation-for-linux.md#table-of-contents
@@ -90,6 +83,14 @@ Table of Contents
 [2-1-2-2]: zh_CN/installation/installation-for-linux.md#离线安装
 [2-1-2-2-1]: zh_CN/installation/installation-for-linux.md#检查依赖-1
 [2-1-2-2-2]: zh_CN/installation/installation-for-linux.md#开始安装-2
+
+[faq]: zh_CN/FAQ.md#常见问题
+[faq-windows]: zh_CN/FAQ.md#windows
+[set-up-your-path]: zh_CN/FAQ.md#配置环境变量
+[without-python-support]: zh_CN/FAQ.md#python不支持
+[spacevim-gets-frozen-easily]: zh_CN/FAQ.md#spacevim卡顿
+[vcruntime140dll-error]: zh_CN/FAQ.md#vcruntime140dll错误
+[installing-on-windows-is-too-complicated]: zh_CN/FAQ.md#windows上安装繁琐
 
 [vim-galore]: https://github.com/mhinz/vim-galore
 [spacevim]: https://github.com/spacevim/spacevim

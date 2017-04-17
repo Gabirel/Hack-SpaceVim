@@ -82,12 +82,6 @@ New to Vim: [vim-galore][]
 [1-1-2-2-1]: en_US/installation/installation-for-windows.md#check-prerequisites-1
 [1-1-2-2-2]: en_US/installation/installation-for-windows.md#start-to-install-2
 [1-1-3]: en_US/installation/installation-for-windows.md#install-neovim
-[1-1-4]: en_US/installation/installation-for-windows.md#faq
-[1-1-4-1]: en_US/installation/installation-for-windows.md#set-up-your-path
-[1-1-4-2]: en_US/installation/installation-for-windows.md#without-python-support
-[1-1-4-3]: en_US/installation/installation-for-windows.md#spacevim-gets-frozen-easily
-[1-1-4-4]: en_US/installation/installation-for-windows.md#vcruntime140dll-error
-[1-1-4-5]: en_US/installation/installation-for-windows.md#installing-on-windows-is-too-complicated
 [2]: en_US/installation/installation-for-linux.md
 [2-1]: en_US/installation/installation-for-linux.md#install-spacevim-on-linux
 [2-1-0]: en_US/installation/installation-for-linux.md#table-of-contents
@@ -101,6 +95,7 @@ New to Vim: [vim-galore][]
 [2-1-2-2]: en_US/installation/installation-for-linux.md#install-offline
 [2-1-2-2-1]: en_US/installation/installation-for-linux.md#check-prerequisites-1
 [2-1-2-2-2]: en_US/installation/installation-for-linux.md#start-to-install-2
+
 [faq]: FAQ.md#faq
 [faq-windows]: FAQ.md#windows
 [set-up-your-path]: FAQ.md#set-up-your-path

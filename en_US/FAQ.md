@@ -1,5 +1,15 @@
 # FAQ
 
+## Table of Contents
+
+   * [FAQ](#faq)
+      * [Windows](#windows)
+         * [Set up your PATH](#set-up-your-path)
+         * [without python support](#without-python-support)
+         * [SpaceVim gets frozen easily](#spacevim-gets-frozen-easily)
+         * [vcruntime140.dll Error](#vcruntime140dll-error)
+         * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
+
 ## Windows
 
 ### Set up your PATH
