@@ -192,7 +192,7 @@ If you want to has python3 support, please install it according to step 6; Also,
 
 ---------------
 
-[Instructions for Linux](installation-for-linux.md) | [FAQ](../FAQ.md) | [Index](../README.md) | [中文文档](../../README_zh_CN.md)
+[Instructions for Linux](installation-for-linux.md#install-spacevim-on-linux) | [FAQ](../FAQ.md#faq) | [Index](../README.md#table-of-contents) | [中文文档](../../README_zh_CN.md#hack-spacevim)
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html

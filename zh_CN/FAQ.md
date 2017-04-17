@@ -60,7 +60,7 @@ A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好�
 
 ----------------
 
-[索引](README.md) | [English Document](../README.md)
+[索引](README.md#table-of-contents) | [English Document](../README.md#hack-spacevim)
 
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG

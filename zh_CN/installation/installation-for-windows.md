@@ -186,7 +186,7 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 --------------
 
-[Linux指南](installation-for-linux.md) | [常见问题](../FAQ.md) | [索引](../README.md) | [English Document](../../README.md)
+[Linux指南](installation-for-linux.md##在linux上安装spacevim) | [常见问题](../FAQ.md#faq) | [索引](../README.md#table-of-contents) | [English Document](../../README.md#hack-spacevim)
 
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
