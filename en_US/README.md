@@ -28,13 +28,13 @@ Table of Contents
          * [Install offline][2-1-2-2]
             * [Check prerequisites][2-1-2-2-1]
             * [Start to install][2-1-2-2-2]
-3.  * [FAQ][faq]
-      * [Windows][faq-windows]
-         * [Set up your PATH][set-up-your-path]
-         * [without python support][without-python-support]
-         * [SpaceVim gets frozen easily][spacevim-gets-frozen-easily]
-         * [vcruntime140.dll Error][vcruntime140dll-error]
-         * [Installing on Windows is too complicated][installing-on-windows-is-too-complicated]
+3. [FAQ][faq]
+    * [Windows][faq-windows]
+      * [Set up your PATH][set-up-your-path]
+      * [without python support][without-python-support]
+      * [SpaceVim gets frozen easily][spacevim-gets-frozen-easily]
+      * [vcruntime140.dll Error][vcruntime140dll-error]
+      * [Installing on Windows is too complicated][installing-on-windows-is-too-complicated]
 
 [1]: installation/installation-for-windows.md
 [1-1]: installation/installation-for-windows.md#install-spacevim-on-windows
@@ -69,3 +69,10 @@ Table of Contents
 [2-1-2-2]: installation/installation-for-linux.md#install-offline
 [2-1-2-2-1]: installation/installation-for-linux.md#check-prerequisites-1
 [2-1-2-2-2]: installation/installation-for-linux.md#start-to-install-2
+[faq]: FAQ.md#faq
+[faq-windows]: FAQ.md#windows
+[set-up-your-path]: FAQ.md#set-up-your-path
+[without-python-support]: FAQ.md#without-python-support
+[spacevim-gets-frozen-easily]: FAQ.md#spacevim-gets-frozen-easily
+[vcruntime140dll-error]: FAQ.md#vcruntime140dll-error
+[installing-on-windows-is-too-complicated]: FAQ.md#installing-on-windows-is-too-complicated
