@@ -1,4 +1,4 @@
-# Install SpaceVim on Linux
+# 在Linux上安装SpaceVim
 
 ## Table of Contents
 
@@ -14,56 +14,56 @@
             * [Check prerequisites](#check-prerequisites-1)
             * [Start to install](#start-to-install-2)
 
-## Install prerequisites
+## 安装依赖
 
-### Install online prerequisites
+### 在线安装依赖
 
-* git: For downloading and updating plugins of SpaceVim
-* lua: For neocomplete
-* python2/3: Support job and part of plugins. Recommend to install python3
-* vim/gvim: Vim's program
-* [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
+* git: 用于下载和更新SpaceVim的插件
+* lua: 用于neocomplete补全
+* python2/3: 用于job特性和部分插件。推荐安装python3
+* vim/gvim: Vim主要程序
+* [DejaVu Sans Mono for PowerLine][font-download]: 用于SpaceVim的插件
 
-### Install offline prerequisites
+### 离线安装依赖
 
-* git: For downloading and updating plugins of SpaceVim
-* lua: For neocomplete
-* python2/3: Support job and part of plugins. Recommend to install python3
-* vim/gvim: Vim's program
-* [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
-* [Offline plugins package][plugins-download]: All plugins used by SpaceVim
+* git: 用于下载和更新SpaceVim的插件
+* lua: 用于neocomplete补全
+* python2/3: 用于job特性和部分插件。推荐安装python3
+* vim/gvim: Vim主要程序
+* [DejaVu Sans Mono for PowerLine][font-download]: 用于SpaceVim的插件
+* [Offline plugins package][plugins-download]: SpaceVim的插件
 * [SpaceVim][spacevim-download]
 
-## Start to install
+## 开始下载
 
-### Install online
+### 在线安装
 
-#### Check prerequisites
+#### 检查依赖
 
 1. git --version
 
-The correct result✅：
+正确结果✅：
 > git version 2.12.2
 
 2. lua -v
 
-The correct result✅：
+正确结果✅：
 > Lua 5.3.4  Copyright (C) 1994-2017 Lua.org, PUC-Rio
 
-*Notice: Different Operating system may has different names of lua. For example, `lua` or `lua53` or `lua52`.*
+*注意：不同的操作系统lua执行命令也不同。例如，`lua`，`lua52`, `lua53`等。**
 
 3. python -v
 
-The correct result✅：
+正确结果✅：
 > Python 3.6.0
 
 4. vim
 
-The correct result✅：
+正确结果✅：
 > You can see vim in your terminal
 
 
-**Notice: You have to install them by corresponding package manager. For expample:**
+**注意：你必须要通过相应的软件包管理器来安装它们。例如：**
 
 * Debian/Ubuntu:
 
@@ -81,50 +81,54 @@ The correct result✅：
 
     > sudo pacman -S git
 
-#### Start to install
+#### 开始安装
 
-1. Back up your own `.vimrc`. Just in case you don't like SpaceVim
+1. 备份你自己的`vimrc`，以防你不喜欢SpaceVim。
 
-2. Execute: `curl -sLf https://spacevim.org/install.sh | bash`
+2. 执行：`curl -sLf https://spacevim.org/install.sh | bash`
 
-3. Launch: vim
+3. 在终端中执行：`vim`
 
 **After finishing downloading plugins, you installed SpaceVim successfully!**
 
-### Install offline
+4. Check out whether vim has lua and python's full support, these steps are the same as [Install online](#Installl online)
 
-#### Check prerequisites
+5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
-List is the same as [Install online](#Install online). So I won't repeat it:
+### 离线安装
+
+#### 检查依赖
+
+以下检查项同[在线安装](#在线安装)相同，故不再赘述：
 
 * git
 * lua
 * python(2/3)
 * vim/gvim
 
-#### Start to install
+#### 开始安装
 
-Still this part has the same introductions in [Install online](#Install online). I will skip the same part. Only explain at different parts.
+该部分仍然同[在线安装](#在线安装)相同，所以不再赘述重复的部分，只在不同点详细说明：
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
-2. Extract the package to:
+2. 把插件离线包解压到：
 
 > ~
 
-dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting gvim the first time. So you have to download it in advance.
+dein.vim是SpaceVim的插件管理器。它会在vim启动的时候自动下载插件。所以，你得提前下载好。
 
-**Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.**
+**注意：你也可以下载[离线包][plugins-download]。但是我们*强烈建议*自行打包，以确保所有的插件都是最新的。**
 
-3. Open vim in your terminal
+3. 在终端中打开：vim
 
-4. Check out whether vim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+4. 检查vim是否有lua和python的支持，该步同[在线安装](#在线安装)相同。
 
-5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+5. 安装字体，请**提前**下载好： [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
-After finishing installing fonts, the status bar should work very well.
+在安装完字体后，状态应该就可以正常工作了。
 
-**Congratulations! Install offline successfully!**
+**恭喜！离线安装已完成！**
 
 
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
