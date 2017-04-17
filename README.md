@@ -48,7 +48,7 @@ Table of Contents
          * [Install offline][2-1-2-2]
             * [Check prerequisites][2-1-2-2-1]
             * [Start to install][2-1-2-2-2]
-3. [en_US/FAQ][faq]
+3. [FAQ][faq]
     * [Windows][faq-windows]
       * [Set up your PATH][set-up-your-path]
       * [without python support][without-python-support]
