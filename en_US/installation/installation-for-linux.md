@@ -91,7 +91,9 @@ The correct result✅：
 
 **After finishing downloading plugins, you installed SpaceVim successfully!**
 
-4. Check out whether vim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+4. Check whether your vim has +Lua and +python feature. Use `vim --version | grep -E 'lua|python'` to check out:
+
+![linux-check-lua-python]()
 
 5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
@@ -99,7 +101,7 @@ The correct result✅：
 
 #### Check prerequisites
 
-List is the same as [Install online](#Install online). So I won't repeat it:
+List is the same as [Install online](#install-online). So I won't repeat it:
 
 * git
 * lua
@@ -108,7 +110,7 @@ List is the same as [Install online](#Install online). So I won't repeat it:
 
 #### Start to install
 
-Still this part has the same introductions in [Install online](#Install online). I will skip the same part. Only explain at different parts.
+Still this part has the same introductions in [Install online](#install-online). I will skip the same part. Only explain at different parts.
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
@@ -133,4 +135,5 @@ After finishing installing fonts, the status bar should work very well.
 
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 [plugins-download]: https://github.com/Gabirel/Hack-SpaceVim/releases
+[linux-check-lua-python]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0d9f30a0f22e68ce8e3a2f1c2888a37c3cff/linux-check-lua-python.png
 [spacevim-download]: https://github.com/spacevim/spacevim
