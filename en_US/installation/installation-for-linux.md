@@ -116,7 +116,7 @@ Still this part has the same introductions in [Install online](#Install online).
 
 > ~
 
-dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting gvim the first time. So you have to download it in advance.
+dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting vim the first time. So you have to download it in advance.
 
 **Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.**
 
