@@ -116,7 +116,7 @@ After finishing installing fonts, your status bar should work very well.
 
 #### Check prerequisites
 
-List is the same as [Install online](#Install online). So I won't repeat it:
+List is the same as [Install online](#install-online). So I won't repeat it:
 
 * git
 * lua
@@ -125,7 +125,7 @@ List is the same as [Install online](#Install online). So I won't repeat it:
 
 #### Start to install
 
-Still this part has the same introductions in [Install online](#Install online). I will skip the same part. Only explain at different parts.
+Still this part has the same introductions in [Install online](#install-online). I will skip the same part. Only explain at different parts.
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
@@ -141,9 +141,9 @@ dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by s
 
 **Notice: Please make sure that vimproc_dll exists if you are using your own package.**
 
-If you have `vimproc's dll`, please fix this according to the manual of [Install online](#Install online).
+If you have `vimproc's dll`, please fix this according to the manual of [Install online](#install-online).
 
-4. Check whether gvim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+4. Check whether gvim has lua and python's full support, these steps are the same as [Install online](#installl-online)
 
 5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
