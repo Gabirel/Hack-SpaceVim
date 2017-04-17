@@ -143,7 +143,7 @@ dein.vim是SpaceVim的插件管理器。它会在vim启动的时候自动下载�
 
 ------------
 
-[Windows指南](installation-for-windows.md) | [Index](../README.md) | [English Document](../../README.md)
+[Windows指南](installation-for-windows.md) | [索引](../README.md) | [English Document](../../README.md)
 
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 [plugins-download]: https://github.com/Gabirel/Hack-SpaceVim/releases
