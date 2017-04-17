@@ -190,6 +190,10 @@ If you want to has python3 support, please install it according to step 6; Also,
 
 **Notice: Neovim doesn't support lua(For now) in neovim-v0.2. So, SpaceVim uses deopelete for auto-completing code instead of neocomplete.**
 
+---------------
+
+[Instructions for Linux](installation-for-linux.md) | [Index](../README.md) | [中文文档](../../README_zh_CN.md)
+
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
 [python(2/3)]: https://www.python.org/downloads

@@ -184,6 +184,10 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 **注意：neovim中施主不需要安装Lua支持，因为neovim(v0.2)目前不支持Lua，因此SpaceVim不会使用neocomplete，而会使用deopelete**
 
+--------------
+
+[Linux指南](installation-for-linux.md) | [Index](../README.md) | [English Document](../../README.md)
+
 [git]: https://git-scm.com/download
 [lua]: http://luabinaries.sourceforge.net/download.html
 [python(2/3)]: https://www.python.org/downloads
