@@ -91,7 +91,9 @@ The correct result✅：
 
 **After finishing downloading plugins, you installed SpaceVim successfully!**
 
-4. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+4. Check out whether vim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+
+5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
 ### Install offline
 
