@@ -91,6 +91,8 @@ The correct result✅：
 
 **After finishing downloading plugins, you installed SpaceVim successfully!**
 
+4. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+
 ### Install offline
 
 #### Check prerequisites
