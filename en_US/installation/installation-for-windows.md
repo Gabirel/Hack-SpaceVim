@@ -15,12 +15,6 @@
             * [Check prerequisites](#check-prerequisites-1)
             * [Start to install](#start-to-install-2)
       * [Install Neovim](#install-neovim)
-      * [FAQ](#faq)
-         * [Set up your PATH](#set-up-your-path)
-         * [without python support](#without-python-support)
-         * [SpaceVim gets frozen easily](#spacevim-gets-frozen-easily)
-         * [vcruntime140.dll Error](#vcruntime140dll-error)
-         * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
 
 ## Install prerequisites
 
@@ -73,7 +67,7 @@ The correct result✅：
 > Opened a program
 
 **Notice：If you happen to command not find, please install them correctly and set up your path correctly. 
-See how to set up your path:**[FAQ-Set up your PATH](#set-up-your-path)
+See how to set up your path:**[FAQ-Set up your PATH][set-up-your-path]
 
 #### Start to install
 
@@ -97,7 +91,7 @@ See how to set up your path:**[FAQ-Set up your PATH](#set-up-your-path)
 
 **Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
 
-*If `echo has('python2/3')` returns 0 both, check this: * [FAQ: Without-python-support](#without-python-support)
+*If `echo has('python2/3')` returns 0 both, check this: * [FAQ: Without-python-support][without-python-support]
 
 6. Install fonts, download fonts: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
@@ -215,3 +209,5 @@ If you want to has python3 support, please install it according to step 6; Also,
 [vimproc_dll-error]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/e7f27e84947f13bc9c91812881e47f2961162fc2/vimproc-dll-error.PNG
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
 [wsdjeg]: https://github.com/wsdjeg
+[set-up-your-path]: ../FAQ.md#set-up-your-path
+[without-python-support]: ../FAQ.md#without-python-support
