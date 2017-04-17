@@ -90,11 +90,21 @@
 
 3. 在终端中执行：`vim`
 
-**After finishing downloading plugins, you installed SpaceVim successfully!**
+**在完成下载插件后，你就完成安装SpaceVim了。**
 
-4. Check out whether vim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+4. 检查你的vim是否有`+lua`和`+python`支持。用命令：`vim --version | grep -E 'lua|python'`：
 
-5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+![linux-check-lua-python][linux-check-lua-python]
+
+**注意：如果你的vim没有`+lua`和`+python`支持，请重新安装有lua和python支持的vim，或者从源码安装。**
+
+5. 检查你是否真的有lua和python2/3支持，通过两个命令： `echo has('lua')` 和 `echo has('python3')` 或 `echo has('python2')`
+    * Lua 返回: 1
+    * Python 返回: 1
+
+**注意：`echo has('python2') 和 `echo has('python3')`，只有其中一个返回1，并不是同时返回1。这是vim的特性的决定的。**
+
+6. 安装字体，请**提前**下载好字体： [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
 ### 离线安装
 
@@ -134,4 +144,5 @@ dein.vim是SpaceVim的插件管理器。它会在vim启动的时候自动下载�
 
 [font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
 [plugins-download]: https://github.com/Gabirel/Hack-SpaceVim/releases
+[linux-check-lua-python]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0d9f30a0f22e68ce8e3a2f1c2888a37c3cff/linux-check-lua-python.png
 [spacevim-download]: https://github.com/spacevim/spacevim
