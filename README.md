@@ -68,7 +68,7 @@ New to Vim: [vim-galore][]
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issue
 [vim-galore]: https://github.com/mhinz/vim-galore
 
-[1]: en_US/installation/installation-for-windows.md
+[1]: en_US/installation/installation-for-windows.md##install-spacevim-on-windows
 [1-1]: en_US/installation/installation-for-windows.md#install-spacevim-on-windows
 [1-1-0]: en_US/installation/installation-for-windows.md#table-of-contents
 [1-1-1]: en_US/installation/installation-for-windows.md#install-prerequisites
@@ -82,7 +82,7 @@ New to Vim: [vim-galore][]
 [1-1-2-2-1]: en_US/installation/installation-for-windows.md#check-prerequisites-1
 [1-1-2-2-2]: en_US/installation/installation-for-windows.md#start-to-install-2
 [1-1-3]: en_US/installation/installation-for-windows.md#install-neovim
-[2]: en_US/installation/installation-for-linux.md
+[2]: en_US/installation/installation-for-linux.md#install-spacevim-on-linux
 [2-1]: en_US/installation/installation-for-linux.md#install-spacevim-on-linux
 [2-1-0]: en_US/installation/installation-for-linux.md#table-of-contents
 [2-1-1]: en_US/installation/installation-for-linux.md#install-prerequisites

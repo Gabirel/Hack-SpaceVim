@@ -56,7 +56,7 @@ Table of Contents
       * [vcruntime140.dll错误][vcruntime140dll-error]
       * [Windows上安装繁琐][installing-on-windows-is-too-complicated]
 
-[1]: zh_CN/installation/installation-for-windows.md
+[1]: zh_CN/installation/installation-for-windows.md#在windows上安装spacevim
 [1-1]: zh_CN/installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim
 [1-1-0]: zh_CN/installation/installation-for-windows.md#table-of-contents
 [1-1-1]: zh_CN/installation/installation-for-windows.md#%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83
@@ -70,7 +70,7 @@ Table of Contents
 [1-1-2-2-1]: zh_CN/installation/installation-for-windows.md#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83-1
 [1-1-2-2-2]: zh_CN/installation/installation-for-windows.md#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-1
 [1-1-3]: zh_CN/installation/installation-for-windows.md#%E5%AE%89%E8%A3%85neovim
-[2]: zh_CN/installation/installation-for-linux.md
+[2]: zh_CN/installation/installation-for-linux.md#在linux上安装spacevim
 [2-1]: zh_CN/installation/installation-for-linux.md#在linux上安装spacevim
 [2-1-0]: zh_CN/installation/installation-for-linux.md#table-of-contents
 [2-1-1]: zh_CN/installation/installation-for-linux.md#安装依赖
