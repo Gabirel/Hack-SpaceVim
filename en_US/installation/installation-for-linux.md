@@ -93,15 +93,23 @@ The correct result✅：
 
 4. Check whether your vim has +Lua and +python feature. Use `vim --version | grep -E 'lua|python'` to check out:
 
-![linux-check-lua-python]()
+![linux-check-lua-python][linux-check-lua-python]
 
-5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
+**Notice: If your vim doesn't have `+lua` and `+python` support, please install vim that has them or build vim from source.**
+
+5. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')` and `echo has('python3')` or `echo has('python2')`
+    * Lua returns: 1
+    * Python returns: 1
+
+**Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
+
+6. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
 ### Install offline
 
 #### Check prerequisites
 
-List is the same as [Install online](#install-online). So I won't repeat it:
+List is the same as [Install online: Check prerequisites](#check-prerequisites). So I won't repeat it:
 
 * git
 * lua
@@ -110,7 +118,7 @@ List is the same as [Install online](#install-online). So I won't repeat it:
 
 #### Start to install
 
-Still this part has the same introductions in [Install online](#install-online). I will skip the same part. Only explain at different parts.
+Still this part has the same introductions in [Install online: Start to install](#start-to-install-1). I will skip the same part. Only explain at different parts.
 
 1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
 
@@ -124,7 +132,7 @@ dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by s
 
 3. Open vim in your terminal
 
-4. Check out whether vim has lua and python's full support, these steps are the same as [Install online](#Installl online)
+4. Check out whether vim has lua and python's full support, these steps are the same as [Install online: Start to install](#start-to-install-1)
 
 5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
