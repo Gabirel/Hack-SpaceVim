@@ -23,7 +23,7 @@
 Table of Contents
 =================
 
-1. [在Windows上安装SpaceVim][1]
+1. [在Windows上的SpaceVim][1]
     * [在Windows上安装SpaceVim][1-1]
       * [Table of Contents][1-1-0]
       * [基础环境][1-1-1]
@@ -43,7 +43,7 @@ Table of Contents
          * [SpaceVim卡顿][1-1-4-3]
          * [vcruntime140.dll错误][1-1-4-4]
          * [Windows上安装繁琐][1-1-4-5]
-2. [在Linux上安装SpaceVim][2]
+2. [在Linux上的SpaceVim][2]
     * [在Linux上安装SpaceVim][2-1]
       * [Table of Contents][2-1-0]
       * [安装依赖][2-1-1]
