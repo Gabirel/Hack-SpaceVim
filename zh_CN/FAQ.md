@@ -58,6 +58,10 @@ A: [点我下载][vcruntime140.dll]，根据自己的操作系统类型选择相
 
 A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好，完全不建议在Windows上安装；若安装，请不要去碰Neovim，这是一个禁忌领域！请为了自己的身心健康，请安装Vim
 
+----------------
+
+[索引](README.md) | [English Document](../README.md)
+
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues

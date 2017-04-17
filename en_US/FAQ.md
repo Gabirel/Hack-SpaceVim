@@ -63,6 +63,10 @@ A: [Click me to download][vcruntime140.dll]. Copyt it to the corresponding folde
 A: I'm sorry! Nope. Setting up developing environments is killing yourself. I'm HIGHLY RECOMMEND leaving Windows alone.
 If you have to, please DO NOT touch Neovim. Please use vim for your mental and physicial helath.
 
+---------------
+
+[Index](README.md) | [中文文档](../README.md)
+
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
