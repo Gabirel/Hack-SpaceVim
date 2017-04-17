@@ -48,7 +48,7 @@ Table of Contents
          * [Install offline][2-1-2-2]
             * [Check prerequisites][2-1-2-2-1]
             * [Start to install][2-1-2-2-2]
-3. [FAQ][faq]
+3. [en_US/FAQ][faq]
     * [Windows][faq-windows]
       * [Set up your PATH][set-up-your-path]
       * [without python support][without-python-support]
@@ -96,10 +96,10 @@ New to Vim: [vim-galore][]
 [2-1-2-2-1]: en_US/installation/installation-for-linux.md#check-prerequisites-1
 [2-1-2-2-2]: en_US/installation/installation-for-linux.md#start-to-install-2
 
-[faq]: FAQ.md#faq
-[faq-windows]: FAQ.md#windows
-[set-up-your-path]: FAQ.md#set-up-your-path
-[without-python-support]: FAQ.md#without-python-support
-[spacevim-gets-frozen-easily]: FAQ.md#spacevim-gets-frozen-easily
-[vcruntime140dll-error]: FAQ.md#vcruntime140dll-error
-[installing-on-windows-is-too-complicated]: FAQ.md#installing-on-windows-is-too-complicated
+[faq]: en_US/FAQ.md#faq
+[faq-windows]: en_US/FAQ.md#windows
+[set-up-your-path]: en_US/FAQ.md#set-up-your-path
+[without-python-support]: en_US/FAQ.md#without-python-support
+[spacevim-gets-frozen-easily]: en_US/FAQ.md#spacevim-gets-frozen-easily
+[vcruntime140dll-error]: en_US/FAQ.md#vcruntime140dll-error
+[installing-on-windows-is-too-complicated]: en_US/FAQ.md#installing-on-windows-is-too-complicated
