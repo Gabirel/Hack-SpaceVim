@@ -38,6 +38,7 @@ First, you have to know what your python exact version is.
 Here's test command:
 
 > py -2 --version
+
 > py -3 --version
 
 According to your python version, add config like this:
