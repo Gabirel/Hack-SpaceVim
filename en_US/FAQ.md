@@ -31,6 +31,23 @@ A: Please check out whether you meet all these requirements:
 * Open a new `cmd.exe` to check out whether you can execute command: python
 * If you install 64bit-gvim, make sure you install 64bit python as well. Vice Versa.
 * Gvim must has `+python/dyn` or `+python3/dyn` or `+python/dyn;+python3/dyn`
+* If all above doesn't work, please add config below into your `init.vim`:
+
+First, you have to know what your python exact version is.
+
+Here's test command:
+
+> py -2 --version
+> py -3 --version
+
+According to your python version, add config like this:
+
+```viml
+set pythonthreedll=python36.dll
+set pythondll=python27.dll
+```
+
+**More details: #17**
 
 ### SpaceVim gets frozen easily
 

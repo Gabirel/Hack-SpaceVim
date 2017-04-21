@@ -29,6 +29,24 @@ A: 请检查是否满足以下条件：
 * 在cmd.exe中，查看python命令是否存在
 * vim是64位，python就必须安装64位；反之亦然
 * vim必须要有`+python/dyn`或`+python3/dyn`或者`+python/dyn;+python3/dyn`
+* 如果上述条件均满足仍未支持python，请在你的`init.vim`中以下内容进行配置：
+
+首先，你得知道你的python版本具体是多少。
+
+以下是测试命令：
+
+> py -2 --version
+> py -3 --version
+
+根据你的python版本，添加以下配置：
+
+```viml
+set pythonthreedll=python36.dll
+set pythondll=python27.dll
+```
+
+**更多细节: #17**
+
 
 ### SpaceVim卡顿
 

@@ -21,7 +21,7 @@
 
 * git: 用于下载和更新SpaceVim的插件
 * lua: 用于neocomplete补全
-* python2/3: 用于job特性和部分插件。推荐安装python3
+* python2/3: 用于job特性和部分插件。推荐都安装
 * vim/gvim: Vim主要程序
 * [DejaVu Sans Mono for PowerLine][font-download]: 用于SpaceVim的插件
 
@@ -29,7 +29,7 @@
 
 * git: 用于下载和更新SpaceVim的插件
 * lua: 用于neocomplete补全
-* python2/3: 用于job特性和部分插件。推荐安装python3
+* python2/3: 用于job特性和部分插件。推荐都安装
 * vim/gvim: Vim主要程序
 * [DejaVu Sans Mono for PowerLine][font-download]: 用于SpaceVim的插件
 * [Offline plugins package][plugins-download]: SpaceVim的插件
@@ -98,11 +98,12 @@
 
 **注意：如果你的vim没有`+lua`和`+python`支持，请重新安装有lua和python支持的vim，或者从源码安装。**
 
-5. 检查你是否真的有lua和python2/3支持，通过两个命令： `echo has('lua')` 和 `echo has('python3')` 或 `echo has('python2')`
+5. 检查你是否真的有lua和python2/3支持，通过两个命令： `echo has('lua')`，`echo has('python2')`和`echo has('python3')`
     * Lua 返回: 1
     * Python 返回: 1
+    * Python3 返回: 1
 
-**注意：`echo has('python2') 和 `echo has('python3')`，只有其中一个返回1，并不是同时返回1。这是vim的特性的决定的。**
+**注意：`echo has('python2') 和 `echo has('python3')`，所有的都可以返回1。**
 
 6. 安装字体，请**提前**下载好字体： [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 

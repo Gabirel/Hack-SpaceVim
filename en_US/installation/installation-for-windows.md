@@ -22,7 +22,7 @@
 
 * [git][]: For downloading and updating plugins of SpaceVim
 * [lua][]: For neocomplete
-* [python(2/3)][]: Support job and part of plugins. Recommend to install `python3`
+* [python(2/3)][]: Support job and part of plugins. Recommend to install both
 * [gvim][]: Vim's main program
 * [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
 * [vimproc_win64(32).dll][]: vimporc needs this, **NECESSARY**
@@ -32,7 +32,7 @@
 
 * [git][]: For downloading and updating plugins of SpaceVim
 * [lua][]: For neocomplete
-* [python(2/3)][]: Support job and part of plugins. Recommend to install `python3`
+* [python(2/3)][]: Support job and part of plugins. Recommend to install both
 * [gvim][]: Vim's main program
 * [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
 * [vimproc_win64(32).dll][]: vimporc needs this, **NECESSARY**
@@ -85,9 +85,10 @@ See how to set up your path:**[FAQ-Set up your PATH][set-up-your-path]
 
 ![vim-version][vim-version-check]
 
-5. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')` and `echo has('python3')` or `echo has('python2')`
+5. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')`, `echo has('python3')` and `echo has('python2')`
     * Lua returns: 1
     * Python returns: 1
+    * Python3 returns: 1
 
 **Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
 

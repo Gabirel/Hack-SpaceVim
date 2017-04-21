@@ -22,7 +22,7 @@
 
 * [git][]: 用于下载与更新插件
 * [lua][]: 用于neocomplete补全
-* [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
+* [python(2/3)][]: 用于job与部分插件支持，推荐全部安装
 * [gvim][]: Vim主要程序
 * [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Aireline所需字体
 * [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
@@ -32,7 +32,7 @@
 
 * [git][]: 用于下载与更新插件
 * [lua][]: 用于neocomplete补全
-* [python(2/3)][]: 用于job与部分插件支持，推荐安装python3，如果你有特殊需求，可以选择安装python2
+* [python(2/3)][]: 用于job与部分插件支持，推荐全部安装
 * [gvim][]: Vim主要程序
 * [DejaVu Sans Mono for PowerLine][font-download]: SpaceVim的Airline所需字体
 * [vimproc_win64(32).dll][]: vimporc插件依赖，**必须**
@@ -84,11 +84,12 @@
 
 ![vim-version][vim-version-check]
 
-5. 检查Lua和python(2/3)支持是否真的在起作用，通过两个命令：`echo has('lua')`和`echo has('python3')`或者`echo has('python2')`:
+5. 检查Lua和python(2/3)支持是否真的在起作用，通过两个命令：`echo has('lua')`，`echo has('python2')`和`echo has('python3')`:
     * Lua返回值为：1
     * python返回值：1
+    * python3返回值：1
 
-**注意：`echo has('python2')`和`echo has('python3')`的值只会返回一个，不会同时为1，这是由vim的特性决定的**
+**注意：`echo has('python2')`和`echo has('python3')`的值均会返回`1`**
 
 *若，`echo has('python')`返回值均为0，请查看：* [常见问题：python不支持][without-python-support]
 

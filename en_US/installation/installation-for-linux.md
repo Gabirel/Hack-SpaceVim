@@ -20,7 +20,7 @@
 
 * git: For downloading and updating plugins of SpaceVim
 * lua: For neocomplete
-* python2/3: Support job and part of plugins. Recommend to install python3
+* python2/3: Support job and part of plugins. Recommend to install both
 * vim/gvim: Vim's program
 * [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
 
@@ -28,7 +28,7 @@
 
 * git: For downloading and updating plugins of SpaceVim
 * lua: For neocomplete
-* python2/3: Support job and part of plugins. Recommend to install python3
+* python2/3: Support job and part of plugins. Recommend to install both
 * vim/gvim: Vim's program
 * [DejaVu Sans Mono for PowerLine][font-download]: Used by the plugins of SpaceVim
 * [Offline plugins package][plugins-download]: All plugins used by SpaceVim
@@ -97,11 +97,12 @@ The correct result✅：
 
 **Notice: If your vim doesn't have `+lua` and `+python` support, please install vim that has them or build vim from source.**
 
-5. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')` and `echo has('python3')` or `echo has('python2')`
+5. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')`, `echo has('python3')` and `echo has('python2')`
     * Lua returns: 1
     * Python returns: 1
+    * Python3 returns: 1
 
-**Notice: `echo has('python2') and `echo has('python3')` , only one of them returns `1` instead of returning `0` at the same time. This depends on vim.**
+**Notice: `echo has('python2') and `echo has('python3')` , both of them could return `1` instead of returning `0`.**
 
 6. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
 
