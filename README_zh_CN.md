@@ -9,13 +9,13 @@
 
 ## 你能从Hack-SpaceVim得到什么
 
-* **手把手**教你如何安装SpaceVim
-* 快速地部署开发环境
-* 开发者速成
-* 帮助你熟悉多到吐的插件
-* 让你成为专业的vimmer
-* 用SpaceVim征服整个星球
-* 告诉你鲜为人知的彩单
+* **手把手**教你如何安装SpaceVim :metal:
+* 快速地部署开发环境 :trollface:
+* 开发者速成 :sunglasses:
+* 帮助你熟悉多到吐的插件 :massage_woman:
+* 让你成为专业的vimmer :muscle:
+* 用SpaceVim征服整个星球 :new_moon_with_face:
+* 告诉你鲜为人知的彩蛋 :scream:
 * 一些你永远不会知道的技巧（噢，这好像矛盾了 :smirk:）
 
 ---------------------------
