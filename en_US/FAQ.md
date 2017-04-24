@@ -133,7 +133,7 @@ CentOS/RHEL
 
 ---------------
 
-[Index](README.md#table-of-contents) | [中文文档](../README.md#hack-spacevim)
+[Index](README.md#table-of-contents) | [中文文档](../README_zh_CN.md#hack-spacevim)
 
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
