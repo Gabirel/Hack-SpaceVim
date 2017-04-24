@@ -74,7 +74,7 @@
 
     > sudo dnf install git
 
-* CentOS/RedHat OS:
+* CentOS/RHEL:
 
     > sudo yum install git
 
