@@ -9,6 +9,9 @@
          * [SpaceVim gets frozen easily](#spacevim-gets-frozen-easily)
          * [vcruntime140.dll Error](#vcruntime140dll-error)
          * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
+         * [Exuberant ctags not found](#exuberant-ctags-not-found)
+      * [Linux](#linux)
+         * [Exuberant ctags not found](#exuberant-ctags-not-found-1)
 
 ## Windows
 
@@ -81,6 +84,53 @@ A: [Click me to download][vcruntime140.dll]. Copyt it to the corresponding folde
 A: I'm sorry! Nope. Setting up developing environments is killing yourself. I'm HIGHLY RECOMMEND leaving Windows alone.
 If you have to, please DO NOT touch Neovim. Please use vim for your mental and physicial helath.
 
+### Exuberant ctags not found
+
+**6. Tagbar: Exuberant ctags not found? What should I do?**
+
+As it shows here:
+![ctags-error][ctags-not-found]
+
+A: 
+
+1. You should go to this: https://github.com/universal-ctags/ctags#windows
+
+2. Add the binary folder to your PATH.
+
+My situation is `C:\Program Files\ctagas\ctags.exe`
+
+3. Add config according to your own PATH:
+
+```viml
+let g:tagbar_ctags_bin = 'C:\Program Files\ctagas\ctags.exe'
+```
+
+## Linux
+
+### Exuberant ctags not found
+
+**1. Tagbar: Exuberant ctags not found? What should I do?**
+
+A:
+
+Arch/Manjaro
+
+> sudo pacman -S ctags
+
+Debian/Ubuntu/Linux Mint
+
+> sudo apt-get install ctags
+
+Fedora
+
+> sudo dnf install ctags
+
+CentOS/RHEL
+
+> sudo yum install ctags
+
+*That's all. Done!*
+
 ---------------
 
 [Index](README.md#table-of-contents) | [中文文档](../README.md#hack-spacevim)
@@ -88,3 +138,4 @@ If you have to, please DO NOT touch Neovim. Please use vim for your mental and p
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
+[ctags-not-found]: https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png

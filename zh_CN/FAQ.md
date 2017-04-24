@@ -9,6 +9,9 @@
          * [SpaceVim卡顿](#spacevim卡顿)
          * [vcruntime140.dll错误](#vcruntime140dll错误)
          * [Windows上安装繁琐](#windows上安装繁琐)
+         * [Exuberant ctags未找到](#exuberant-ctags未找到)
+      * [Linux](#linux)
+         * [Exuberant ctags未找到](#exuberant-ctags未找到-1)
 
 ## Windows
 
@@ -77,6 +80,53 @@ A: [点我下载][vcruntime140.dll]，根据自己的操作系统类型选择相
 
 A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好，完全不建议在Windows上安装；若安装，请不要去碰Neovim，这是一个禁忌领域！请为了自己的身心健康，请安装Vim
 
+### Exuberant ctags未找到
+
+**6. Tagbar: Exuberant ctags未找到？我该怎么办？**
+
+正如这里所示：
+![ctags-error][ctags-not-found]
+
+A:
+
+1. 你应该去这里下载： https://github.com/universal-ctags/ctags#windows
+
+2. 把你的二进制目录加到你的环境变量里
+
+我的环境变量是：`C:\Program Files\ctagas\ctags.exe`
+
+3. 根据你自身的情况，添加以下配置：
+
+```viml
+let g:tagbar_ctags_bin = 'C:\Program Files\ctagas\ctags.exe'
+```
+
+## Linux
+
+### Exuberant ctags未找到
+
+**1. Tagbar: Exuberant ctags未找到？我该怎么办？**
+
+A:
+
+Arch/Manjaro
+
+> sudo pacman -S ctags
+
+Debian/Ubuntu/Linux Mint
+
+> sudo apt-get install ctags
+
+Fedora
+
+> sudo dnf install ctags
+
+CentOS/RHEL
+
+> sudo yum install ctags
+
+*没了！就问你快不快！方不方便！*
+
 ----------------
 
 [索引](README.md#table-of-contents) | [English Document](../README.md#hack-spacevim)
@@ -84,3 +134,4 @@ A: 抱歉！没有！Windows搭建开发环境真的是很麻烦，很不友好�
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
+[ctags-not-found]: https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png
