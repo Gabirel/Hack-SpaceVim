@@ -16,7 +16,7 @@
 * Make you a professional vimmer
 * Let you hack this planet with SpaceVim
 * Tell you some facts somebody else won't tell you
-* Tricks you will never know(contradictory statements |-:D)
+* Tricks you will never know(contradictory statements :smirk:)
 
 Table of Contents
 =================
