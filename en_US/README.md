@@ -35,6 +35,9 @@ Table of Contents
       * [SpaceVim gets frozen easily][spacevim-gets-frozen-easily]
       * [vcruntime140.dll Error][vcruntime140dll-error]
       * [Installing on Windows is too complicated][installing-on-windows-is-too-complicated]
+      * [Exuberant ctags not found][exuberant-ctags-not-found-windows]
+    * [Linux][faq-linux]
+      * [Exuberant ctags not found][exuberant-ctags-not-found-linux]
 
 [1]: installation/installation-for-windows.md
 [1-1]: installation/installation-for-windows.md#install-spacevim-on-windows
@@ -76,3 +79,6 @@ Table of Contents
 [spacevim-gets-frozen-easily]: FAQ.md#spacevim-gets-frozen-easily
 [vcruntime140dll-error]: FAQ.md#vcruntime140dll-error
 [installing-on-windows-is-too-complicated]: FAQ.md#installing-on-windows-is-too-complicated
+[exuberant-ctags-not-found-windows]: FAQ.md#exuberant-ctags-not-found
+[faq-linux]: FAQ.md#linux
+[exuberant-ctags-not-found-linux]: FAQ.md#exuberant-ctags-not-found-1
