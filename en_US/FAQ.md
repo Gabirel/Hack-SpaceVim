@@ -51,7 +51,7 @@ set pythonthreedll=python36.dll
 set pythondll=python27.dll
 ```
 
-**More details: #17**
+**More details: [#17][issue-17]**
 
 ### SpaceVim gets frozen easily
 
@@ -139,3 +139,4 @@ CentOS/RHEL
 [vcruntime140.dll]: https://www.dllme.com/dll/download/29939/vcruntime140.dll
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
 [ctags-not-found]: https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png
+[issue-17]: https://github.com/Gabirel/Hack-SpaceVim/issues/17
