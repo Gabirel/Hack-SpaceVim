@@ -49,7 +49,7 @@ set pythonthreedll=python36.dll
 set pythondll=python27.dll
 ```
 
-**更多细节: #17**
+**更多细节: [#17][issue-17]**
 
 
 ### SpaceVim卡顿
@@ -135,3 +135,4 @@ CentOS/RHEL
 [path-config]: https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
 [ctags-not-found]: https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png
+[issue-17]: https://github.com/Gabirel/Hack-SpaceVim/issues/17
