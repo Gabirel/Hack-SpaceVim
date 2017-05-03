@@ -52,7 +52,7 @@ The correct result✅：
 
 *Notice: Different Operating system may has different names of lua. For example, `lua` or `lua53` or `lua52`.*
 
-3. python -v
+3. python -V
 
 The correct result✅：
 > Python 3.6.0

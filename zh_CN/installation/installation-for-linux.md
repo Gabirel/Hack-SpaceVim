@@ -53,7 +53,7 @@
 
 *注意：不同的操作系统lua执行命令也不同。例如，`lua`，`lua52`, `lua53`等。**
 
-3. python -v
+3. python -V
 
 正确结果✅：
 > Python 3.6.0

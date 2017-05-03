@@ -56,7 +56,7 @@ The correct result✅：
 The correct result✅：
 > Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
 
-3. python -v
+3. python -V
 
 The correct result✅：
 > Python 3.6.1
