@@ -36,7 +36,7 @@ Table of Contents
       * [Exuberant ctags未找到][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
       * [Exuberant ctags未找到][exuberant-ctags-not-found-linux]
-4. [彩蛋][hidden-egg-hunt]
+4. [寻觅彩蛋][hidden-egg-hunt]
     * [在SpaceVim上玩游戏][play-games-on-spacevim]
       * [游戏列表][game-lists]
       * [Vim2048][vim2048]
