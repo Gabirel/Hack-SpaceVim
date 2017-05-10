@@ -70,7 +70,7 @@ New to Vim: [vim-galore][]
 
 [spacevim]: https://github.com/spacevim/spacevim
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
-[SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issue
+[SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
 [vim-galore]: https://github.com/mhinz/vim-galore
 
 [1]: en_US/installation/installation-for-windows.md#install-spacevim-on-windows

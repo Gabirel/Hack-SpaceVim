@@ -102,5 +102,5 @@ Table of Contents
 
 [vim-galore]: https://github.com/mhinz/vim-galore
 [spacevim]: https://github.com/spacevim/spacevim
-[Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issue
-[SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issue
+[Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
+[SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
