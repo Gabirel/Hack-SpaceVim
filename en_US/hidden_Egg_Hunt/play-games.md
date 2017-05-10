@@ -5,7 +5,7 @@
    * [Play games on SpaceVim](#play-games-on-spacevim)
       * [Game Lists](#game-lists)
       * [Vim2048](#vim2048)
-      * [Instruction](#instruction)
+         * [Instruction](#instruction)
 
 
 ## Game Lists
@@ -14,7 +14,7 @@
 
 ## Vim2048
 
-## Instruction
+### Instruction
 
 1. Add config below into your `~/.SpaceVim.d/init.vim`:
 

@@ -60,6 +60,11 @@ Table of Contents
       * [Exuberant ctags not found][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
       * [Exuberant ctags not found][exuberant-ctags-not-found-linux]
+4. [Hidden Egg Hunt][hidden-egg-hunt]
+    * [Play games on SpaceVim][play-games-on-spacevim]
+      * [Game Lists][game-lists]
+      * [Vim2048][vim2048]
+        * [Instruction][vim2048-instruction]
 
 ---------------------------
 
@@ -111,3 +116,9 @@ New to Vim: [vim-galore][]
 [exuberant-ctags-not-found-windows]: en_US/FAQ.md#exuberant-ctags-not-found
 [faq-linux]: en_US/FAQ.md#linux
 [exuberant-ctags-not-found-linux]: en_US/FAQ.md#exuberant-ctags-not-found-1
+
+[hidden-egg-hunt]: en_US/hidden_Egg_Hunt
+[play-games-on-spacevim]: en_US/hidden_Egg_Hunt/play-games.md#play-games-on-spacevim
+[game-lists]: en_US/hidden_Egg_Hunt/play-games.md#game-lists
+[vim2048]: en_US/hidden_Egg_Hunt/play-games.md#vim2048
+[vim2048-instruction]: en_US/hidden_Egg_Hunt/play-games.md#instruction
