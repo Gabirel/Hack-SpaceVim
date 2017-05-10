@@ -60,6 +60,11 @@ Table of Contents
       * [Exuberant ctags未找到][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
       * [Exuberant ctags未找到][exuberant-ctags-not-found-linux]
+4. [寻觅彩蛋][hidden-egg-hunt]
+    * [在SpaceVim上玩游戏][play-games-on-spacevim]
+      * [游戏列表][game-lists]
+      * [Vim2048][vim2048]
+        * [安装][vim2048-instruction]
 
 [1]: zh_CN/installation/installation-for-windows.md#在windows上安装spacevim
 [1-1]: zh_CN/installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim
@@ -104,3 +109,9 @@ Table of Contents
 [spacevim]: https://github.com/spacevim/spacevim
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
+
+[hidden-egg-hunt]: zh_CN/hidden_EGG_Hunt
+[play-games-on-spacevim]: zh_CN/hidden_EGG_Hunt/play-games.md#在spacevim上玩游戏
+[game-lists]: zh_CN/hidden_EGG_Hunt/play-games.md#游戏列表
+[vim2048]: zh_CN/hidden_EGG_Hunt/play-games.md#vim2048
+[vim2048-instruction]: zh_CN/hidden_EGG_Hunt/play-games.md#安装
