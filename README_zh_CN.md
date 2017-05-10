@@ -110,8 +110,8 @@ Table of Contents
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
 
-[hidden-egg-hunt]: zh_CN/hidden_EGG_Hunt
-[play-games-on-spacevim]: zh_CN/hidden_EGG_Hunt/play-games.md#在spacevim上玩游戏
-[game-lists]: zh_CN/hidden_EGG_Hunt/play-games.md#游戏列表
-[vim2048]: zh_CN/hidden_EGG_Hunt/play-games.md#vim2048
-[vim2048-instruction]: zh_CN/hidden_EGG_Hunt/play-games.md#安装
+[hidden-egg-hunt]: zh_CN/hidden_Egg_Hunt
+[play-games-on-spacevim]: zh_CN/hidden_Egg_Hunt/play-games.md#在spacevim上玩游戏
+[game-lists]: zh_CN/hidden_Egg_Hunt/play-games.md#游戏列表
+[vim2048]: zh_CN/hidden_Egg_Hunt/play-games.md#vim2048
+[vim2048-instruction]: zh_CN/hidden_Egg_Hunt/play-games.md#安装
