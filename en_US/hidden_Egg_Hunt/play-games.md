@@ -47,4 +47,4 @@ Reference: [#24][issue-24]
 
 ------------
 
-[FAQ](../../FAQ.md#faq) | [Index](../../README.md#table-of-contents) | [中文文档](../../../README_zh_CN.md#hack-spacevim)
+[FAQ](../FAQ.md#faq) | [Index](../../README.md#table-of-contents) | [中文文档](../../README_zh_CN.md#hack-spacevim)

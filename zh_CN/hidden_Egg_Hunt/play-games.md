@@ -46,4 +46,4 @@ call SpaceVim#layers#load('games')
 
 ------------
 
-[FAQ](../../FAQ.md#faq) | [Index](../../README.md#table-of-contents) | [English Document](../../../README.md#hack-spacevim)
+[常见问题](../FAQ.md#faq) | [索引](../../README.md#table-of-contents) | [English Document](../../../README.md#hack-spacevim)
