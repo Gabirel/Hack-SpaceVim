@@ -59,6 +59,7 @@ Table of Contents
       * [Installing on Windows is too complicated][installing-on-windows-is-too-complicated]
       * [Exuberant ctags not found][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
+      * [Building vim from source][building-vim-from-source]
       * [Exuberant ctags not found][exuberant-ctags-not-found-linux]
 4. [Hidden Egg Hunt][hidden-egg-hunt]
     * [Play games on SpaceVim][play-games-on-spacevim]
@@ -115,6 +116,7 @@ New to Vim: [vim-galore][]
 [installing-on-windows-is-too-complicated]: en_US/FAQ.md#installing-on-windows-is-too-complicated
 [exuberant-ctags-not-found-windows]: en_US/FAQ.md#exuberant-ctags-not-found
 [faq-linux]: en_US/FAQ.md#linux
+[building-vim-from-source]: en_US/FAQ.md#building-vim-from-source
 [exuberant-ctags-not-found-linux]: en_US/FAQ.md#exuberant-ctags-not-found-1
 
 [hidden-egg-hunt]: en_US/hidden_Egg_Hunt
