@@ -11,6 +11,7 @@
          * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
          * [Exuberant ctags not found](#exuberant-ctags-not-found)
       * [Linux](#linux)
+         * [Building vim from source](#building-vim-from-source)
          * [Exuberant ctags not found](#exuberant-ctags-not-found-1)
 
 ## Windows
@@ -107,6 +108,14 @@ let g:tagbar_ctags_bin = 'C:\Program Files\ctagas\ctags.exe'
 
 ## Linux
 
+### Building vim from source
+
+Some distros maybe doesn't have the latest vim. So, some have to build vim from source. 
+
+This section is for building vim from source:
+
+Please go to here: [Build vim from source][build-vim-from-source]
+
 ### Exuberant ctags not found
 
 **1. Tagbar: Exuberant ctags not found? What should I do?**
@@ -140,3 +149,4 @@ CentOS/RHEL
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
 [ctags-not-found]: https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png
 [issue-17]: https://github.com/Gabirel/Hack-SpaceVim/issues/17
+[build-vim-from-source]: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
