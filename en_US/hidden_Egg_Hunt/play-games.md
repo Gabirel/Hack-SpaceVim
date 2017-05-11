@@ -38,8 +38,13 @@ call SpaceVim#layers#load('games')
 
 Reference: [#24][issue-24]
 
+
 [vim2048-install-ui]: https://cloud.githubusercontent.com/assets/12933851/25666818/33f2b91c-3054-11e7-89e4-2ffdcb6efb35.png
 [vim2048-space]: https://cloud.githubusercontent.com/assets/12933851/25666850/51a9faa6-3054-11e7-9807-172841f3721b.png
 [vim2048-space-g]: https://cloud.githubusercontent.com/assets/12933851/25666978/a75640d6-3054-11e7-9bc1-97e234460074.png
 [vim2048-done]: https://cloud.githubusercontent.com/assets/12933851/25666993/b10681cc-3054-11e7-9872-b0889f7caa6f.png
 [issue-24]: https://github.com/Gabirel/Hack-SpaceVim/issues/24
+
+------------
+
+[FAQ](../../FAQ.md#faq) | [Index](../../README.md#table-of-contents) | [中文文档](../../../README_zh_CN.md#hack-spacevim)

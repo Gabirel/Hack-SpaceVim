@@ -43,3 +43,7 @@ call SpaceVim#layers#load('games')
 [vim2048-space-g]: https://cloud.githubusercontent.com/assets/12933851/25666978/a75640d6-3054-11e7-9bc1-97e234460074.png
 [vim2048-done]: https://cloud.githubusercontent.com/assets/12933851/25666993/b10681cc-3054-11e7-9872-b0889f7caa6f.png
 [issue-24]: https://github.com/Gabirel/Hack-SpaceVim/issues/24
+
+------------
+
+[FAQ](../../FAQ.md#faq) | [Index](../../README.md#table-of-contents) | [English Document](../../../README.md#hack-spacevim)
