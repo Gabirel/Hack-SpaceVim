@@ -180,7 +180,7 @@ With python2 support:
 Without python3 support:
 ![nvim-python3-support-failure][]
 
-If you want to has python3 support, please install it according to step 6; Also, use commands suggested by neovim to has ruby support.
+If you want to have python3 support, please install it according to step 6; Also, use commands suggested by neovim to have ruby support.
 
 8. Install SpaceVim
 
