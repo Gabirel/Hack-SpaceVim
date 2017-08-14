@@ -131,6 +131,8 @@ dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by s
 
 **Notice: You could download [the offline package][plugins-download]. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.**
 
+**For newbie: zip your `~/.cache/vimfiles` to packing SpaceVim**
+
 3. Open vim in your terminal
 
 4. Check out whether vim has lua and python's full support, these steps are the same as [Install online: Start to install](#start-to-install-1)
