@@ -147,7 +147,7 @@ After finishing installing fonts, the status bar should work very well.
 
 [Instructions for Windows](installation-for-windows.md#install-spacevim-on-windows) | [FAQ](../FAQ.md#faq) | [Index](../README.md#table-of-contents) | [中文文档](../../README_zh_CN.md#hack-spacevim)
 
-[font-download]: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf
+[font-download]: https://github.com/powerline/fonts/tree/master/DejaVuSansMono
 [plugins-download]: https://github.com/Gabirel/Hack-SpaceVim/releases
 [linux-check-lua-python]: https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0d9f30a0f22e68ce8e3a2f1c2888a37c3cff/linux-check-lua-python.png
 [spacevim-download]: https://github.com/spacevim/spacevim
