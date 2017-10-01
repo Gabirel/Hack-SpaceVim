@@ -34,12 +34,11 @@ Table of Contents
       * [Requirements][ide-for-js-requirements]
       * [Installation][ide-for-js-installation]
          * [SpaceVim][ide-for-js-spacevim]
-         * [Install npm or <code>cnpm</code>][ide-for-js-install-npm-or-cnpm]
+         * [Install npm or cnpm][ide-for-js-install-npm-or-cnpm]
          * [Install tern][ide-for-js-install-tern]
          * [Add config into your ~/.SpaceVim.d/init.vim][ide-for-js-add-config-into-your-spacevimdinitvim]
       * [Config][ide-for-js-config]
       * [Credits &amp; Thanks][ide-for-js-thanks]
-
 4. [FAQ][faq]
     * [Windows][faq-windows]
       * [Set up your PATH][set-up-your-path]

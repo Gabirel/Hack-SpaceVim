@@ -50,6 +50,17 @@ Table of Contents
          * [Install offline][2-1-2-2]
             * [Check prerequisites][2-1-2-2-1]
             * [Start to install][2-1-2-2-2]
+3. [IDE][ide]
+   * [IDE for JavaScript][ide-for-javascript]
+      * [Table of Contents][ide-for-js-table-of-contents]
+      * [Requirements][ide-for-js-requirements]
+      * [Installation][ide-for-js-installation]
+         * [SpaceVim][ide-for-js-spacevim]
+         * [Install npm or cnpm][ide-for-js-install-npm-or-cnpm]
+         * [Install tern][ide-for-js-install-tern]
+         * [Add config into your ~/.SpaceVim.d/init.vim][ide-for-js-add-config-into-your-spacevimdinitvim]
+      * [Config][ide-for-js-config]
+      * [Credits &amp; Thanks][ide-for-js-thanks]
 3. [FAQ][faq]
     * [Windows][faq-windows]
       * [Set up your PATH][set-up-your-path]
@@ -87,6 +98,7 @@ New to Vim: [vim-galore][]
 [1-1-2-2-1]: en_US/installation/installation-for-windows.md#check-prerequisites-1
 [1-1-2-2-2]: en_US/installation/installation-for-windows.md#start-to-install-2
 [1-1-3]: en_US/installation/installation-for-windows.md#install-neovim
+
 [2]: en_US/installation/installation-for-linux.md#install-spacevim-on-linux
 [2-1]: en_US/installation/installation-for-linux.md#install-spacevim-on-linux
 [2-1-0]: en_US/installation/installation-for-linux.md#table-of-contents
@@ -100,6 +112,18 @@ New to Vim: [vim-galore][]
 [2-1-2-2]: en_US/installation/installation-for-linux.md#install-offline
 [2-1-2-2-1]: en_US/installation/installation-for-linux.md#check-prerequisites-1
 [2-1-2-2-2]: en_US/installation/installation-for-linux.md#start-to-install-2
+
+[ide]: en_US/IDE
+[ide-for-javascript]: en_US/IDE/JavaScript.md#ide-for-javascript
+[ide-for-js-table-of-contents]: en_US/IDE/JavaScript.md#table-of-contents
+[ide-for-js-requirements]: en_US/IDE/JavaScript.md#requirements
+[ide-for-js-installation]: en_US/IDE/JavaScript.md#installation
+[ide-for-js-spacevim]: en_US/IDE/JavaScript.md#spacevim
+[ide-for-js-install-npm-or-cnpm]: en_US/IDE/JavaScript.md#install-npm-or-cnpm
+[ide-for-js-install-tern]: en_US/IDE/JavaScript.md#install-tern
+[ide-for-js-add-config-into-your-spacevimdinitvim]: en_US/IDE/JavaScript.md#add-config-into-your-spacevimdinitvim
+[ide-for-js-config]: en_US/IDE/JavaScript.md#config
+[ide-for-js-thanks]: en_US/IDE/JavaScript.md#credits--thanks
 
 [faq]: en_US/FAQ.md#faq
 [faq-windows]: en_US/FAQ.md#windows

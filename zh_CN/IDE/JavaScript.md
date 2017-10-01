@@ -7,7 +7,7 @@
       * [Requirements](#requirements)
       * [Installation](#installation)
          * [SpaceVim](#spacevim)
-         * [Install npm or cnpm](#install-npm-or-cnpm)
+         * [Install npm or <code>cnpm</code>](#install-npm-or-cnpm)
          * [Install tern](#install-tern)
          * [Add config into your ~/.SpaceVim.d/init.vim](#add-config-into-your-spacevimdinitvim)
       * [Config](#config)
