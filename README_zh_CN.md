@@ -27,6 +27,7 @@ Table of Contents
 
 1. [在Windows上的SpaceVim][1]
     * [在Windows上安装SpaceVim][1-1]
+      * [Table of Contents][1-1-0]
       * [基础环境][1-1-1]
          * [在线安装基本要求][1-1-1-1]
          * [离线安装基本要求][1-1-1-2]
@@ -40,6 +41,7 @@ Table of Contents
       * [安装Neovim][1-1-3]
 2. [在Linux上的SpaceVim][2]
     * [在Linux上安装SpaceVim][2-1]
+      * [Table of Contents][2-1-0]
       * [安装依赖][2-1-1]
          * [在线安装依赖][2-1-1-1]
          * [离线安装依赖][2-1-1-2]
@@ -52,6 +54,7 @@ Table of Contents
             * [开始安装][2-1-2-2-2]
 3. [IDE][ide]
    * [IDE for JavaScript][ide-for-javascript]
+      * [Table of Contents][ide-for-js-toc]
       * [基本要求][ide-for-js-requirements]
       * [安装][ide-for-js-installation]
          * [SpaceVim][ide-for-js-spacevim]
@@ -85,6 +88,7 @@ Table of Contents
 [1-1-2-2-1]: zh_CN/installation/installation-for-windows.md#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83-1
 [1-1-2-2-2]: zh_CN/installation/installation-for-windows.md#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-1
 [1-1-3]: zh_CN/installation/installation-for-windows.md#%E5%AE%89%E8%A3%85neovim
+
 [2]: zh_CN/installation/installation-for-linux.md#在linux上安装spacevim
 [2-1]: zh_CN/installation/installation-for-linux.md#在linux上安装spacevim
 [2-1-0]: zh_CN/installation/installation-for-linux.md#table-of-contents
@@ -101,6 +105,7 @@ Table of Contents
 
 [ide]: zh_CN/IDE
 [ide-for-javascript]: zh_CN/IDE/JavaScript.md#ide-for-javascript
+[ide-for-js-toc]: zh_CN/IDE/JavaScript.md#table-of-contents 
 [ide-for-js-requirements]: zh_CN/IDE/JavaScript.md#基本要求
 [ide-for-js-installation]: zh_CN/IDE/JavaScript.md#安装
 [ide-for-js-spacevim]: zh_CN/IDE/JavaScript.md#spacevim
