@@ -132,6 +132,8 @@ dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by s
 
 **Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.**
 
+**For newbie: zip your `~/.cache/vimfiles` to packing SpaceVim**
+
 3. Open gvim to check out whether SpaceVim could start without any errors.
 
 **Notice: Please make sure that vimproc_dll exists if you are using your own package.**
@@ -180,7 +182,7 @@ With python2 support:
 Without python3 support:
 ![nvim-python3-support-failure][]
 
-If you want to has python3 support, please install it according to step 6; Also, use commands suggested by neovim to has ruby support.
+If you want to have python3 support, please install it according to step 6; Also, use commands suggested by neovim to have ruby support.
 
 8. Install SpaceVim
 

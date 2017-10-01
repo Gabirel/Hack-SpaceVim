@@ -48,7 +48,13 @@ Table of Contents
       * [Windows上安装繁琐][installing-on-windows-is-too-complicated]
       * [Exuberant ctags未找到][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
+      * [从源码安装vim][build-vim-from-source]
       * [Exuberant ctags未找到][exuberant-ctags-not-found-linux]
+4. [寻觅彩蛋][hidden-egg-hunt]
+    * [在SpaceVim上玩游戏][play-games-on-spacevim]
+      * [游戏列表][game-lists]
+      * [Vim2048][vim2048]
+        * [安装][vim2048-instruction]
 
 [1]: installation/installation-for-windows.md
 [1-1]: installation/installation-for-windows.md#在windows上安装spacevim
@@ -100,4 +106,11 @@ Table of Contents
 [installing-on-windows-is-too-complicated]: FAQ.md#windows上安装繁琐
 [exuberant-ctags-not-found-windows]: FAQ.md#exuberant-ctags未找到
 [faq-linux]: FAQ.md#linux
+[build-vim-from-source]: FAQ.md#从源码安装vim
 [exuberant-ctags-not-found-linux]: FAQ.md#exuberant-ctags未找到-1
+
+[hidden-egg-hunt]: hidden_Egg_Hunt
+[play-games-on-spacevim]: hidden_Egg_Hunt/play-games.md#在spacevim上玩游戏
+[game-lists]: hidden_Egg_Hunt/play-games.md#游戏列表
+[vim2048]: hidden_Egg_Hunt/play-games.md#vim2048
+[vim2048-instruction]: hidden_Egg_Hunt/play-games.md#安装

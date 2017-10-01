@@ -11,6 +11,7 @@
          * [Windows上安装繁琐](#windows上安装繁琐)
          * [Exuberant ctags未找到](#exuberant-ctags未找到)
       * [Linux](#linux)
+         * [从源码安装vim](#从源码安装vim)
          * [Exuberant ctags未找到](#exuberant-ctags未找到-1)
 
 ## Windows
@@ -103,6 +104,14 @@ let g:tagbar_ctags_bin = 'C:\Program Files\ctagas\ctags.exe'
 
 ## Linux
 
+### 从源码安装vim
+
+一些发行版本可能没有最新版本的vim，仍然用的是vim7.4之类的。所以部分人不得已只能从源码安装vim。
+
+这部分就是为了从源码安装vim：
+
+请去这里: [从源码安装vim][build-vim-from-source]
+
 ### Exuberant ctags未找到
 
 **1. Tagbar: Exuberant ctags未找到？我该怎么办？**
@@ -136,3 +145,4 @@ CentOS/RHEL
 [spacevim-issue-tracker]: https://github.com/spacevim/spacevim/issues
 [ctags-not-found]: https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png
 [issue-17]: https://github.com/Gabirel/Hack-SpaceVim/issues/17
+[build-vim-from-source]: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source

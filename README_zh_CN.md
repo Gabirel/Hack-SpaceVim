@@ -1,7 +1,7 @@
 [![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)
 [![Build Status](https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master)](https://travis-ci.org/Gabirel/Hack-SpaceVim)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![spacevim-version](https://img.shields.io/badge/spacevim-v0.3.0--dev-ff69b4.svg)](https://spacevim.org)
+[![spacevim-version](https://img.shields.io/badge/spacevim-v0.4.0--dev-ff69b4.svg)](https://spacevim.org)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg)](http://isitmaintained.com/project/Gabirel/Hack-SpaceVim "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg)](http://isitmaintained.com/project/Gabirel/Hack-SpaceVim "Percentage of issues still open")
 
@@ -72,7 +72,13 @@ Table of Contents
       * [Windows上安装繁琐][installing-on-windows-is-too-complicated]
       * [Exuberant ctags未找到][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
+      * [从源码安装vim][build-vim-from-source]
       * [Exuberant ctags未找到][exuberant-ctags-not-found-linux]
+4. [寻觅彩蛋][hidden-egg-hunt]
+    * [在SpaceVim上玩游戏][play-games-on-spacevim]
+      * [游戏列表][game-lists]
+      * [Vim2048][vim2048]
+        * [安装][vim2048-instruction]
 
 [1]: zh_CN/installation/installation-for-windows.md#在windows上安装spacevim
 [1-1]: zh_CN/installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim
@@ -124,9 +130,16 @@ Table of Contents
 [installing-on-windows-is-too-complicated]: zh_CN/FAQ.md#windows上安装繁琐
 [exuberant-ctags-not-found-windows]: zh_CN/FAQ.md#exuberant-ctags未找到
 [faq-linux]: zh_CN/FAQ.md#linux
+[build-vim-from-source]: zh_CN/FAQ.md#从源码安装vim
 [exuberant-ctags-not-found-linux]: zh_CN/FAQ.md#exuberant-ctags未找到-1
 
 [vim-galore]: https://github.com/mhinz/vim-galore
 [spacevim]: https://github.com/spacevim/spacevim
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
+
+[hidden-egg-hunt]: zh_CN/hidden_Egg_Hunt
+[play-games-on-spacevim]: zh_CN/hidden_Egg_Hunt/play-games.md#在spacevim上玩游戏
+[game-lists]: zh_CN/hidden_Egg_Hunt/play-games.md#游戏列表
+[vim2048]: zh_CN/hidden_Egg_Hunt/play-games.md#vim2048
+[vim2048-instruction]: zh_CN/hidden_Egg_Hunt/play-games.md#安装

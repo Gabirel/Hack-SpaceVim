@@ -1,7 +1,7 @@
 [![](https://spacevim.org/img/build-with-SpaceVim.svg)](https://spacevim.org)
 [![Build Status](https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master)](https://travis-ci.org/Gabirel/Hack-SpaceVim)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![spacevim-version](https://img.shields.io/badge/spacevim-v0.3.0--dev-ff69b4.svg)](https://spacevim.org)
+[![spacevim-version](https://img.shields.io/badge/spacevim-v0.4.0--dev-ff69b4.svg)](https://spacevim.org)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg)](http://isitmaintained.com/project/Gabirel/Hack-SpaceVim "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg)](http://isitmaintained.com/project/Gabirel/Hack-SpaceVim "Percentage of issues still open")
 
@@ -70,7 +70,13 @@ Table of Contents
       * [Installing on Windows is too complicated][installing-on-windows-is-too-complicated]
       * [Exuberant ctags not found][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
+      * [Building vim from source][building-vim-from-source]
       * [Exuberant ctags not found][exuberant-ctags-not-found-linux]
+4. [Hidden Egg Hunt][hidden-egg-hunt]
+    * [Play games on SpaceVim][play-games-on-spacevim]
+      * [Game Lists][game-lists]
+      * [Vim2048][vim2048]
+        * [Instruction][vim2048-instruction]
 
 ---------------------------
 
@@ -134,4 +140,11 @@ New to Vim: [vim-galore][]
 [installing-on-windows-is-too-complicated]: en_US/FAQ.md#installing-on-windows-is-too-complicated
 [exuberant-ctags-not-found-windows]: en_US/FAQ.md#exuberant-ctags-not-found
 [faq-linux]: en_US/FAQ.md#linux
+[building-vim-from-source]: en_US/FAQ.md#building-vim-from-source
 [exuberant-ctags-not-found-linux]: en_US/FAQ.md#exuberant-ctags-not-found-1
+
+[hidden-egg-hunt]: en_US/hidden_Egg_Hunt
+[play-games-on-spacevim]: en_US/hidden_Egg_Hunt/play-games.md#play-games-on-spacevim
+[game-lists]: en_US/hidden_Egg_Hunt/play-games.md#game-lists
+[vim2048]: en_US/hidden_Egg_Hunt/play-games.md#vim2048
+[vim2048-instruction]: en_US/hidden_Egg_Hunt/play-games.md#instruction

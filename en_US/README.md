@@ -48,7 +48,14 @@ Table of Contents
       * [Installing on Windows is too complicated][installing-on-windows-is-too-complicated]
       * [Exuberant ctags not found][exuberant-ctags-not-found-windows]
     * [Linux][faq-linux]
+      * [Building vim from source][building-vim-from-source]
       * [Exuberant ctags not found][exuberant-ctags-not-found-linux]
+5. [Hidden Egg Hunt][hidden-egg-hunt]
+    * [Play games on SpaceVim][play-games-on-spacevim]
+      * [Game Lists][game-lists]
+      * [Vim2048][vim2048]
+        * [Instruction][vim2048-instruction]
+
 
 [1]: installation/installation-for-windows.md
 [1-1]: installation/installation-for-windows.md#install-spacevim-on-windows
@@ -106,4 +113,11 @@ Table of Contents
 [installing-on-windows-is-too-complicated]: FAQ.md#installing-on-windows-is-too-complicated
 [exuberant-ctags-not-found-windows]: FAQ.md#exuberant-ctags-not-found
 [faq-linux]: FAQ.md#linux
+[building-vim-from-source]: FAQ.md#building-vim-from-source
 [exuberant-ctags-not-found-linux]: FAQ.md#exuberant-ctags-not-found-1
+
+[hidden-egg-hunt]: hidden_Egg_Hunt
+[play-games-on-spacevim]: hidden_Egg_Hunt/play-games.md#play-games-on-spacevim
+[game-lists]: hidden_Egg_Hunt/play-games.md#game-lists
+[vim2048]: hidden_Egg_Hunt/play-games.md#vim2048
+[vim2048-instruction]: hidden_Egg_Hunt/play-games.md#instruction
