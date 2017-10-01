@@ -28,15 +28,14 @@ Table of Contents
             * [开始安装][2-1-2-2-2]
 3. [IDE][ide]
    * [IDE for JavaScript][ide-for-javascript]
-      * [Table of Contents][ide-for-js-table-of-contents]
-      * [Requirements][ide-for-js-requirements]
-      * [Installation][ide-for-js-installation]
+      * [基本要求][ide-for-js-requirements]
+      * [安装][ide-for-js-installation]
          * [SpaceVim][ide-for-js-spacevim]
-         * [Install npm or cnpm][ide-for-js-install-npm-or-cnpm]
-         * [Install tern][ide-for-js-install-tern]
-         * [Add config into your ~/.SpaceVim.d/init.vim][ide-for-js-add-config-into-your-spacevimdinitvim]
-      * [Config][ide-for-js-config]
-      * [Credits &amp; Thanks][ide-for-js-thanks]
+         * [安装npm或cnpm][ide-for-js-install-npm-or-cnpm]
+         * [安装tern][ide-for-js-install-tern]
+         * [将配置加到~/.SpaceVim.d/init.vim][ide-for-js-add-config-into-your-spacevimdinitvim]
+      * [配置][ide-for-js-config]
+      * [感谢][ide-for-js-thanks]
 4.  [常见问题][faq]
     * [Windows][faq-windows]
       * [配置环境变量][set-up-your-path]
@@ -77,15 +76,14 @@ Table of Contents
 
 [ide]: IDE
 [ide-for-javascript]: IDE/JavaScript.md#ide-for-javascript
-[ide-for-js-table-of-contents]: IDE/JavaScript.md#table-of-contents
-[ide-for-js-requirements]: IDE/JavaScript.md#requirements
-[ide-for-js-installation]: IDE/JavaScript.md#installation
+[ide-for-js-requirements]: IDE/JavaScript.md#基本要求
+[ide-for-js-installation]: IDE/JavaScript.md#安装
 [ide-for-js-spacevim]: IDE/JavaScript.md#spacevim
-[ide-for-js-install-npm-or-cnpm]: IDE/JavaScript.md#install-npm-or-cnpm
-[ide-for-js-install-tern]: IDE/JavaScript.md#install-tern
-[ide-for-js-add-config-into-your-spacevimdinitvim]: IDE/JavaScript.md#add-config-into-your-spacevimdinitvim
-[ide-for-js-config]: IDE/JavaScript.md#config
-[ide-for-js-thanks]: IDE/JavaScript.md#credits--thanks
+[ide-for-js-install-npm-or-cnpm]: IDE/JavaScript.md#安装-npm-或-cnpm
+[ide-for-js-install-tern]: IDE/JavaScript.md#安装-tern
+[ide-for-js-add-config-into-your-spacevimdinitvim]: IDE/JavaScript.md#将配置加到-spacevimdinitvim
+[ide-for-js-config]: IDE/JavaScript.md#配置
+[ide-for-js-thanks]: IDE/JavaScript.md#感谢
 
 [faq]: FAQ.md#常见问题
 [faq-windows]: FAQ.md#windows

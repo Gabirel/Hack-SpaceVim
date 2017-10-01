@@ -50,7 +50,17 @@ Table of Contents
          * [离线安装][2-1-2-2]
             * [检查依赖][2-1-2-2-1]
             * [开始安装][2-1-2-2-2]
-3.  [常见问题][faq]
+3. [IDE][ide]
+   * [IDE for JavaScript][ide-for-javascript]
+      * [基本要求][ide-for-js-requirements]
+      * [安装][ide-for-js-installation]
+         * [SpaceVim][ide-for-js-spacevim]
+         * [安装npm或cnpm][ide-for-js-install-npm-or-cnpm]
+         * [安装tern][ide-for-js-install-tern]
+         * [将配置加到~/.SpaceVim.d/init.vim][ide-for-js-add-config-into-your-spacevimdinitvim]
+      * [配置][ide-for-js-config]
+      * [感谢][ide-for-js-thanks]
+4.  [常见问题][faq]
     * [Windows][faq-windows]
       * [配置环境变量][set-up-your-path]
       * [python不支持][without-python-support]
@@ -88,6 +98,17 @@ Table of Contents
 [2-1-2-2]: zh_CN/installation/installation-for-linux.md#离线安装
 [2-1-2-2-1]: zh_CN/installation/installation-for-linux.md#检查依赖-1
 [2-1-2-2-2]: zh_CN/installation/installation-for-linux.md#开始安装-2
+
+[ide]: zh_CN/IDE
+[ide-for-javascript]: zh_CN/IDE/JavaScript.md#ide-for-javascript
+[ide-for-js-requirements]: zh_CN/IDE/JavaScript.md#基本要求
+[ide-for-js-installation]: zh_CN/IDE/JavaScript.md#安装
+[ide-for-js-spacevim]: zh_CN/IDE/JavaScript.md#spacevim
+[ide-for-js-install-npm-or-cnpm]: zh_CN/IDE/JavaScript.md#安装-npm-或-cnpm
+[ide-for-js-install-tern]: zh_CN/IDE/JavaScript.md#安装-tern
+[ide-for-js-add-config-into-your-spacevimdinitvim]: zh_CN/IDE/JavaScript.md#将配置加到-spacevimdinitvim
+[ide-for-js-config]: zh_CN/IDE/JavaScript.md#配置
+[ide-for-js-thanks]: zh_CN/IDE/JavaScript.md#感谢
 
 [faq]: zh_CN/FAQ.md#常见问题
 [faq-windows]: zh_CN/FAQ.md#windows
