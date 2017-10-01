@@ -30,6 +30,7 @@ Table of Contents
             * [Start to install][2-1-2-2-2]
 3. [IDE][ide]
    * [IDE for JavaScript][ide-for-javascript]
+      * [Table of Contents][ide-for-js-table-of-contents]
       * [Requirements][ide-for-js-requirements]
       * [Installation][ide-for-js-installation]
          * [SpaceVim][ide-for-js-spacevim]
@@ -70,6 +71,7 @@ Table of Contents
 [1-1-4-3]: installation/installation-for-windows.md#spacevim-gets-frozen-easily
 [1-1-4-4]: installation/installation-for-windows.md#vcruntime140dll-error
 [1-1-4-5]: installation/installation-for-windows.md#installing-on-windows-is-too-complicated
+
 [2]: installation/installation-for-linux.md
 [2-1]: installation/installation-for-linux.md#install-spacevim-on-linux
 [2-1-0]: installation/installation-for-linux.md#table-of-contents
@@ -83,6 +85,19 @@ Table of Contents
 [2-1-2-2]: installation/installation-for-linux.md#install-offline
 [2-1-2-2-1]: installation/installation-for-linux.md#check-prerequisites-1
 [2-1-2-2-2]: installation/installation-for-linux.md#start-to-install-2
+
+[ide]: IDE
+[ide-for-javascript]: IDE/JavaScript.md#ide-for-javascript
+[ide-for-js-table-of-contents]: IDE/JavaScript.md#table-of-contents
+[ide-for-js-requirements]: IDE/JavaScript.md#requirements
+[ide-for-js-installation]: IDE/JavaScript.md#installation
+[ide-for-js-spacevim]: IDE/JavaScript.md#spacevim
+[ide-for-js-install-npm-or-cnpm]: IDE/JavaScript.md#install-npm-or-cnpm
+[ide-for-js-install-tern]: IDE/JavaScript.md#install-tern
+[ide-for-js-add-config-into-your-spacevimdinitvim]: IDE/JavaScript.md#add-config-into-your-spacevimdinitvim
+[ide-for-js-config]: IDE/JavaScript.md#config
+[ide-for-js-thanks]: IDE/JavaScript.md#credits--thanks
+
 [faq]: FAQ.md#faq
 [faq-windows]: FAQ.md#windows
 [set-up-your-path]: FAQ.md#set-up-your-path

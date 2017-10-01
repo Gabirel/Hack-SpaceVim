@@ -3,6 +3,7 @@
 ## Table of Contents
 
    * [IDE for JavaScript](#ide-for-javascript)
+      * [Table of Contents](#table-of-contents)
       * [Requirements](#requirements)
       * [Installation](#installation)
          * [SpaceVim](#spacevim)
