@@ -4,33 +4,34 @@
 
    * [IDE for JavaScript](#ide-for-javascript)
       * [Table of Contents](#table-of-contents)
-      * [Requirements](#requirements)
-      * [Installation](#installation)
+      * [基本要求](#基本要求)
+      * [安装](#安装)
          * [SpaceVim](#spacevim)
-         * [Install npm or <code>cnpm</code>](#install-npm-or-cnpm)
-         * [Install tern](#install-tern)
-         * [Add config into your ~/.SpaceVim.d/init.vim](#add-config-into-your-spacevimdinitvim)
-      * [Config](#config)
-      * [Credits &amp; Thanks](#credits--thanks)
+         * [安装 npm 或 cnpm](#安装-npm-或-cnpm)
+         * [安装 tern](#安装-tern)
+         * [将配置加到 ~/.SpaceVim.d/init.vim](#将配置加到-spacevimdinitvim)
+      * [配置](#配置)
+      * [感谢](#感谢)
 
 
-## Requirements
+## 基本要求
 
-- SpaceVim
-- tern
-- tern_for_vim
-- nodejs
-- npm/cnpm
+* SpaceVim
+* tern
+* tern_for_vim
+* nodejs
+* npm/cnpm
 
-## Installation
+## 安装
 
 ### SpaceVim
 
-Make sure your SpaceVim is up-to-date.
+请确认你的SpaceVim是最新的。
 
-### Install `npm` or `cnpm`
+### 安装 `npm` 或 `cnpm`
 
-Here are the examples:
+对于国内的环境来说，建议使用`cnpm`的环境。
+以下是几个安装例子：
 
 **Arch:**
 > sudo pacman -S npm nodejs
@@ -41,48 +42,48 @@ Here are the examples:
 **Ubuntu:**
 > sudo apt install npm nodejs
 
-### Install `tern`
+### 安装 `tern`
 
-You have to install tern since [tern_for_vim](https://github.com/ternjs/tern_for_vim) using [tern](http://ternjs.net/) as a server to provide auto-completion.
-(If I was wrong, please tell me. Because I am not a expert of nodejs)
+你必须要安装tern，因为[tern_for_vim](https://github.com/ternjs/tern_for_vim)是使用[tern](http://ternjs.net/) 来作为自动补全的后端代码的。
+（如果我错了，请告诉我。我并不是写nodejs或者前端的高手，这方面不是我的完全领域。）
 
-Just Simply run:
+通过以下命令安装：
 > npm install tern
 
-**Or**
+**或者**
 
 > cnpm install tern
 
-_PS: If you want to execute, please install `cnpm`._
+_注意: 如果你要使用`cnpm`来安装tern，请先安装 `cnpm`._
 
-### Add config into your `~/.SpaceVim.d/init.vim`
+### 将配置加到 `~/.SpaceVim.d/init.vim`
 
 ```viml
 call SpaceVim#layers#load('lang#javascript')
 ```
 
-And restart your vim to let SpaceVim itself to install plugins for you.
+并且重启vim，让SpaceVim自己会你安装插件。
 
-_If it takes a long time to install `tern_for_vim`, please install it manually by 3 steps below:_
+_如果SpaceVim花了很久的时间来安装`tern_for_vim`，请通过以下三步进行手动安装：_
 
 > $ cd ~/.cache/vimfiles/repos/github.com/ternjs
 > $ git clone https://github.com/ternjs/tern_for_vim
 > $ cd tern_for_vim; npm install
 
-## Config
+## 配置
 
-The most important step is about how to configure your environment.
+最重要的一步是怎么配置你的环境。
 
-Actually, it's pretty easy.
+官方文档是我见过写的最差的文档，特别烦人，说白了，就两点要注意：
 
-It has two optinos for config. 
+对于大部分人来说，主要有两种情况：
 
-- Option A: `.tern-project`(in the current directory or one of the directories above that **for this project only**)
-- Option B: `.tern-config`(**default** in your home directory)
+* 情况一: `.tern-project`（改文件是在当前或者是在当前文件夹上层里，**只适用于当前的工程文件**)
+* 情况二: `.tern-config`(**默认**存在你的家目录下)
 
-**See more details [here](http://ternjs.net/doc/manual.html#server)**
+**更多细节见 [这里](http://ternjs.net/doc/manual.html#server)**
 
-Here's the example config:
+以下是示例，仅供参考：
 
 ```json
 {
@@ -102,12 +103,12 @@ Here's the example config:
 }
 ```
 
-**That's it!!!**
+**Okay，完了！！简单吧**
 
-## Credits & Thanks
+## 感谢
 
-Thanks to [@RenChunhui](https://github.com/renchunhui), I can make this topic happen. I could never reach so for without his unselfish help. 
+很感谢[@RenChunhui]无私的帮助，要是没有TA的帮助，我肯定无法完成这个。因为这个tern真的很让人头疼。 
 
 ---------------
 
-[IDE](../IDE) | [FAQ](../FAQ.md#faq) | [Index](../README.md#table-of-contents) | [中文文档](../../README_zh_CN.md#hack-spacevim)
+[IDE](../IDE) | [FAQ](../FAQ.md#faq) | [Index](../README.md#table-of-contents) | [English Document](../../README.md#hack-spacevim)

@@ -26,7 +26,18 @@ Table of Contents
          * [离线安装][2-1-2-2]
             * [检查依赖][2-1-2-2-1]
             * [开始安装][2-1-2-2-2]
-3.  [常见问题][faq]
+3. [IDE][ide]
+   * [IDE for JavaScript][ide-for-javascript]
+      * [Table of Contents][ide-for-js-table-of-contents]
+      * [Requirements][ide-for-js-requirements]
+      * [Installation][ide-for-js-installation]
+         * [SpaceVim][ide-for-js-spacevim]
+         * [Install npm or cnpm][ide-for-js-install-npm-or-cnpm]
+         * [Install tern][ide-for-js-install-tern]
+         * [Add config into your ~/.SpaceVim.d/init.vim][ide-for-js-add-config-into-your-spacevimdinitvim]
+      * [Config][ide-for-js-config]
+      * [Credits &amp; Thanks][ide-for-js-thanks]
+4.  [常见问题][faq]
     * [Windows][faq-windows]
       * [配置环境变量][set-up-your-path]
       * [python不支持][without-python-support]
@@ -50,6 +61,7 @@ Table of Contents
 [1-1-2-2-1]: installation/installation-for-windows.md#检查基础环境-1
 [1-1-2-2-2]: installation/installation-for-windows.md#正式安装-1
 [1-1-3]: installation/installation-for-windows.md#安装neovim
+
 [2]: installation/installation-for-linux.md
 [2-1]: installation/installation-for-linux.md#在linux上安装spacevim
 [2-1-1]: installation/installation-for-linux.md#安装依赖
@@ -62,6 +74,18 @@ Table of Contents
 [2-1-2-2]: installation/installation-for-linux.md#离线安装
 [2-1-2-2-1]: installation/installation-for-linux.md#检查依赖-1
 [2-1-2-2-2]: installation/installation-for-linux.md#开始安装-2
+
+[ide]: IDE
+[ide-for-javascript]: IDE/JavaScript.md#ide-for-javascript
+[ide-for-js-table-of-contents]: IDE/JavaScript.md#table-of-contents
+[ide-for-js-requirements]: IDE/JavaScript.md#requirements
+[ide-for-js-installation]: IDE/JavaScript.md#installation
+[ide-for-js-spacevim]: IDE/JavaScript.md#spacevim
+[ide-for-js-install-npm-or-cnpm]: IDE/JavaScript.md#install-npm-or-cnpm
+[ide-for-js-install-tern]: IDE/JavaScript.md#install-tern
+[ide-for-js-add-config-into-your-spacevimdinitvim]: IDE/JavaScript.md#add-config-into-your-spacevimdinitvim
+[ide-for-js-config]: IDE/JavaScript.md#config
+[ide-for-js-thanks]: IDE/JavaScript.md#credits--thanks
 
 [faq]: FAQ.md#常见问题
 [faq-windows]: FAQ.md#windows

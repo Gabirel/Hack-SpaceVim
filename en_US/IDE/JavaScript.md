@@ -16,11 +16,11 @@
 
 ## Requirements
 
-- SpaceVim
-- tern
-- tern_for_vim
-- nodejs
-- npm/cnpm
+* SpaceVim
+* tern
+* tern_for_vim
+* nodejs
+* npm/cnpm
 
 ## Installation
 
@@ -77,8 +77,8 @@ Actually, it's pretty easy.
 
 It has two optinos for config. 
 
-- Option A: `.tern-project`(in the current directory or one of the directories above that **for this project only**)
-- Option B: `.tern-config`(**default** in your home directory)
+* Option A: `.tern-project`(in the current directory or one of the directories above that **for this project only**)
+* Option B: `.tern-config`(**default** in your home directory)
 
 **See more details [here](http://ternjs.net/doc/manual.html#server)**
 
