@@ -47,6 +47,7 @@ You have to install tern since [tern_for_vim](https://github.com/ternjs/tern_for
 (If I was wrong, please tell me. Because I am not a expert of nodejs)
 
 Just Simply run:
+> cd ~/.cache/vimfiles/repos/github.com/ternjs/tern_for_vim
 > npm install tern
 
 **Or**
