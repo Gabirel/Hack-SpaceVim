@@ -48,6 +48,7 @@
 （如果我错了，请告诉我。我并不是写nodejs或者前端的高手，这方面不是我的完全领域。）
 
 通过以下命令安装：
+> cd ~/.cache/vimfiles/repos/github.com/ternjs/tern_for_vim
 > npm install tern
 
 **或者**
