@@ -148,6 +148,8 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 ## 安装Neovim
 
 **注意：您已进入了一个禁忌领域。施主，苦海无边，回头是岸……(另一位施主也请回头是岸[@wsdjeg][wsdjeg])**
+![share-the-same-idea](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/4418cda66a8170e73b0ee8afbd4383db6be057e9/meme-share-the-same-idea.jpg)
+
 
 1. 根据施主的操作系统，选择下载[Neovim][Neovim-download]
 
