@@ -36,7 +36,7 @@
 * [SpaceVim][spacevim-download]
 
 ## 开始安装
-
+![shocking](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/4418cda66a8170e73b0ee8afbd4383db6be057e9/meme-shocking.jpg)
 ### 在线安装
 
 #### 检查依赖
