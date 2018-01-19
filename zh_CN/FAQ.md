@@ -1,6 +1,9 @@
-# 常见问题 
+﻿# 常见问题 
 
 ## Table of Contents
+
+
+![fast-typing-mem](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/ac26a110fc873b06d810641f13882f2879821888/meme-fast-typying.gif)
 
    * [常见问题](#常见问题)
       * [Windows](#windows)
