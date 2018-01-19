@@ -1,4 +1,5 @@
 # 在SpaceVim上玩游戏
+![+1s](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/f6d4fe73e0f940af1ed71652abeaaed4c6460ecc/meme-never-die.jpg)
 
 ## Table of Contents
 
