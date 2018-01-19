@@ -22,6 +22,8 @@
 
 ---------------------------
 
+![meme-welcome](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/f6d4fe73e0f940af1ed71652abeaaed4c6460ecc/meme-welcome.jpg)
+
 Table of Contents
 =================
 
