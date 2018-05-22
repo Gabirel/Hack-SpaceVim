@@ -87,7 +87,6 @@ New to Vim: [vim-galore][]
 
 
 [spacevim]: https://github.com/spacevim/spacevim
-[Hack-SpaceVim-zh]: https://github.com/Gabirel/Hack-SpaceVim/blob/master/README_zh_CN.md
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
 [vim-galore]: https://github.com/mhinz/vim-galore
