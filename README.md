@@ -7,7 +7,8 @@
 
 # Hack-SpaceVim
 
-[SpaceVim][spacevim] | [中文文档](README_zh_CN.md) | [Hack-SpaceVim:issue][Hack-SpaceVim:issue-tracker] | [SpaceVim:issue][SpaceVim:issue-tracker]
+[SpaceVim][spacevim] | [Hack-SpaceVim 中文版](README_zh_CN.md) | [Ask questions][Hack-SpaceVim:issue-tracker] | [Bug report & Feature request][SpaceVim:issue-tracker]
+
 
 ## What can you get from Hack-SpaceVim
 
@@ -86,6 +87,7 @@ New to Vim: [vim-galore][]
 
 
 [spacevim]: https://github.com/spacevim/spacevim
+[Hack-SpaceVim-zh]: https://github.com/Gabirel/Hack-SpaceVim/blob/master/README_zh_CN.md
 [Hack-SpaceVim:issue-tracker]: https://github.com/Gabirel/Hack-SpaceVim/issues
 [SpaceVim:issue-tracker]: https://github.com/spacevim/spacevim/issues
 [vim-galore]: https://github.com/mhinz/vim-galore
