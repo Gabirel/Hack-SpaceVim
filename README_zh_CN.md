@@ -7,7 +7,7 @@
 
 # Hack-SpaceVim
 
-[SpaceVim][spacevim] | [English Document](README.md) | [Hack-SpaceVim:issue][Hack-SpaceVim:issue-tracker] | [SpaceVim:issue][SpaceVim:issue-tracker]
+[SpaceVim][spacevim] | [Hack-SpaceVim English](README.md) | [Ask questions][Hack-SpaceVim:issue-tracker] | [Bug report & Feature request][SpaceVim:issue-tracker]
 
 ## 你能从Hack-SpaceVim得到什么
 
