@@ -33,13 +33,17 @@ Make sure your SpaceVim is up-to-date.
 Here are the examples:
 
 **Arch:**
-> sudo pacman -S npm nodejs
-
+```bash
+sudo pacman -S npm nodejs
+```
 **Fedora:**
-> sudo dnf install npm nodejs
-
+```bash
+sudo dnf install npm nodejs
+```
 **Ubuntu:**
-> sudo apt install npm nodejs
+```bash
+sudo apt install npm nodejs
+```
 
 ### Install `tern`
 
@@ -47,12 +51,16 @@ You have to install tern since [tern_for_vim](https://github.com/ternjs/tern_for
 (If I was wrong, please tell me. Because I am not a expert of nodejs)
 
 Just Simply run:
-> cd ~/.cache/vimfiles/repos/github.com/ternjs/tern_for_vim
-> npm install tern
+```bash
+cd ~/.cache/vimfiles/repos/github.com/ternjs/tern_for_vim 
+npm install tern
+```
 
 **Or**
 
-> cnpm install tern
+```bash
+cnpm install tern
+```
 
 _PS: If you want to execute, please install `cnpm`._
 
@@ -66,10 +74,11 @@ And restart your vim to let SpaceVim itself to install plugins for you.
 
 _If it takes a long time to install `tern_for_vim`, please install it manually by 3 steps below:_
 
-> $ cd ~/.cache/vimfiles/repos/github.com/ternjs
-> $ git clone https://github.com/ternjs/tern_for_vim
-> $ cd tern_for_vim; npm install
-
+```bash 
+$ cd ~/.cache/vimfiles/repos/github.com/ternjs
+$ git clone https://github.com/ternjs/tern_for_vim
+$ cd tern_for_vim; npm install
+```
 ## Config
 
 The most important step is about how to configure your environment.
