@@ -120,29 +120,29 @@
 
 #### 开始安装
 
-该部分仍然同[在线安装](#在线安装)相同，所以不再赘述重复的部分，只在不同点详细说明：
+离线安装在SpaceVim-v0.9.0-dev中已经变得很简单。是的，你现在可以非常简单地安装SpaceVim而且不需要任何英特网连接。
 
-1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+来试试吧！
 
-2. 把插件离线包解压到：
+1. 从release界面下载： https://github.com/Gabirel/Hack-SpaceVim/releases
+
+2. 解压到：
 
 > ~
 
-dein.vim是SpaceVim的插件管理器。它会在vim启动的时候自动下载插件。所以，你得提前下载好。
+3. 链接到SpaceVim代码到vim中：
 
-**注意：你也可以下载[离线包][plugins-download]。但是我们*强烈建议*自行打包，以确保所有的插件都是最新的。**
+```bash 
+mkdir .vim
+ln -svf ~/.SpaceVim/* ~/.vim/
+```
 
-**新人看这里的时候眼睛请睁大，需要打包的位置是：`~/.cache/vimfiles`**
-
-3. 在终端中打开：vim
-
-4. 检查vim是否有lua和python的支持，该步同[在线安装](#在线安装)相同。
-
-5. 安装字体，请**提前**下载好： [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
-
-在安装完字体后，状态应该就可以正常工作了。
+3. 打开终端尝试吧！
 
 **恭喜！离线安装已完成！**
+
+**PS: 一些layer需要你自己编译或者下载二进制文件或者联网下载依赖，具体情况请查看默认的配置文件，否则无法工作。**
+
 
 ------------
 
