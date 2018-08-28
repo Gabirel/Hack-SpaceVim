@@ -118,6 +118,7 @@ List is the same as [Install online: Check prerequisites](#check-prerequisites).
 * vim/gvim
 
 #### Start to install
+
 Things are getting easier in SpaceVim-v0.9.0-dev. Yes, you can install SpaceVim without any Internet connection.
 
 Try it!
