@@ -119,30 +119,29 @@ List is the same as [Install online: Check prerequisites](#check-prerequisites).
 
 #### Start to install
 
-Still this part has the same introductions in [Install online: Start to install](#start-to-install-1). I will skip the same part. Only explain at different parts.
+Things are getting easier in SpaceVim-v0.9.0-dev. Yes, you can install SpaceVim without any Internet connection.
 
-1. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+Try it!
+
+1. Download the release: https://github.com/Gabirel/Hack-SpaceVim/releases
 
 2. Extract the package to:
 
 > ~
 
-dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting vim the first time. So you have to download it in advance.
+3. Link the folder to vim:
 
-**Notice: You could download [the offline package][plugins-download]. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.**
+```bash 
+mkdir .vim
+ln -svf ~/.SpaceVim/* ~/.vim/
+```
 
-**For newbie: zip your `~/.cache/vimfiles` to packing SpaceVim**
-
-3. Open vim in your terminal
-
-4. Check out whether vim has lua and python's full support, these steps are the same as [Install online: Start to install](#start-to-install-1)
-
-5. Install fonts, download fonts **in advance**: [DejaVu Sans Mono for PowerLine.ttf][font-download]. 
-
-After finishing installing fonts, the status bar should work very well.
+3. Open vim in your terminal and try it.
 
 **Congratulations! Install offline successfully!**
 
+**PS: You have to know that some layers need you to compile server, install executable files or download more plugins with Internet connection.**
+**Otherwise, it won't work. Please notice that.**
 ------------
 
 [Instructions for Windows](installation-for-windows.md#install-spacevim-on-windows) | [FAQ](../FAQ.md#faq) | [Index](../README.md#table-of-contents) | [中文文档](../../README_zh_CN.md#hack-spacevim)
