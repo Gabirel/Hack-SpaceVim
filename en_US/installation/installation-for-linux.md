@@ -137,8 +137,6 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 
 3. Open vim in your terminal and try it.
 
-After finishing installing fonts, the status bar should work very well.
-
 **Congratulations! Install offline successfully!**
 
 ------------
