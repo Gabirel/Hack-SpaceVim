@@ -1,4 +1,4 @@
-﻿# IDE for JavaScript
+# IDE for JavaScript
 
 ## Table of Contents
 
@@ -107,6 +107,7 @@ _如果SpaceVim花了很久的时间来安装`tern_for_vim`，请通过以下三
 **Okay，完了！！简单吧**
 
 ## 感谢
+
 ![ghosting](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/ac26a110fc873b06d810641f13882f2879821888/meme-ghosting.jpg)
 
 很感谢[@RenChunhui](https://github.com/RenChunhui)无私的帮助，要是没有TA的帮助，我肯定无法完成这个。因为这个tern真的很让人头疼。 

@@ -169,9 +169,11 @@ After finishing installing fonts, the status bar should work very well.
 6. Install full support of python of neovim:
 
 * python2: 
+
 > py -2 pip install --user --upgrade neovim
 
 * python3:
+
 > py -3 pip install --user --upgrade neovim
 
 7. Execute neovim-qt.exe, and use `:CheckHealth` to check out whether your neovim supports python2/3. As results shows below:

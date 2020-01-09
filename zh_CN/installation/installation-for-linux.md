@@ -36,7 +36,9 @@
 * [SpaceVim][spacevim-download]
 
 ## 开始安装
+
 ![shocking](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/4418cda66a8170e73b0ee8afbd4383db6be057e9/meme-shocking.jpg)
+
 ### 在线安装
 
 #### 检查依赖
@@ -142,7 +144,6 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 **恭喜！离线安装已完成！**
 
 **PS: 一些layer需要你自己编译或者下载二进制文件或者联网下载依赖，具体情况请查看默认的配置文件，否则无法工作。**
-
 
 ------------
 

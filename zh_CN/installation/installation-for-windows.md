@@ -164,9 +164,11 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 6. 添加neovim-python
 
 * python2: 
+
 > py -2 pip install --user --upgrade neovim
 
-* python3:
+* python3
+
 > py -3 pip install --user --upgrade neovim
 
 7. 在neovim-qt.exe中，执行命令：`:CheckHealth` 来查看python2/3是否支持，支持的结果如图所示：
