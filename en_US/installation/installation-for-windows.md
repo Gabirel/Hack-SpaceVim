@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-   * [Install SpaceVim on Windows](#install-spacevim-on-windows)
-      * [Table of Contents](#table-of-contents)
-      * [Install prerequisites](#install-prerequisites)
-         * [Install online prerequisites](#install-online-prerequisites)
-         * [Install offline prerequisites](#install-offline-prerequisites)
-      * [Start to install](#start-to-install)
-         * [Install online](#install-online)
-            * [Check prerequisites](#check-prerequisites)
-            * [Start to install](#start-to-install-1)
-         * [Install offline](#install-offline)
-            * [Check prerequisites](#check-prerequisites-1)
-            * [Start to install](#start-to-install-2)
-      * [Install Neovim](#install-neovim)
+* [Install SpaceVim on Windows](#install-spacevim-on-windows)
+   * [Table of Contents](#table-of-contents)
+   * [Install prerequisites](#install-prerequisites)
+      * [Install online prerequisites](#install-online-prerequisites)
+      * [Install offline prerequisites](#install-offline-prerequisites)
+   * [Start to install](#start-to-install)
+      * [Install online](#install-online)
+         * [Check prerequisites](#check-prerequisites)
+         * [Start to install](#start-to-install-1)
+      * [Install offline](#install-offline)
+         * [Check prerequisites](#check-prerequisites-1)
+         * [Start to install](#start-to-install-2)
+   * [Install Neovim](#install-neovim)
 
 ## Install prerequisites
 

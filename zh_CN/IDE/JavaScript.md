@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-   * [IDE for JavaScript](#ide-for-javascript)
-      * [Table of Contents](#table-of-contents)
-      * [基本要求](#基本要求)
-      * [安装](#安装)
-         * [SpaceVim](#spacevim)
-         * [安装 npm 或 cnpm](#安装-npm-或-cnpm)
-         * [安装 tern](#安装-tern)
-         * [将配置加到 ~/.SpaceVim.d/init.vim](#将配置加到-spacevimdinitvim)
-      * [配置](#配置)
-      * [感谢](#感谢)
+* [IDE for JavaScript](#ide-for-javascript)
+   * [Table of Contents](#table-of-contents)
+   * [基本要求](#基本要求)
+   * [安装](#安装)
+      * [SpaceVim](#spacevim)
+      * [安装 npm 或 cnpm](#安装-npm-或-cnpm)
+      * [安装 tern](#安装-tern)
+      * [将配置加到 ~/.SpaceVim.d/init.vim](#将配置加到-spacevimdinitvim)
+   * [配置](#配置)
+   * [感谢](#感谢)
 
 
 ## 基本要求

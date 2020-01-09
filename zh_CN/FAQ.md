@@ -5,17 +5,17 @@
 
 ![fast-typing-mem](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/ac26a110fc873b06d810641f13882f2879821888/meme-fast-typying.gif)
 
-   * [常见问题](#常见问题)
-      * [Windows](#windows)
-         * [配置环境变量](#配置环境变量)
-         * [python不支持](#python不支持)
-         * [SpaceVim卡顿](#spacevim卡顿)
-         * [vcruntime140.dll错误](#vcruntime140dll错误)
-         * [Windows上安装繁琐](#windows上安装繁琐)
-         * [Exuberant ctags未找到](#exuberant-ctags未找到)
-      * [Linux](#linux)
-         * [从源码安装vim](#从源码安装vim)
-         * [Exuberant ctags未找到](#exuberant-ctags未找到-1)
+* [常见问题](#常见问题)
+   * [Windows](#windows)
+      * [配置环境变量](#配置环境变量)
+      * [python不支持](#python不支持)
+      * [SpaceVim卡顿](#spacevim卡顿)
+      * [vcruntime140.dll错误](#vcruntime140dll错误)
+      * [Windows上安装繁琐](#windows上安装繁琐)
+      * [Exuberant ctags未找到](#exuberant-ctags未找到)
+   * [Linux](#linux)
+      * [从源码安装vim](#从源码安装vim)
+      * [Exuberant ctags未找到](#exuberant-ctags未找到-1)
 
 ## Windows
 

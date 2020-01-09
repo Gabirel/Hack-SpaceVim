@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-   * [FAQ](#faq)
-      * [Windows](#windows)
-         * [Set up your PATH](#set-up-your-path)
-         * [without python support](#without-python-support)
-         * [SpaceVim gets frozen easily](#spacevim-gets-frozen-easily)
-         * [vcruntime140.dll Error](#vcruntime140dll-error)
-         * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
-         * [Exuberant ctags not found](#exuberant-ctags-not-found)
-      * [Linux](#linux)
-         * [Building vim from source](#building-vim-from-source)
-         * [Exuberant ctags not found](#exuberant-ctags-not-found-1)
+* [FAQ](#faq)
+   * [Windows](#windows)
+      * [Set up your PATH](#set-up-your-path)
+      * [without python support](#without-python-support)
+      * [SpaceVim gets frozen easily](#spacevim-gets-frozen-easily)
+      * [vcruntime140.dll Error](#vcruntime140dll-error)
+      * [Installing on Windows is too complicated](#installing-on-windows-is-too-complicated)
+      * [Exuberant ctags not found](#exuberant-ctags-not-found)
+   * [Linux](#linux)
+      * [Building vim from source](#building-vim-from-source)
+      * [Exuberant ctags not found](#exuberant-ctags-not-found-1)
 
 ## Windows
 

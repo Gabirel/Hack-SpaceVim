@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-   * [Play games on SpaceVim](#play-games-on-spacevim)
-      * [Game Lists](#game-lists)
-      * [Vim2048](#vim2048)
-         * [Instruction](#instruction)
+* [Play games on SpaceVim](#play-games-on-spacevim)
+   * [Game Lists](#game-lists)
+   * [Vim2048](#vim2048)
+      * [Instruction](#instruction)
 
 
 ## Game Lists

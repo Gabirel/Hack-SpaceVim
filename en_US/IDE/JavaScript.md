@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-   * [IDE for JavaScript](#ide-for-javascript)
-      * [Table of Contents](#table-of-contents)
-      * [Requirements](#requirements)
-      * [Installation](#installation)
-         * [SpaceVim](#spacevim)
-         * [Install npm or cnpm](#install-npm-or-cnpm)
-         * [Install tern](#install-tern)
-         * [Add config into your ~/.SpaceVim.d/init.vim](#add-config-into-your-spacevimdinitvim)
-      * [Config](#config)
-      * [Credits &amp; Thanks](#credits--thanks)
+* [IDE for JavaScript](#ide-for-javascript)
+   * [Table of Contents](#table-of-contents)
+   * [Requirements](#requirements)
+   * [Installation](#installation)
+      * [SpaceVim](#spacevim)
+      * [Install npm or cnpm](#install-npm-or-cnpm)
+      * [Install tern](#install-tern)
+      * [Add config into your ~/.SpaceVim.d/init.vim](#add-config-into-your-spacevimdinitvim)
+   * [Config](#config)
+   * [Credits &amp; Thanks](#credits--thanks)
 
 
 ## Requirements
