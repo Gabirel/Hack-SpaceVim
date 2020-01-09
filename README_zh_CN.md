@@ -11,18 +11,16 @@
 
 ## 你能从Hack-SpaceVim得到什么
 
-* **手把手**教你如何安装SpaceVim :metal:
-* 快速地部署开发环境 :trollface:
-* 开发者速成 :sunglasses:
-* 帮助你熟悉多到吐的插件 :massage_woman:
-* 让你成为专业的vimmer :muscle:
-* 用SpaceVim征服整个星球 :new_moon_with_face:
-* 告诉你鲜为人知的彩蛋 :scream:
-* 一些你永远不会知道的技巧（噢，这好像矛盾了 :smirk:）
+* :metal: **手把手**教你如何安装SpaceVim 
+* :trollface: 快速地部署开发环境 
+* :sunglasses: 开发者速成
+* :massage_woman: 帮助你熟悉多到吐的插件 
+* :muscle: 让你成为专业的vimmer 
+* :new_moon_with_face: 用SpaceVim征服整个星球 
+* :scream: 告诉你鲜为人知的彩蛋 
+* :smirk:一些你永远不会知道的技巧（噢，这好像矛盾了）
 
 ---------------------------
-
-![meme-welcome](https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/f6d4fe73e0f940af1ed71652abeaaed4c6460ecc/meme-welcome.jpg)
 
 Table of Contents
 =================
@@ -113,7 +111,7 @@ Table of Contents
 
 [ide]: zh_CN/IDE
 [ide-for-javascript]: zh_CN/IDE/JavaScript.md#ide-for-javascript
-[ide-for-js-toc]: zh_CN/IDE/JavaScript.md#table-of-contents 
+[ide-for-js-toc]: zh_CN/IDE/JavaScript.md#table-of-contents
 [ide-for-js-requirements]: zh_CN/IDE/JavaScript.md#基本要求
 [ide-for-js-installation]: zh_CN/IDE/JavaScript.md#安装
 [ide-for-js-spacevim]: zh_CN/IDE/JavaScript.md#spacevim

@@ -12,14 +12,14 @@
 
 ## What can you get from Hack-SpaceVim
 
-* Introductions about how to install SpaceVim with **step by step** :metal:
-* Set up developing environments very fast :trollface:
-* Become a developer very quickly :sunglasses:
-* Help you get acquainted with mountains of plugins :massage_woman:
-* Make you a professional vimmer :muscle:
-* Let you hack this planet with SpaceVim :new_moon_with_face:
-* Tell you some facts somebody else won't tell you :scream:
-* Tricks you will never know(contradictory statements :smirk:)
+* :metal: Introductions about how to install SpaceVim with **step by step** 
+* :trollface: Set up developing environments very fast 
+* :sunglasses: Become a developer very quickly 
+* :massage_woman: Help you get acquainted with mountains of plugins 
+* :muscle: Make you a professional vimmer 
+* :new_moon_with_face: Let you hack this planet with SpaceVim 
+* :scream: Tell you some facts somebody else won't tell you 
+* :smirk: Tricks you will never know(contradictory statements)
 
 Table of Contents
 =================
