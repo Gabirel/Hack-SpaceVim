@@ -14,6 +14,7 @@
       * [Install offline](#install-offline)
          * [Check prerequisites](#check-prerequisites-1)
          * [Start to install](#start-to-install-2)
+         * [How can I update offline if I have no connection to the Internet?](#how-can-i-update-offline-if-i-have-no-connection-to-the-internet)
    * [Install Neovim](#install-neovim)
 
 ## Install prerequisites
@@ -147,6 +148,16 @@ If you have `vimproc's dll`, please fix this according to the manual of [Install
 After finishing installing fonts, the status bar should work very well.
 
 **Congratulations! Install offline successfully!**
+
+#### How can I update offline if I have no connection to the Internet?
+
+As [@TamaMcGlinn](https://github.com/TamaMcGlinn) mentions, [`git bundle`](https://git-scm.com/docs/git-bundle) is suitable for incremental updates for plugins.
+
+In this way, you don't have to copy the whole plugins via **USB** or **internal email**.
+
+Unfortunately, for all those plugins with `git bundle` method, you have to write scripts in order to incrementally update or load changes.
+
+More details: [Instructions For Installing SpaceVim - OFFLINE](https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784)
 
 ## Install Neovim
 

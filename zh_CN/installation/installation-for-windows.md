@@ -14,6 +14,7 @@
       * [离线安装](#离线安装)
          * [检查基础环境](#检查基础环境-1)
          * [正式安装](#正式安装-1)
+         * [离线状态如何更新？](#离线状态如何更新？)
    * [安装Neovim](#安装neovim)
 
 ## 基础环境
@@ -144,6 +145,16 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 在安装完字体后，状态栏应该就可以正常工作了。
 
 **恭喜，离线安装完成！**
+
+#### 离线状态如何更新？
+
+[@TamaMcGlinn](https://github.com/TamaMcGlinn) 提出了使用 [`git bundle`](https://git-scm.com/docs/git-bundle) 想法。这个想法十分适合插件的增量更新。
+
+这样一来，你就不需要通过**U盘**或者**内部邮件**的方式来进行全量拷贝。
+
+不过，不幸的是，目前为止使用这种增量更新的方式，你必须要写脚本来达到你的增量更新的目的。官方并没有提供相关的操作。
+
+具体的细节请看： [Instructions For Installing SpaceVim - OFFLINE](https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784)
 
 ## 安装Neovim
 

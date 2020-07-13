@@ -14,6 +14,7 @@
       * [离线安装](#离线安装)
          * [检查依赖](#检查依赖-1)
          * [开始安装](#开始安装-2)
+         * [离线状态如何更新？](#离线状态如何更新？)
 
 ## 安装依赖
 
@@ -142,6 +143,16 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 4. 打开终端尝试吧！
 
 **恭喜！离线安装已完成！**
+
+#### 离线状态如何更新？
+
+[@TamaMcGlinn](https://github.com/TamaMcGlinn) 提出了使用 [`git bundle`](https://git-scm.com/docs/git-bundle) 想法。这个想法十分适合插件的增量更新。
+
+这样一来，你就不需要通过**U盘**或者**内部邮件**的方式来进行全量拷贝。
+
+不过，不幸的是，目前为止使用这种增量更新的方式，你必须要写脚本来达到你的增量更新的目的。官方并没有提供相关的操作。
+
+具体的细节请看： [Instructions For Installing SpaceVim - OFFLINE](https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784)
 
 ------------
 
