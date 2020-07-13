@@ -191,7 +191,7 @@ If you want to have python3 support, please install it according to step 6; Also
 > git clone https://github.com/SpaceVim/SpaceVim.git %userprofile%\AppData\Local\nvim\
 
 
-**Congratulations! You've installed it successfully. You've reached the boundless sea of suffering. Congratulations again.**
+**Congratulations! You've installed it successfully.**
 
 **Notice: Neovim doesn't support lua(For now) in neovim-v0.2. So, SpaceVim uses deopelete for auto-completing code instead of neocomplete.**
 

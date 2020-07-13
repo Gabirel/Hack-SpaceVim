@@ -140,8 +140,6 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 
 **Congratulations! Install offline successfully!**
 
-**PS: You have to know that some layers need you to compile server, install executable files or download more plugins with Internet connection.**
-**Otherwise, it won't work. Please notice that.**
 ------------
 
 [Instructions for Windows](installation-for-windows.md#install-spacevim-on-windows) | [FAQ](../FAQ.md#faq) | [Index](../README.md#table-of-contents) | [中文文档](../../README_zh_CN.md#hack-spacevim)
