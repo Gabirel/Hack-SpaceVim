@@ -1,6 +1,8 @@
 = Play games on SpaceVim
+:sectnums:
 :toc:
 :toclevels: 3
+:toc-title:
 
 == Game Lists
 

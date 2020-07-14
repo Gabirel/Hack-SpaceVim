@@ -1,6 +1,8 @@
 = IDE for JavaScript
+:sectnums:
 :toc:
 :toclevels: 3
+:toc-title:
 
 == 基本要求
 

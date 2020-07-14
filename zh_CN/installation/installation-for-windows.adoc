@@ -1,6 +1,8 @@
 = 在Windows上安装SpaceVim
+:sectnums:
 :toc:
 :toclevels: 4
+:toc-title:
 
 == 基础环境
 

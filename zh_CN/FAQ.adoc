@@ -1,6 +1,8 @@
 = 常见问题
-:toc: 
+:sectnums:
+:toc:
 :toclevels: 3
+:toc-title:
 
 == Windows
 

@@ -1,5 +1,8 @@
 = Hack-SpaceVim - SpaceVim指南
+:sectnums:
 :toc:
+:toclevels: 4
+:toc-title:
 
 https://spacevim.org[image:https://spacevim.org/img/build-with-SpaceVim.svg[image]] 
 https://travis-ci.org/Gabirel/Hack-SpaceVim[image:https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master[Build Status]] 

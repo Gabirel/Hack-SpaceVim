@@ -1,6 +1,8 @@
 = FAQ
-:toc: 
-:toclevels: 3
+:sectnums:
+:toc:
+:toclevels: 4
+:toc-title:
 
 == Windows
 

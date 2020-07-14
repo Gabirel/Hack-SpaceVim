@@ -1,6 +1,8 @@
 = 在Linux上安装SpaceVim
+:sectnums:
 :toc:
 :toclevels: 4
+:toc-title:
 
 == 安装依赖
 

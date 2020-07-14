@@ -1,6 +1,8 @@
 = 在SpaceVim上玩游戏
+:sectnums:
 :toc:
 :toclevels: 3
+:toc-title:
 
 == 游戏列表
 

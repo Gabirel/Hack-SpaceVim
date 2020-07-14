@@ -1,6 +1,8 @@
 = Install SpaceVim on Windows
+:sectnums:
 :toc:
 :toclevels: 4
+:toc-title:
 
 == Install prerequisites
 
