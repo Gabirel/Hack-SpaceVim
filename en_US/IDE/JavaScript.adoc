@@ -1,19 +1,8 @@
-== IDE for JavaScript
+= IDE for JavaScript
+:toc:
+:toclevels: 3
 
-=== Table of Contents
-
-* link:#ide-for-javascript[IDE for JavaScript]
-** link:#table-of-contents[Table of Contents]
-** link:#requirements[Requirements]
-** link:#installation[Installation]
-*** link:#spacevim[SpaceVim]
-*** link:#install-npm-or-cnpm[Install npm or cnpm]
-*** link:#install-tern[Install tern]
-*** link:#add-config-into-your-spacevimdinitvim[Add config into your ~/.SpaceVim.d/init.vim]
-** link:#config[Config]
-** link:#credits--thanks[Credits & Thanks]
-
-=== Requirements
+== Requirements
 
 * SpaceVim
 * tern
@@ -21,13 +10,13 @@
 * nodejs
 * npm/cnpm
 
-=== Installation
+== Installation
 
-==== SpaceVim
+=== SpaceVim
 
 Make sure your SpaceVim is up-to-date.
 
-==== Install `npm` or `cnpm`
+=== Install `npm` or `cnpm`
 
 Here are the examples:
 
@@ -52,7 +41,7 @@ sudo dnf install npm nodejs
 sudo apt install npm nodejs
 ----
 
-==== Install `tern`
+=== Install `tern`
 
 You have to install tern since https://github.com/ternjs/tern_for_vim[tern_for_vim] using http://ternjs.net/[tern] as a server to provide auto-completion. (If I was wrong, please tell me. Because I am not a expert of nodejs)
 
@@ -73,7 +62,7 @@ cnpm install tern
 
 _PS: If you want to execute, please install `cnpm`._
 
-==== Add config into your `~/.SpaceVim.d/init.vim`
+=== Add config into your `~/.SpaceVim.d/init.vim`
 
 [source,viml]
 ----
@@ -91,7 +80,7 @@ $ git clone https://github.com/ternjs/tern_for_vim
 $ cd tern_for_vim; npm install
 ----
 
-=== Config
+== Config
 
 The most important step is about how to configure your environment.
 
@@ -127,10 +116,13 @@ Here’s the example config:
 
 *That’s it!!!*
 
-=== Credits & Thanks
+== Credits & Thanks
 
 Thanks to [@RenChunhui](https://github.com/renchunhui), I can make this topic happen. I could never reach so for without his unselfish help.
 
 '''''
 
-link:../IDE[IDE] | link:../FAQ.md#faq[FAQ] | link:../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:../IDE[IDE] | 
+link:../FAQ.md#faq[FAQ] | 
+link:../README.md#table-of-contents[Index] | 
+link:../../README_zh_CN.md#hack-spacevim[中文文档]
