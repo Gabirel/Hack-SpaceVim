@@ -1,21 +1,14 @@
-== 在SpaceVim上玩游戏
+= 在SpaceVim上玩游戏
+:toc:
+:toclevels: 3
 
-image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/4418cda66a8170e73b0ee8afbd4383db6be057e9/meme-shining-me.jpg[+1s]
-
-=== Table of Contents
-
-* link:#在spacevim上玩游戏[在SpaceVim上玩游戏]
-** link:#游戏列表[游戏列表]
-** link:#vim2048[Vim2048]
-*** link:#安装[安装]
-
-=== 游戏列表
+== 游戏列表
 
 * vim2048
 
-=== Vim2048
+== Vim2048
 
-==== 安装
+=== 安装
 
 [arabic]
 . 把以下配置加入到：`~/.SpaceVim.d/init.vim`
@@ -46,4 +39,6 @@ image:https://cloud.githubusercontent.com/assets/12933851/25666993/b10681cc-3054
 
 '''''
 
-link:../FAQ.md#常见问题[常见问题] | link:../../README.md#table-of-contents[索引] | link:../../../README.md#hack-spacevim[English Document]
+link:../FAQ.md#常见问题[常见问题] | 
+link:../../README.md#table-of-contents[索引] | 
+link:../../../README.md#hack-spacevim[English Document]

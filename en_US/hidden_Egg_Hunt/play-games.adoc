@@ -1,19 +1,14 @@
-== Play games on SpaceVim
+= Play games on SpaceVim
+:toc:
+:toclevels: 3
 
-=== Table of Contents
-
-* link:#play-games-on-spacevim[Play games on SpaceVim]
-** link:#game-lists[Game Lists]
-** link:#vim2048[Vim2048]
-*** link:#instruction[Instruction]
-
-=== Game Lists
+== Game Lists
 
 * vim2048
 
-=== Vim2048
+== Vim2048
 
-==== Instruction
+=== Instruction
 
 [arabic]
 . Add config below into your `~/.SpaceVim.d/init.vim`:
@@ -44,4 +39,6 @@ Reference: https://github.com/Gabirel/Hack-SpaceVim/issues/24[#24]
 
 '''''
 
-link:../FAQ.md#faq[FAQ] | link:../../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:../FAQ.md#faq[FAQ] | 
+link:../../README.md#table-of-contents[Index] | 
+link:../../README_zh_CN.md#hack-spacevim[中文文档]
