@@ -83,3 +83,8 @@ https://github.com/spacevim/spacevim[SpaceVim]
 ** link:zh_CN/hidden_Egg_Hunt/play-games.md#游戏列表[游戏列表]
 ** link:zh_CN/hidden_Egg_Hunt/play-games.md#vim2048[Vim2048]
 *** link:zh_CN/hidden_Egg_Hunt/play-games.md#安装[安装]
+
+
+== 参考
+
+Vim新人可以看看: https://github.com/mhinz/vim-galore[vim-galore]

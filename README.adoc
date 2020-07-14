@@ -84,8 +84,6 @@ https://github.com/spacevim/spacevim[SpaceVim]
 ** link:en_US/hidden_Egg_Hunt/play-games.md#vim2048[Vim2048]
 *** link:en_US/hidden_Egg_Hunt/play-games.md#instruction[Instruction]
 
-'''''
-
 == Reference
 
 New to Vim: https://github.com/mhinz/vim-galore[vim-galore]
