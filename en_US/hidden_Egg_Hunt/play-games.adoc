@@ -1,0 +1,47 @@
+== Play games on SpaceVim
+
+=== Table of Contents
+
+* link:#play-games-on-spacevim[Play games on SpaceVim]
+** link:#game-lists[Game Lists]
+** link:#vim2048[Vim2048]
+*** link:#instruction[Instruction]
+
+=== Game Lists
+
+* vim2048
+
+=== Vim2048
+
+==== Instruction
+
+[arabic]
+. Add config below into your `~/.SpaceVim.d/init.vim`:
+
+[source,viml]
+----
+call SpaceVim#layers#load('games')
+----
+
+[arabic, start=2]
+. Open your vim/neovim, and then you should see this:
+
+image:https://cloud.githubusercontent.com/assets/12933851/25666818/33f2b91c-3054-11e7-89e4-2ffdcb6efb35.png[vim2048-install]
+
+[arabic, start=3]
+. Restart vim, and Press `<Space> g 2`:
+
+image:https://cloud.githubusercontent.com/assets/12933851/25666850/51a9faa6-3054-11e7-9807-172841f3721b.png[vim2048-space]
+
+image:https://cloud.githubusercontent.com/assets/12933851/25666978/a75640d6-3054-11e7-9bc1-97e234460074.png[vim2048-space-g]
+
+[arabic, start=4]
+. DONE!
+
+image:https://cloud.githubusercontent.com/assets/12933851/25666993/b10681cc-3054-11e7-9872-b0889f7caa6f.png[vim2048-finish]
+
+Reference: https://github.com/Gabirel/Hack-SpaceVim/issues/24[#24]
+
+'''''
+
+link:../FAQ.md#faq[FAQ] | link:../../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]

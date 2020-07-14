@@ -1,0 +1,85 @@
+= Hack-SpaceVim - SpaceVim指南
+:toc:
+
+https://spacevim.org[image:https://spacevim.org/img/build-with-SpaceVim.svg[image]] 
+https://travis-ci.org/Gabirel/Hack-SpaceVim[image:https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master[Build Status]] 
+link:LICENSE[image:https://img.shields.io/badge/license-MIT-blue.svg?style=flat[MIT License]]
+https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.4.0--dev-FF00CC.svg[spacevim-version]] 
+http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg[Average time to resolve an issue]] 
+http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg[Percentage of issues still open]]
+
+== Introduction
+
+https://github.com/spacevim/spacevim[SpaceVim] 
+| link:README.md[Hack-SpaceVim English] 
+| https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] 
+| https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
+
+.你能从Hack-SpaceVim得到什么
+
+* :metal: **手把手**教你如何安装SpaceVim
+* :trollface: 快速地部署开发环境
+* :sunglasses: 开发者速成
+* :massage_woman: 帮助你熟悉多到吐的插件
+* :muscle: 让你成为专业的vimmer
+* :new_moon_with_face: 用SpaceVim征服整个星球
+* :scream: 告诉你鲜为人知的彩蛋
+* :smirk:一些你永远不会知道的技巧（噢，这好像矛盾了）
+
+== Table of Contents
+
+[arabic]
+. link:zh_CN/installation/installation-for-windows.md#在windows上安装spacevim[在Windows上的SpaceVim]
+* link:zh_CN/installation/installation-for-windows.md#%E5%9C%A8windows%E4%B8%8A%E5%AE%89%E8%A3%85spacevim[在Windows上安装SpaceVim]
+** link:zh_CN/installation/installation-for-windows.md#table-of-contents[Table of Contents]
+** link:zh_CN/installation/installation-for-windows.md#%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83[基础环境]
+*** link:zh_CN/installation/installation-for-windows.md#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82[在线安装基本要求]
+*** link:zh_CN/installation/installation-for-windows.md#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82[离线安装基本要求]
+** link:zh_CN/installation/installation-for-windows.md#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85[开始安装]
+*** link:zh_CN/installation/installation-for-windows.md#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85[在线安装]
+**** link:zh_CN/installation/installation-for-windows.md#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%98%AF%E5%90%A6%E5%B7%B2%E5%AE%89%E8%A3%85[检查基础环境]
+**** link:zh_CN/installation/installation-for-windows.md#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85[正式安装]
+*** link:zh_CN/installation/installation-for-windows.md#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85[离线安装]
+**** link:zh_CN/installation/installation-for-windows.md#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83-1[检查基础环境]
+**** link:zh_CN/installation/installation-for-windows.md#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-1[正式安装]
+** link:zh_CN/installation/installation-for-windows.md#%E5%AE%89%E8%A3%85neovim[安装Neovim]
+. link:zh_CN/installation/installation-for-linux.md#在linux上安装spacevim[在Linux上的SpaceVim]
+* link:zh_CN/installation/installation-for-linux.md#在linux上安装spacevim[在Linux上安装SpaceVim]
+** link:zh_CN/installation/installation-for-linux.md#table-of-contents[Table of Contents]
+** link:zh_CN/installation/installation-for-linux.md#安装依赖[安装依赖]
+*** link:zh_CN/installation/installation-for-linux.md#在线安装依赖[在线安装依赖]
+*** link:zh_CN/installation/installation-for-linux.md#离线安装依赖[离线安装依赖]
+** link:zh_CN/installation/installation-for-linux.md#开始安装[开始安装]
+*** link:zh_CN/installation/installation-for-linux.md#在线安装[在线安装]
+**** link:zh_CN/installation/installation-for-linux.md#检查依赖[检查依赖]
+**** link:zh_CN/installation/installation-for-linux.md#开始安装-1[开始安装]
+*** link:zh_CN/installation/installation-for-linux.md#离线安装[离线安装]
+**** link:zh_CN/installation/installation-for-linux.md#检查依赖-1[检查依赖]
+**** link:zh_CN/installation/installation-for-linux.md#开始安装-2[开始安装]
+. link:zh_CN/IDE[IDE]
+* link:zh_CN/IDE/JavaScript.md#ide-for-javascript[IDE for JavaScript]
+** link:zh_CN/IDE/JavaScript.md#table-of-contents[Table of Contents]
+** link:zh_CN/IDE/JavaScript.md#基本要求[基本要求]
+** link:zh_CN/IDE/JavaScript.md#安装[安装]
+*** link:zh_CN/IDE/JavaScript.md#spacevim[SpaceVim]
+*** link:zh_CN/IDE/JavaScript.md#安装-npm-或-cnpm[安装npm或cnpm]
+*** link:zh_CN/IDE/JavaScript.md#安装-tern[安装tern]
+*** link:zh_CN/IDE/JavaScript.md#将配置加到-spacevimdinitvim[将配置加到~/.SpaceVim.d/init.vim]
+** link:zh_CN/IDE/JavaScript.md#配置[配置]
+** link:zh_CN/IDE/JavaScript.md#感谢[感谢]
+. link:zh_CN/FAQ.md#常见问题[常见问题]
+* link:zh_CN/FAQ.md#windows[Windows]
+** link:zh_CN/FAQ.md#配置环境变量[配置环境变量]
+** link:zh_CN/FAQ.md#python不支持[python不支持]
+** link:zh_CN/FAQ.md#spacevim卡顿[SpaceVim卡顿]
+** link:zh_CN/FAQ.md#vcruntime140dll错误[vcruntime140.dll错误]
+** link:zh_CN/FAQ.md#windows上安装繁琐[Windows上安装繁琐]
+** link:zh_CN/FAQ.md#exuberant-ctags未找到[Exuberant ctags未找到]
+* link:zh_CN/FAQ.md#linux[Linux]
+** link:zh_CN/FAQ.md#从源码安装vim[从源码安装vim]
+** link:zh_CN/FAQ.md#exuberant-ctags未找到-1[Exuberant ctags未找到]
+. link:zh_CN/hidden_Egg_Hunt[寻觅彩蛋]
+* link:zh_CN/hidden_Egg_Hunt/play-games.md#在spacevim上玩游戏[在SpaceVim上玩游戏]
+** link:zh_CN/hidden_Egg_Hunt/play-games.md#游戏列表[游戏列表]
+** link:zh_CN/hidden_Egg_Hunt/play-games.md#vim2048[Vim2048]
+*** link:zh_CN/hidden_Egg_Hunt/play-games.md#安装[安装]

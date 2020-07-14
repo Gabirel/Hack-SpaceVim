@@ -1,0 +1,167 @@
+== Install SpaceVim on Linux
+
+=== Table of Contents
+
+* link:#install-spacevim-on-linux[Install SpaceVim on Linux]
+** link:#install-prerequisites[Install prerequisites]
+*** link:#install-online-prerequisites[Install online prerequisites]
+*** link:#install-offline-prerequisites[Install offline prerequisites]
+** link:#start-to-install[Start to install]
+*** link:#install-online[Install online]
+**** link:#check-prerequisites[Check prerequisites]
+**** link:#start-to-install-1[Start to install]
+*** link:#install-offline[Install offline]
+**** link:#check-prerequisites-1[Check prerequisites]
+**** link:#start-to-install-2[Start to install]
+**** link:#how-can-i-update-offline-if-i-have-no-connection-to-the-internet[How can I update offline if I have no connection to the Internet?]
+
+=== Install prerequisites
+
+==== Install online prerequisites
+
+* git: For downloading and updating plugins of SpaceVim
+* lua: For neocomplete
+* python2/3: Support job and part of plugins. Recommend to install both
+* vim/gvim: Vim’s program
+* https://github.com/powerline/fonts/tree/master/DejaVuSansMono[DejaVu Sans Mono for PowerLine]: Used by the plugins of SpaceVim
+
+==== Install offline prerequisites
+
+* git: For downloading and updating plugins of SpaceVim
+* lua: For neocomplete
+* python2/3: Support job and part of plugins. Recommend to install both
+* vim/gvim: Vim’s program
+* https://github.com/powerline/fonts/tree/master/DejaVuSansMono[DejaVu Sans Mono for PowerLine]: Used by the plugins of SpaceVim
+* https://github.com/Gabirel/Hack-SpaceVim/releases[Offline plugins package]: All plugins used by SpaceVim
+* https://github.com/spacevim/spacevim[SpaceVim]
+
+=== Start to install
+
+==== Install online
+
+===== Check prerequisites
+
+[arabic]
+. git –version
+
+The correct result✅： > git version 2.12.2
+
+[arabic, start=2]
+. lua -v
+
+The correct result✅： > Lua 5.3.4 Copyright (C) 1994-2017 Lua.org, PUC-Rio
+
+_Notice: Different Operating system may has different names of lua. For example, `lua` or `lua53` or `lua52`._
+
+[arabic, start=3]
+. python -V
+
+The correct result✅： > Python 3.6.0
+
+[arabic, start=4]
+. vim
+
+The correct result✅： > You can see vim in your terminal
+
+*Notice: You have to install them by corresponding package manager. For expample:*
+
+* Debian/Ubuntu:
++
+____
+sudo apt-get install git
+____
+* Fedora:
++
+____
+sudo dnf install git
+____
+* CentOS/RHEL:
++
+____
+sudo yum install git
+____
+* Arch
++
+____
+sudo pacman -S git
+____
+
+===== Start to install
+
+[arabic]
+. Back up your own `.vimrc`. Just in case you don’t like SpaceVim
+. Execute: `curl -sLf https://spacevim.org/install.sh | bash`
+. Launch: vim
+
+*After finishing downloading plugins, you installed SpaceVim successfully!*
+
+[arabic, start=4]
+. Check whether your vim has +Lua and +python feature. Use `vim --version | grep -E 'lua|python'` to check out:
+
+image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0d9f30a0f22e68ce8e3a2f1c2888a37c3cff/linux-check-lua-python.png[linux-check-lua-python]
+
+*Notice: If your vim doesn’t have `+lua` and `+python` support, please install vim that has them or build vim from source.*
+
+[arabic, start=5]
+. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')`, `echo has('python3')` and `echo has('python2')`
+* Lua returns: 1
+* Python returns: 1
+* Python3 returns: 1
+
+*Notice: `echo has('python2') and`echo has(`python3')`, both of them could return`1`instead of returning`0`.*
+
+[arabic, start=6]
+. Install fonts, download fonts *in advance*: https://github.com/powerline/fonts/tree/master/DejaVuSansMono[DejaVu Sans Mono for PowerLine.ttf].
+
+==== Install offline
+
+===== Check prerequisites
+
+List is the same as link:#check-prerequisites[Install online: Check prerequisites]. So I won’t repeat it:
+
+* git
+* lua
+* python(2/3)
+* vim/gvim
+
+===== Start to install
+
+Things are getting easier in SpaceVim-v0.9.0-dev. Yes, you can install SpaceVim without any Internet connection.
+
+Try it!
+
+[arabic]
+. Download the release: https://github.com/Gabirel/Hack-SpaceVim/releases
+. Extract the package to:
+
+____
+~
+____
+
+[arabic, start=3]
+. Link the folder to vim:
+
+[source,bash]
+----
+mkdir .vim
+ln -svf ~/.SpaceVim/* ~/.vim/
+----
+
+[arabic, start=3]
+. Open vim in your terminal and try it.
+
+*Congratulations! Install offline successfully!*
+
+===== How can I update offline if I have no connection to the Internet?
+
+As [@TamaMcGlinn](https://github.com/TamaMcGlinn) mentions, https://git-scm.com/docs/git-bundle[`git bundle`] is suitable for incremental updates for plugins.
+
+In this way, you don’t have to copy the whole plugins via *USB* or *internal email*.
+
+Unfortunately, for all those plugins with `git bundle` method, you have to write scripts in order to incrementally update or load changes.
+
+More details: https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784[Instructions For Installing SpaceVim - OFFLINE]
+
+'''''
+
+link:installation-for-windows.md#install-spacevim-on-windows[Instructions for Windows] | link:../FAQ.md#faq[FAQ] | link:../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]

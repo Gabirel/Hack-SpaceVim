@@ -1,0 +1,220 @@
+== Install SpaceVim on Windows
+
+=== Table of Contents
+
+* link:#install-spacevim-on-windows[Install SpaceVim on Windows]
+** link:#table-of-contents[Table of Contents]
+** link:#install-prerequisites[Install prerequisites]
+*** link:#install-online-prerequisites[Install online prerequisites]
+*** link:#install-offline-prerequisites[Install offline prerequisites]
+** link:#start-to-install[Start to install]
+*** link:#install-online[Install online]
+**** link:#check-prerequisites[Check prerequisites]
+**** link:#start-to-install-1[Start to install]
+*** link:#install-offline[Install offline]
+**** link:#check-prerequisites-1[Check prerequisites]
+**** link:#start-to-install-2[Start to install]
+**** link:#how-can-i-update-offline-if-i-have-no-connection-to-the-internet[How can I update offline if I have no connection to the Internet?]
+** link:#install-neovim[Install Neovim]
+
+=== Install prerequisites
+
+==== Install online prerequisites
+
+* https://git-scm.com/download[git]: For downloading and updating plugins of SpaceVim
+* http://luabinaries.sourceforge.net/download.html[lua]: For neocomplete
+* https://www.python.org/downloads[python(2/3)]: Support job and part of plugins. Recommend to install both
+* https://github.com/vim/vim-win32-installer/releases[gvim]: Vim’s main program
+* https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine]: Used by the plugins of SpaceVim
+* https://github.com/Shougo/vimproc.vim/releases[vimproc_win64(32).dll]: vimporc needs this, *NECESSARY*
+* https://www.dllme.com/dll/download/29939/vcruntime140.dll[vcruntime140.dll]: Fix vimruntime140 Error(download it when you really need)
+
+==== Install offline prerequisites
+
+* https://git-scm.com/download[git]: For downloading and updating plugins of SpaceVim
+* http://luabinaries.sourceforge.net/download.html[lua]: For neocomplete
+* https://www.python.org/downloads[python(2/3)]: Support job and part of plugins. Recommend to install both
+* https://github.com/vim/vim-win32-installer/releases[gvim]: Vim’s main program
+* https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine]: Used by the plugins of SpaceVim
+* https://github.com/Shougo/vimproc.vim/releases[vimproc_win64(32).dll]: vimporc needs this, *NECESSARY*
+* https://www.dllme.com/dll/download/29939/vcruntime140.dll[vcruntime140.dll]: Fix vimruntime140 Error(download it when you really need)
+* https://github.com/Gabirel/Hack-SpaceVim/releases[Plugins Offline package]: All plugins of SpaceVim（*Recommend packing it by yourself*）
+* https://github.com/SpaceVim/SpaceVim.git[SpaceVim]
+
+=== Start to install
+
+==== Install online
+
+===== Check prerequisites
+
+[arabic]
+. git –version
+
+The correct result✅： > git version 2.12.2.windows.2
+
+[arabic, start=2]
+. lua53 -v
+
+The correct result✅： > Lua 5.3.3 Copyright (C) 1994-2016 Lua.org, PUC-Rio
+
+[arabic, start=3]
+. python -V
+
+The correct result✅： > Python 3.6.1
+
+[arabic, start=4]
+. gvim
+
+The correct result✅： > Opened a program
+
+**Notice：If you happen to command not find, please install them correctly and set up your path correctly. See how to set up your path:**link:../FAQ.md#set-up-your-path[FAQ-Set up your PATH]
+
+===== Start to install
+
+[arabic]
+. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+. Double-click Gvim’s icon, or open a new `cmd.exe` and execute `gvim`. Normally it should open a new terminal to clone `dein.vim`. As it shows below:
+
+image:https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/2ac0304f46db1c6470f8f4982296d08875de2894/clone-dein.vim.PNG[dein.vim-clone]
+
+[arabic, start=3]
+. SpaceVim will trigger downloading plugins mode(SpaceVim-v0.3.0 is so that). Wait to finish downloading plugins.
+
+image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/a6de44e130d2c5ec1dec28601b8d952c8231f0a0/download-plugins.PNG[download-plugins]
+
+[arabic, start=4]
+. Check whether your vim has `+Lua` and `+python` feature. Use `:version` to check out:
+
+image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/1711e0d2ca9e22d8e3b4942498b0a77f9b25dd2c/vim-version-check.PNG[vim-version]
+
+[arabic, start=5]
+. Check whether your Lua and python2/3 really works by tow command: `echo has('lua')`, `echo has('python3')` and `echo has('python2')`
+* Lua returns: 1
+* Python returns: 1
+* Python3 returns: 1
+
+*Notice: `echo has('python2') and`echo has(`python3')`, only one of them returns`1`instead of returning`0` at the same time. This depends on vim.*
+
+If `echo has('python2/3')` returns 0 both, check this: link:../FAQ.md#without-python-support[FAQ: Without-python-support]
+
+[arabic, start=6]
+. Install fonts, download fonts: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine.ttf].
+
+After finishing installing fonts, your status bar should work very well.
+
+[arabic, start=7]
+. Fix `vimproc.dll error`. As it shows below:
+
+image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/e7f27e84947f13bc9c91812881e47f2961162fc2/vimproc-dll-error.PNG[vimproc-dll]
+
+https://github.com/Shougo/vimproc.vim/releases[Click me to download]. Copy it to: `C:\Users\<Your Name>\.cache\vimfiles\repos\github.com\Shougo\vimproc.vim\lib`
+
+*Congratulations. You’are done!*
+
+==== Install offline
+
+===== Check prerequisites
+
+List is the same as link:#check-prerequisites[Install online: Check prerequisites]. So I won’t repeat it:
+
+* git
+* lua
+* python(2/3)
+* gvim
+
+===== Start to install
+
+Still this part has the same introductions in link:#start-to-install-1[Install online: Start to install]. I will skip the same part. Only explain at different parts.
+
+[arabic]
+. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+. Extract the package to:
+
+____
+C:<Your Name>
+____
+
+dein.vim is the plugins manager of SpaceVim. It is downloaded automatically by starting gvim the first time. So you have to download it in advance.
+
+*Notice: You could download the offline package. But we HIGHLY RECOMMEND packing it up by yourself to make sure that all plugins is up-to-date to make you more powerful.*
+
+*For newbie: zip your `~/.cache/vimfiles` to packing SpaceVim*
+
+[arabic, start=3]
+. Open gvim to check out whether SpaceVim could start without any errors.
+
+*Notice: Please make sure that vimproc_dll exists if you are using your own package.*
+
+If you have `vimproc's dll`, please fix this according to the manual of link:#start-to-install-1[Install online: Start to install].
+
+[arabic, start=4]
+. Check whether gvim has lua and python’s full support, these steps are the same as link:#start-to-install-1[Install online: Start to install]
+. Install fonts, download fonts *in advance*: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine.ttf].
+
+After finishing installing fonts, the status bar should work very well.
+
+*Congratulations! Install offline successfully!*
+
+===== How can I update offline if I have no connection to the Internet?
+
+As [@TamaMcGlinn](https://github.com/TamaMcGlinn) mentions, https://git-scm.com/docs/git-bundle[`git bundle`] is suitable for incremental updates for plugins.
+
+In this way, you don’t have to copy the whole plugins via *USB* or *internal email*.
+
+Unfortunately, for all those plugins with `git bundle` method, you have to write scripts in order to incrementally update or load changes.
+
+More details: https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784[Instructions For Installing SpaceVim - OFFLINE]
+
+=== Install Neovim
+
+*Notice: You’ve entered the taboo areas.*
+
+____
+The sea of suffering is boundless; yet a turn of the gear is the other shore.
+____
+
+_Let’s go back to our shore [@wsdjeg]https://github.com/wsdjeg[wsdjeg] |:(_
+
+[arabic]
+. According to your own OS, select your version of https://github.com/neovim/neovim/wiki/Installing-Neovim#windows[Neovim]
+. Add Neovim’s `bin` folder to your `PATH`
+. Execute neovim
+. If you are missing `vcruntime140.dll`, please https://www.dllme.com/dll/download/29939/vcruntime140.dll[click me to download]
+. Install python2/python3 or both, which is allowed by Neovim
+. Install full support of python of neovim:
+
+* python2:
+
+____
+py -2 pip install –user –upgrade neovim
+____
+
+* python3:
+
+____
+py -3 pip install –user –upgrade neovim
+____
+
+[arabic, start=7]
+. Execute neovim-qt.exe, and use `:CheckHealth` to check out whether your neovim supports python2/3. As results shows below:
+
+With python2 support: image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/5aff57c9397cd26dba23dd0d81b94fa9cf061b56/nvim-python2-support-success.PNG[nvim-python2-support-success]
+
+Without python3 support: image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/5aff57c9397cd26dba23dd0d81b94fa9cf061b56/nvim-python3-support-failure.PNG[nvim-python3-support-failure]
+
+If you want to have python3 support, please install it according to step 6; Also, use commands suggested by neovim to have ruby support.
+
+[arabic, start=8]
+. Install SpaceVim
+
+____
+git clone https://github.com/SpaceVim/SpaceVim.git %userprofile% +
+____
+
+*Congratulations! You’ve installed it successfully.*
+
+*Notice: Neovim doesn’t support lua(For now) in neovim-v0.2. So, SpaceVim uses deopelete for auto-completing code instead of neocomplete.*
+
+'''''
+
+link:installation-for-linux.md#install-spacevim-on-linux[Instructions for Linux] | link:../FAQ.md#faq[FAQ] | link:../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]

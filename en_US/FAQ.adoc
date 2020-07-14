@@ -1,0 +1,144 @@
+= FAQ
+:toc: 
+:toclevels: 3
+
+== Windows
+
+=== Set up your PATH
+
+*1. How to set up my PATH on Windows?*
+
+A: _Location: My computer->properties->Advance System Setting->Environment variables->System variables->Find Path->Edit_
+
+_I’m sorry. I don’t use Windows. I can’t use English on my VirtualOS. Windows won’t let me do this. ):_
+
+image:https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/08946a3643606420776fcc3fc4d43da6444806cc/path-config.PNG[path]
+
+=== without python support
+
+*2. `echo has('python')` always returns 0. What should I do?*
+
+A: Please check out whether you meet all these requirements:
+
+* Open a new `cmd.exe` to check out whether you can execute command: python
+* If you install 64bit-gvim, make sure you install 64bit python as well. Vice Versa.
+* Gvim must has `+python/dyn` or `+python3/dyn` or `+python/dyn;+python3/dyn`
+* If all above doesn’t work, please add config below into your `init.vim`:
+
+First, you have to know what your python exact version is.
+
+Here’s test command:
+
+____
+py -2 –version
+____
+
+____
+py -3 –version
+____
+
+According to your python version, add config like this:
+
+[source,viml]
+----
+set pythonthreedll=python36.dll
+set pythondll=python27.dll
+----
+
+*More details: https://github.com/Gabirel/Hack-SpaceVim/issues/17[#17]*
+
+=== SpaceVim gets frozen easily
+
+*3. I can feel my SpaceVim gets frozen a little bit. What’s exactly going on?*
+
+A: There are 4 kind of possibilities:
+
+* Check out whether you can execute `lua` command in your new terminal and your gvim has `+lua` feature. SpaceVim will use `neocomplcache` instead of `neocomplete` without lua support, which makes SpaceVim gets frozen or have some delay.
+* You may encounter bugs of SpaceVim. Feel free to use https://github.com/spacevim/spacevim/issues[issue tracker] to solve this.
+* Your config file is probably the problem. For example, your SpaceVim will get frozen totally if you make `loadEagerly` as `**/*.js` when writing nodejs file.
+* Maybe one of plugins has some conflicts with another plugin. Please open a new https://github.com/spacevim/spacevim/issues[issue] to help you fix this problem if you suspect.
+
+=== vcruntime140.dll Error
+
+*4. I can’t start gvim. It says that vcruntime140.dll errors. What should I do?*
+
+A: https://www.dllme.com/dll/download/29939/vcruntime140.dll[Click me to download]. Copyt it to the corresponding folder according to your own OS:
+
+32bit OS: `C:\Windows\System32\`
+
+64bit OS: `C:\Windows\SysWOW64\`
+
+=== Installing on Windows is too complicated
+
+*5. Why installing SpaceVim on Windows is so complicated? Is there more simple way to do this?*
+
+A: I’m sorry! Nope. Setting up developing environments is killing yourself. I’m HIGHLY RECOMMEND leaving Windows alone. If you have to, please DO NOT touch Neovim. Please use vim for your mental and physicial helath.
+
+=== Exuberant ctags not found
+
+*6. Tagbar: Exuberant ctags not found? What should I do?*
+
+As it shows here: image:https://cloud.githubusercontent.com/assets/12933851/25282302/a868f3e0-26e2-11e7-8cfb-037f884a4702.png[ctags-error]
+
+A:
+
+[arabic]
+. You should go to this: https://github.com/universal-ctags/ctags#windows
+. Add the binary folder to your PATH.
+
+My situation is `C:\Program Files\ctagas\ctags.exe`
+
+[arabic, start=3]
+. Add config according to your own PATH:
+
+[source,viml]
+----
+let g:tagbar_ctags_bin = 'C:\Program Files\ctagas\ctags.exe'
+----
+
+== Linux
+
+=== Building vim from source
+
+Some distros maybe doesn’t have the latest vim. So, some have to build vim from source.
+
+This section is for building vim from source:
+
+Please go to here: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source[Build vim from source]
+
+=== Exuberant ctags not found
+
+*1. Tagbar: Exuberant ctags not found? What should I do?*
+
+A:
+
+Arch/Manjaro
+
+____
+sudo pacman -S ctags
+____
+
+Debian/Ubuntu/Linux Mint
+
+____
+sudo apt-get install ctags
+____
+
+Fedora
+
+____
+sudo dnf install ctags
+____
+
+CentOS/RHEL
+
+____
+sudo yum install ctags
+____
+
+_That’s all. Done!_
+
+'''''
+
+link:README.md#table-of-contents[Index] | 
+link:../README_zh_CN.md#hack-spacevim[中文文档]

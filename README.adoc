@@ -1,0 +1,91 @@
+= Hack-SpaceVim - Guide for SpaceVim
+:toc:
+
+https://spacevim.org[image:https://spacevim.org/img/build-with-SpaceVim.svg[image]] 
+https://travis-ci.org/Gabirel/Hack-SpaceVim[image:https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master[Build Status]] 
+link:LICENSE[image:https://img.shields.io/badge/license-MIT-blue.svg?style=flat[MIT License]]
+https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.4.0--dev-FF00CC.svg[spacevim-version]] 
+http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg[Average time to resolve an issue]] 
+http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg[Percentage of issues still open]]
+
+== Introduction
+
+https://github.com/spacevim/spacevim[SpaceVim] 
+| link:README_zh_CN.md[Hack-SpaceVim 中文版] 
+| https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] 
+| https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
+
+.What can you get from Hack-SpaceVim
+
+* :metal: Introductions about how to install SpaceVim with *step by step*
+* :trollface: Set up developing environments very fast
+* :sunglasses: Become a developer very quickly
+* :massage_woman: Help you get acquainted with mountains of plugins
+* :muscle: Make you a professional vimmer
+* :new_moon_with_face: Let you hack this planet with SpaceVim
+* :scream: Tell you some facts somebody else won’t tell you
+* :smirk: Tricks you will never know(contradictory statements)
+
+== Table of Contents
+
+[arabic]
+. link:en_US/installation/installation-for-windows.md#install-spacevim-on-windows[SpaceVim on Windows]
+* link:en_US/installation/installation-for-windows.md#install-spacevim-on-windows[Install SpaceVim on Windows]
+** link:en_US/installation/installation-for-windows.md#table-of-contents[Table of Contents]
+** link:en_US/installation/installation-for-windows.md#install-prerequisites[Install prerequisites]
+*** link:en_US/installation/installation-for-windows.md#install-online-prerequisites[Install online prerequisites]
+*** link:en_US/installation/installation-for-windows.md#install-offline-prerequisites[Install offline prerequisites]
+** link:en_US/installation/installation-for-windows.md#start-to-install[Start to install]
+*** link:en_US/installation/installation-for-windows.md#install-online[Install online]
+**** link:en_US/installation/installation-for-windows.md#check-prerequisites[Check prerequisites]
+**** link:en_US/installation/installation-for-windows.md#start-to-install-1[Start to install]
+*** link:en_US/installation/installation-for-windows.md#install-offline[Install offline]
+**** link:en_US/installation/installation-for-windows.md#check-prerequisites-1[Check prerequisites]
+**** link:en_US/installation/installation-for-windows.md#start-to-install-2[Start to install]
+** link:en_US/installation/installation-for-windows.md#install-neovim[Install Neovim]
+. link:en_US/installation/installation-for-linux.md#install-spacevim-on-linux[SpaceVim on Linux]
+* link:en_US/installation/installation-for-linux.md#install-spacevim-on-linux[Install SpaceVim on Linux]
+** link:en_US/installation/installation-for-linux.md#table-of-contents[Table of Contents]
+** link:en_US/installation/installation-for-linux.md#install-prerequisites[Install prerequisites]
+*** link:en_US/installation/installation-for-linux.md#install-online-prerequisites[Install online prerequisites]
+*** link:en_US/installation/installation-for-linux.md#install-offline-prerequisites[Install offline prerequisites]
+** link:en_US/installation/installation-for-linux.md#start-to-install[Start to install]
+*** link:en_US/installation/installation-for-linux.md#install-online[Install online]
+**** link:en_US/installation/installation-for-linux.md#check-prerequisites[Check prerequisites]
+**** link:en_US/installation/installation-for-linux.md#start-to-install-1[Start to install]
+*** link:en_US/installation/installation-for-linux.md#install-offline[Install offline]
+**** link:en_US/installation/installation-for-linux.md#check-prerequisites-1[Check prerequisites]
+**** link:en_US/installation/installation-for-linux.md#start-to-install-2[Start to install]
+. link:en_US/IDE[IDE]
+* link:en_US/IDE/JavaScript.md#ide-for-javascript[IDE for JavaScript]
+** link:en_US/IDE/JavaScript.md#table-of-contents[Table of Contents]
+** link:en_US/IDE/JavaScript.md#requirements[Requirements]
+** link:en_US/IDE/JavaScript.md#installation[Installation]
+*** link:en_US/IDE/JavaScript.md#spacevim[SpaceVim]
+*** link:en_US/IDE/JavaScript.md#install-npm-or-cnpm[Install npm or cnpm]
+*** link:en_US/IDE/JavaScript.md#install-tern[Install tern]
+*** link:en_US/IDE/JavaScript.md#add-config-into-your-spacevimdinitvim[Add config into your ~/.SpaceVim.d/init.vim]
+** link:en_US/IDE/JavaScript.md#config[Config]
+** link:en_US/IDE/JavaScript.md#credits--thanks[Credits & Thanks]
+. link:en_US/FAQ.md#faq[FAQ]
+* link:en_US/FAQ.md#windows[Windows]
+** link:en_US/FAQ.md#set-up-your-path[Set up your PATH]
+** link:en_US/FAQ.md#without-python-support[without python support]
+** link:en_US/FAQ.md#spacevim-gets-frozen-easily[SpaceVim gets frozen easily]
+** link:en_US/FAQ.md#vcruntime140dll-error[vcruntime140.dll Error]
+** link:en_US/FAQ.md#installing-on-windows-is-too-complicated[Installing on Windows is too complicated]
+** link:en_US/FAQ.md#exuberant-ctags-not-found[Exuberant ctags not found]
+* link:en_US/FAQ.md#linux[Linux]
+** link:en_US/FAQ.md#building-vim-from-source[Building vim from source]
+** link:en_US/FAQ.md#exuberant-ctags-not-found-1[Exuberant ctags not found]
+. link:en_US/hidden_Egg_Hunt[Hidden Egg Hunt]
+* link:en_US/hidden_Egg_Hunt/play-games.md#play-games-on-spacevim[Play games on SpaceVim]
+** link:en_US/hidden_Egg_Hunt/play-games.md#game-lists[Game Lists]
+** link:en_US/hidden_Egg_Hunt/play-games.md#vim2048[Vim2048]
+*** link:en_US/hidden_Egg_Hunt/play-games.md#instruction[Instruction]
+
+'''''
+
+== Reference
+
+New to Vim: https://github.com/mhinz/vim-galore[vim-galore]
