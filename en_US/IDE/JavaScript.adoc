@@ -1,0 +1,128 @@
+= IDE for JavaScript
+:toc:
+:toclevels: 3
+
+== Requirements
+
+* SpaceVim
+* tern
+* tern_for_vim
+* nodejs
+* npm/cnpm
+
+== Installation
+
+=== SpaceVim
+
+Make sure your SpaceVim is up-to-date.
+
+=== Install `npm` or `cnpm`
+
+Here are the examples:
+
+*Arch:*
+
+[source,bash]
+----
+sudo pacman -S npm nodejs
+----
+
+*Fedora:*
+
+[source,bash]
+----
+sudo dnf install npm nodejs
+----
+
+*Ubuntu:*
+
+[source,bash]
+----
+sudo apt install npm nodejs
+----
+
+=== Install `tern`
+
+You have to install tern since https://github.com/ternjs/tern_for_vim[tern_for_vim] using http://ternjs.net/[tern] as a server to provide auto-completion. (If I was wrong, please tell me. Because I am not a expert of nodejs)
+
+Just Simply run:
+
+[source,bash]
+----
+cd ~/.cache/vimfiles/repos/github.com/ternjs/tern_for_vim 
+npm install tern
+----
+
+*Or*
+
+[source,bash]
+----
+cnpm install tern
+----
+
+_PS: If you want to execute, please install `cnpm`._
+
+=== Add config into your `~/.SpaceVim.d/init.vim`
+
+[source,viml]
+----
+call SpaceVim#layers#load('lang#javascript')
+----
+
+And restart your vim to let SpaceVim itself to install plugins for you.
+
+_If it takes a long time to install `tern_for_vim`, please install it manually by 3 steps below:_
+
+[source,bash]
+----
+$ cd ~/.cache/vimfiles/repos/github.com/ternjs
+$ git clone https://github.com/ternjs/tern_for_vim
+$ cd tern_for_vim; npm install
+----
+
+== Config
+
+The most important step is about how to configure your environment.
+
+Actually, it’s pretty easy.
+
+It has two optinos for config.
+
+* Option A: `.tern-project`(in the current directory or one of the directories above that *for this project only*)
+* Option B: `.tern-config`(*default* in your home directory)
+
+*See more details http://ternjs.net/doc/manual.html#server[here]*
+
+Here’s the example config:
+
+[source,json]
+----
+{
+  "plugins": {
+    "node": {},
+    "node_resolve": {},
+    "es_modules": {},
+    "modules": {}
+  },
+  "libs": [
+    "browser",
+    "ecma5",
+    "ecma6",
+    "react"
+  ],
+  "ecmaVersion": 6
+}
+----
+
+*That’s it!!!*
+
+== Credits & Thanks
+
+Thanks to [@RenChunhui](https://github.com/renchunhui), I can make this topic happen. I could never reach so for without his unselfish help.
+
+'''''
+
+link:../IDE[IDE] | 
+link:../FAQ.adoc#faq[FAQ] | 
+link:../README.adoc#table-of-contents[Index] | 
+link:../../README_zh_CN.adoc#hack-spacevim[中文文档]
