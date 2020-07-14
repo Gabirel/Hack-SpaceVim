@@ -52,7 +52,7 @@
 
 正确结果✅： > 打开一个窗口
 
-*注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见：* link:../FAQ.md#配置环境变量[常见问题：配置环境变量]
+*注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见：* link:../FAQ.adoc#配置环境变量[常见问题：配置环境变量]
 
 ==== 正式安装
 
@@ -80,7 +80,7 @@ image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/1711e
 
 *注意：`echo has('python2')`和`echo has('python3')`的值均会返回`1`*
 
-_若，`echo has('python')`返回值均为0，请查看：_ link:../FAQ.md#python不支持[常见问题：python不支持]
+_若，`echo has('python')`返回值均为0，请查看：_ link:../FAQ.adoc#python不支持[常见问题：python不支持]
 
 [arabic, start=6]
 . 安装字体，字体下载：https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine.ttf]，安装完字体后状态栏即可正常显示
@@ -188,7 +188,7 @@ ____
 
 '''''
 
-link:installation-for-linux.md##在linux上安装spacevim[Linux指南] | 
-link:../FAQ.md#faq[常见问题] | 
-link:../README.md#table-of-contents[索引] | 
-link:../../README.md#hack-spacevim[English Document]
+link:installation-for-linux.adoc##在linux上安装spacevim[Linux指南] | 
+link:../FAQ.adoc#faq[常见问题] | 
+link:../README.adoc#table-of-contents[索引] | 
+link:../../README.adoc#hack-spacevim[English Document]

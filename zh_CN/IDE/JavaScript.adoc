@@ -98,6 +98,6 @@ ____
 '''''
 
 link:../IDE[IDE] | 
-link:../FAQ.md#faq[FAQ] | 
-link:../README.md#table-of-contents[Index] |
-link:../../README.md#hack-spacevim[English Document]
+link:../FAQ.adoc#faq[FAQ] | 
+link:../README.adoc#table-of-contents[Index] |
+link:../../README.adoc#hack-spacevim[English Document]

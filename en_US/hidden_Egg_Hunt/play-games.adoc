@@ -39,6 +39,6 @@ Reference: https://github.com/Gabirel/Hack-SpaceVim/issues/24[#24]
 
 '''''
 
-link:../FAQ.md#faq[FAQ] | 
-link:../../README.md#table-of-contents[Index] | 
-link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:../FAQ.adoc#faq[FAQ] | 
+link:../../README.adoc#table-of-contents[Index] | 
+link:../../README_zh_CN.adoc#hack-spacevim[中文文档]

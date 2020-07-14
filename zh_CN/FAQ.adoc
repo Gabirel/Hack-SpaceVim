@@ -136,5 +136,5 @@ ____
 
 '''''
 
-link:README.md#table-of-contents[索引] | 
-link:../README.md#hack-spacevim[English Document]
+link:README.adoc#table-of-contents[索引] | 
+link:../README.adoc#hack-spacevim[English Document]

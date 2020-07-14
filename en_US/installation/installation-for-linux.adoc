@@ -151,7 +151,7 @@ More details: https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-65
 
 '''''
 
-link:installation-for-windows.md#install-spacevim-on-windows[Instructions for Windows] | 
-link:../FAQ.md#faq[FAQ] | 
-link:../README.md#table-of-contents[Index] | 
-link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:installation-for-windows.adoc#install-spacevim-on-windows[Instructions for Windows] | 
+link:../FAQ.adoc#faq[FAQ] | 
+link:../README.adoc#table-of-contents[Index] | 
+link:../../README_zh_CN.adoc#hack-spacevim[中文文档]

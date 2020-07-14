@@ -39,6 +39,6 @@ image:https://cloud.githubusercontent.com/assets/12933851/25666993/b10681cc-3054
 
 '''''
 
-link:../FAQ.md#常见问题[常见问题] | 
-link:../../README.md#table-of-contents[索引] | 
-link:../../../README.md#hack-spacevim[English Document]
+link:../FAQ.adoc#常见问题[常见问题] | 
+link:../../README.adoc#table-of-contents[索引] | 
+link:../../../README.adoc#hack-spacevim[English Document]

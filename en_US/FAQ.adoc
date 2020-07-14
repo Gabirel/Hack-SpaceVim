@@ -140,5 +140,5 @@ _That’s all. Done!_
 
 '''''
 
-link:README.md#table-of-contents[Index] | 
-link:../README_zh_CN.md#hack-spacevim[中文文档]
+link:README.adoc#table-of-contents[Index] | 
+link:../README_zh_CN.adoc#hack-spacevim[中文文档]

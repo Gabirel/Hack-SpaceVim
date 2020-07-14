@@ -52,7 +52,7 @@ The correct result✅： > Python 3.6.1
 
 The correct result✅： > Opened a program
 
-**Notice：If you happen to command not find, please install them correctly and set up your path correctly. See how to set up your path:**link:../FAQ.md#set-up-your-path[FAQ-Set up your PATH]
+**Notice：If you happen to command not find, please install them correctly and set up your path correctly. See how to set up your path:**link:../FAQ.adoc#set-up-your-path[FAQ-Set up your PATH]
 
 ==== Start to install
 
@@ -80,7 +80,7 @@ image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/1711e
 
 *Notice: `echo has('python2') and`echo has(`python3')`, only one of them returns`1`instead of returning`0` at the same time. This depends on vim.*
 
-If `echo has('python2/3')` returns 0 both, check this: link:../FAQ.md#without-python-support[FAQ: Without-python-support]
+If `echo has('python2/3')` returns 0 both, check this: link:../FAQ.adoc#without-python-support[FAQ: Without-python-support]
 
 [arabic, start=6]
 . Install fonts, download fonts: https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine.ttf].
@@ -202,7 +202,7 @@ ____
 
 '''''
 
-link:installation-for-linux.md#install-spacevim-on-linux[Instructions for Linux] | 
-link:../FAQ.md#faq[FAQ] | 
-link:../README.md#table-of-contents[Index] | 
-link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:installation-for-linux.adoc#install-spacevim-on-linux[Instructions for Linux] | 
+link:../FAQ.adoc#faq[FAQ] | 
+link:../README.adoc#table-of-contents[Index] | 
+link:../../README_zh_CN.adoc#hack-spacevim[中文文档]
