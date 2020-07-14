@@ -77,6 +77,21 @@ https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 ** link:en_US/hidden_Egg_Hunt/play-games.adoc#vim2048[Vim2048]
 *** link:en_US/hidden_Egg_Hunt/play-games.adoc#instruction[Instruction]
 
+== FAQ
+
+[qanda]
+`init.toml` or `init.vim`?::
+
+*TL;DR:* Choose `init.vim`. Don't use `init.toml`. + 
+*Long answer:* Here are several reasons for this:
+** SpaceVim doesn't provide detailed documents of variable name you can use. Under this circumstance, it is not smart to use `init.toml` although SpaceVim recommand you to use toml-style config. +
+** You need nobody to tell you what variable name you can use in your vim script, just by looking up the source code of SpaceVim.
+** *For beginner:* Toml-style of config won't help you develop skills related with vim script.
+** In order to define your custom code/functions, you have to use https://spacevim.org/documentation/#bootstrap-functions[bootstrap functions]. You will then pollute SpaceVim's source code.
+
+What does `Hack-SpaceVim` really do?::
+Currently, it is trying to be something really useful to whom wants to master or use SpaceVim, including various aspects. Not just SpaceVim, but also vim/nvim.
+
 == Reference
 
 New to Vim: https://github.com/mhinz/vim-galore[vim-galore]

@@ -79,6 +79,20 @@ https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 ** link:zh_CN/hidden_Egg_Hunt/play-games.adoc#vim2048[Vim2048]
 *** link:zh_CN/hidden_Egg_Hunt/play-games.adoc#安装[安装]
 
+== 常见问题 Q&A
+
+[qanda]
+`init.toml` 还是 `init.vim`？::
+
+*太长不读：* 选 `init.vim`. 尽量别去使用 `init.toml`. + 
+*长答案：* 这里有几个原因来解释为什么要这么选择：
+** SpaceVim不提供你可以使用的变量名。在这样的情况下，使用 `init.toml` 就不是一个聪明的决定，尽管SpaceVim推荐使用这种toml风格的配置文件。 
+** 你不需要任何人就能知道你能在你的vim脚本中使用怎样的变量名，仅仅通过查看SpaceVim的源代码即可。
+** *针对初学者：* toml风格的配置文件不会帮助你提升vim脚本的能力。
+** 如果你使用 `init.toml` 并且为了能够自定义代码/函数，你必须要使用 https://spacevim.org/documentation/#bootstrap-functions[bootstrap functions]. 这样你就会污染SpaceVim的代码。
+
+`Hack-SpaceVim`到底是干吗的？::
+目前，它正努力让任何希望掌握和使用SpaceVim的人变得真正有用，这包括了各个方便。不止是SpaceVim本身，也包含了vim/nvim。
 
 == 参考
 
