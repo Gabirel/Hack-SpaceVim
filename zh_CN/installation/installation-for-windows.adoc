@@ -1,25 +1,10 @@
-== 在Windows上安装SpaceVim
+= 在Windows上安装SpaceVim
+:toc:
+:toclevels: 4
 
-=== Table of Contents
+== 基础环境
 
-* link:#在windows上安装spacevim[在Windows上安装SpaceVim]
-** link:#table-of-contents[Table of Contents]
-** link:#基础环境[基础环境]
-*** link:#在线安装基本要求[在线安装基本要求]
-*** link:#离线安装基本要求[离线安装基本要求]
-** link:#开始安装[开始安装]
-*** link:#在线安装[在线安装]
-**** link:#检查基础环境[检查基础环境]
-**** link:#正式安装[正式安装]
-*** link:#离线安装[离线安装]
-**** link:#检查基础环境-1[检查基础环境]
-**** link:#正式安装-1[正式安装]
-**** link:#离线状态如何更新？[离线状态如何更新？]
-** link:#安装neovim[安装Neovim]
-
-=== 基础环境
-
-==== 在线安装基本要求
+=== 在线安装基本要求
 
 * https://git-scm.com/download[git]: 用于下载与更新插件
 * http://luabinaries.sourceforge.net/download.html[lua]: 用于neocomplete补全
@@ -29,7 +14,7 @@
 * https://github.com/Shougo/vimproc.vim/releases[vimproc_win64(32).dll]: vimporc插件依赖，*必须*
 * https://www.dllme.com/dll/download/29939/vcruntime140.dll[vcruntime140.dll]: 针对vimruntime140 Error（当必要时下载）
 
-==== 离线安装基本要求
+=== 离线安装基本要求
 
 * https://git-scm.com/download[git]: 用于下载与更新插件
 * http://luabinaries.sourceforge.net/download.html[lua]: 用于neocomplete补全
@@ -41,11 +26,11 @@
 * https://github.com/Gabirel/Hack-SpaceVim/releases[插件压缩包]: SpaceVim的插件离线包（*建议自行打包下载*）
 * https://github.com/SpaceVim/SpaceVim.git[SpaceVim]
 
-=== 开始安装
+== 开始安装
 
-==== 在线安装
+=== 在线安装
 
-===== 检查基础环境
+==== 检查基础环境
 
 [arabic]
 . git –version
@@ -69,7 +54,7 @@
 
 *注意：如果命令找不到等情况请安装好环境并配置环境变量，如何配置环境变量见：* link:../FAQ.md#配置环境变量[常见问题：配置环境变量]
 
-===== 正式安装
+==== 正式安装
 
 [arabic]
 . git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
@@ -107,9 +92,9 @@ https://github.com/Shougo/vimproc.vim/releases[点我下载]，位置放在：`C
 
 *恭喜，安装完成！*
 
-==== 离线安装
+=== 离线安装
 
-===== 检查基础环境
+==== 检查基础环境
 
 检查列表同link:#检查基础环境[在线安装: 检查基础环境]相同，故不再赘述：
 
@@ -118,7 +103,7 @@ https://github.com/Shougo/vimproc.vim/releases[点我下载]，位置放在：`C
 * python(2/3)
 * gvim
 
-===== 正式安装
+==== 正式安装
 
 因link:#正式安装[在线安装： 正式安装]中已有详细说明，故不赘述重复部分，只对不同点作出详细说明：
 
@@ -151,7 +136,7 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 *恭喜，离线安装完成！*
 
-===== 离线状态如何更新？
+==== 离线状态如何更新？
 
 [@TamaMcGlinn](https://github.com/TamaMcGlinn) 提出了使用 https://git-scm.com/docs/git-bundle[`git bundle`] 想法。这个想法十分适合插件的增量更新。
 
@@ -161,7 +146,7 @@ dein.vim是SpaceVim的插件管理器，原本是通过在线方式自动触发�
 
 具体的细节请看： https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784[Instructions For Installing SpaceVim - OFFLINE]
 
-=== 安装Neovim
+== 安装Neovim
 
 [arabic]
 . 根据施主的操作系统，选择下载https://github.com/neovim/neovim/wiki/Installing-Neovim#windows[Neovim]
@@ -203,4 +188,7 @@ ____
 
 '''''
 
-link:installation-for-linux.md##在linux上安装spacevim[Linux指南] | link:../FAQ.md#faq[常见问题] | link:../README.md#table-of-contents[索引] | link:../../README.md#hack-spacevim[English Document]
+link:installation-for-linux.md##在linux上安装spacevim[Linux指南] | 
+link:../FAQ.md#faq[常见问题] | 
+link:../README.md#table-of-contents[索引] | 
+link:../../README.md#hack-spacevim[English Document]

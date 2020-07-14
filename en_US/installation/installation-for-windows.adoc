@@ -1,25 +1,10 @@
-== Install SpaceVim on Windows
+= Install SpaceVim on Windows
+:toc:
+:toclevels: 4
 
-=== Table of Contents
+== Install prerequisites
 
-* link:#install-spacevim-on-windows[Install SpaceVim on Windows]
-** link:#table-of-contents[Table of Contents]
-** link:#install-prerequisites[Install prerequisites]
-*** link:#install-online-prerequisites[Install online prerequisites]
-*** link:#install-offline-prerequisites[Install offline prerequisites]
-** link:#start-to-install[Start to install]
-*** link:#install-online[Install online]
-**** link:#check-prerequisites[Check prerequisites]
-**** link:#start-to-install-1[Start to install]
-*** link:#install-offline[Install offline]
-**** link:#check-prerequisites-1[Check prerequisites]
-**** link:#start-to-install-2[Start to install]
-**** link:#how-can-i-update-offline-if-i-have-no-connection-to-the-internet[How can I update offline if I have no connection to the Internet?]
-** link:#install-neovim[Install Neovim]
-
-=== Install prerequisites
-
-==== Install online prerequisites
+=== Install online prerequisites
 
 * https://git-scm.com/download[git]: For downloading and updating plugins of SpaceVim
 * http://luabinaries.sourceforge.net/download.html[lua]: For neocomplete
@@ -29,7 +14,7 @@
 * https://github.com/Shougo/vimproc.vim/releases[vimproc_win64(32).dll]: vimporc needs this, *NECESSARY*
 * https://www.dllme.com/dll/download/29939/vcruntime140.dll[vcruntime140.dll]: Fix vimruntime140 Error(download it when you really need)
 
-==== Install offline prerequisites
+=== Install offline prerequisites
 
 * https://git-scm.com/download[git]: For downloading and updating plugins of SpaceVim
 * http://luabinaries.sourceforge.net/download.html[lua]: For neocomplete
@@ -41,11 +26,11 @@
 * https://github.com/Gabirel/Hack-SpaceVim/releases[Plugins Offline package]: All plugins of SpaceVim（*Recommend packing it by yourself*）
 * https://github.com/SpaceVim/SpaceVim.git[SpaceVim]
 
-=== Start to install
+== Start to install
 
-==== Install online
+=== Install online
 
-===== Check prerequisites
+==== Check prerequisites
 
 [arabic]
 . git –version
@@ -69,7 +54,7 @@ The correct result✅： > Opened a program
 
 **Notice：If you happen to command not find, please install them correctly and set up your path correctly. See how to set up your path:**link:../FAQ.md#set-up-your-path[FAQ-Set up your PATH]
 
-===== Start to install
+==== Start to install
 
 [arabic]
 . git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
@@ -111,9 +96,9 @@ https://github.com/Shougo/vimproc.vim/releases[Click me to download]. Copy it to
 
 *Congratulations. You’are done!*
 
-==== Install offline
+=== Install offline
 
-===== Check prerequisites
+==== Check prerequisites
 
 List is the same as link:#check-prerequisites[Install online: Check prerequisites]. So I won’t repeat it:
 
@@ -122,7 +107,7 @@ List is the same as link:#check-prerequisites[Install online: Check prerequisite
 * python(2/3)
 * gvim
 
-===== Start to install
+==== Start to install
 
 Still this part has the same introductions in link:#start-to-install-1[Install online: Start to install]. I will skip the same part. Only explain at different parts.
 
@@ -155,7 +140,7 @@ After finishing installing fonts, the status bar should work very well.
 
 *Congratulations! Install offline successfully!*
 
-===== How can I update offline if I have no connection to the Internet?
+==== How can I update offline if I have no connection to the Internet?
 
 As [@TamaMcGlinn](https://github.com/TamaMcGlinn) mentions, https://git-scm.com/docs/git-bundle[`git bundle`] is suitable for incremental updates for plugins.
 
@@ -165,7 +150,7 @@ Unfortunately, for all those plugins with `git bundle` method, you have to write
 
 More details: https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-654206784[Instructions For Installing SpaceVim - OFFLINE]
 
-=== Install Neovim
+== Install Neovim
 
 *Notice: You’ve entered the taboo areas.*
 
@@ -217,4 +202,7 @@ ____
 
 '''''
 
-link:installation-for-linux.md#install-spacevim-on-linux[Instructions for Linux] | link:../FAQ.md#faq[FAQ] | link:../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:installation-for-linux.md#install-spacevim-on-linux[Instructions for Linux] | 
+link:../FAQ.md#faq[FAQ] | 
+link:../README.md#table-of-contents[Index] | 
+link:../../README_zh_CN.md#hack-spacevim[中文文档]
