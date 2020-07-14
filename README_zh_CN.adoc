@@ -8,7 +8,7 @@ https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.4.0--dev-FF0
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg[Average time to resolve an issue]] 
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg[Percentage of issues still open]]
 
-== Introduction
+== 介绍
 
 https://github.com/spacevim/spacevim[SpaceVim] 
 | link:README.md[Hack-SpaceVim English] 
@@ -26,7 +26,7 @@ https://github.com/spacevim/spacevim[SpaceVim]
 * :scream: 告诉你鲜为人知的彩蛋
 * :smirk:一些你永远不会知道的技巧（噢，这好像矛盾了）
 
-== Table of Contents
+== 索引
 
 [arabic]
 . link:zh_CN/installation/installation-for-windows.md#在windows上安装spacevim[在Windows上的SpaceVim]
