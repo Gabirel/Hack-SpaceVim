@@ -10,10 +10,10 @@ http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintai
 
 == 介绍
 
-https://github.com/spacevim/spacevim[SpaceVim] 
-| link:README.md[Hack-SpaceVim English] 
-| https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] 
-| https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
+https://github.com/spacevim/spacevim[SpaceVim] | 
+link:README.md[Hack-SpaceVim English] | 
+https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] | 
+https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 
 .你能从Hack-SpaceVim得到什么
 
@@ -37,11 +37,7 @@ https://github.com/spacevim/spacevim[SpaceVim]
 *** link:zh_CN/installation/installation-for-windows.adoc#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82[离线安装基本要求]
 ** link:zh_CN/installation/installation-for-windows.adoc#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85[开始安装]
 *** link:zh_CN/installation/installation-for-windows.adoc#%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85[在线安装]
-**** link:zh_CN/installation/installation-for-windows.adoc#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%98%AF%E5%90%A6%E5%B7%B2%E5%AE%89%E8%A3%85[检查基础环境]
-**** link:zh_CN/installation/installation-for-windows.adoc#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85[正式安装]
 *** link:zh_CN/installation/installation-for-windows.adoc#%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85[离线安装]
-**** link:zh_CN/installation/installation-for-windows.adoc#%E6%A3%80%E6%9F%A5%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83-1[检查基础环境]
-**** link:zh_CN/installation/installation-for-windows.adoc#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-1[正式安装]
 ** link:zh_CN/installation/installation-for-windows.adoc#%E5%AE%89%E8%A3%85neovim[安装Neovim]
 . link:zh_CN/installation/installation-for-linux.adoc#在linux上安装spacevim[在Linux上的SpaceVim]
 * link:zh_CN/installation/installation-for-linux.adoc#在linux上安装spacevim[在Linux上安装SpaceVim]
@@ -51,11 +47,7 @@ https://github.com/spacevim/spacevim[SpaceVim]
 *** link:zh_CN/installation/installation-for-linux.adoc#离线安装依赖[离线安装依赖]
 ** link:zh_CN/installation/installation-for-linux.adoc#开始安装[开始安装]
 *** link:zh_CN/installation/installation-for-linux.adoc#在线安装[在线安装]
-**** link:zh_CN/installation/installation-for-linux.adoc#检查依赖[检查依赖]
-**** link:zh_CN/installation/installation-for-linux.adoc#开始安装-1[开始安装]
 *** link:zh_CN/installation/installation-for-linux.adoc#离线安装[离线安装]
-**** link:zh_CN/installation/installation-for-linux.adoc#检查依赖-1[检查依赖]
-**** link:zh_CN/installation/installation-for-linux.adoc#开始安装-2[开始安装]
 . link:zh_CN/IDE[IDE]
 * link:zh_CN/IDE/JavaScript.adoc#ide-for-javascript[IDE for JavaScript]
 ** link:zh_CN/IDE/JavaScript.adoc#table-of-contents[Table of Contents]

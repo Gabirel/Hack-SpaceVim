@@ -10,10 +10,10 @@ http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintai
 
 == Introduction
 
-https://github.com/spacevim/spacevim[SpaceVim] 
-| link:README_zh_CN.md[Hack-SpaceVim 中文版] 
-| https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] 
-| https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
+https://github.com/spacevim/spacevim[SpaceVim] | 
+link:README_zh_CN.md[Hack-SpaceVim 中文版] | 
+https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] | 
+https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 
 .What can you get from Hack-SpaceVim
 
@@ -33,15 +33,9 @@ https://github.com/spacevim/spacevim[SpaceVim]
 * link:en_US/installation/installation-for-windows.adoc#install-spacevim-on-windows[Install SpaceVim on Windows]
 ** link:en_US/installation/installation-for-windows.adoc#table-of-contents[Table of Contents]
 ** link:en_US/installation/installation-for-windows.adoc#install-prerequisites[Install prerequisites]
-*** link:en_US/installation/installation-for-windows.adoc#install-online-prerequisites[Install online prerequisites]
-*** link:en_US/installation/installation-for-windows.adoc#install-offline-prerequisites[Install offline prerequisites]
 ** link:en_US/installation/installation-for-windows.adoc#start-to-install[Start to install]
 *** link:en_US/installation/installation-for-windows.adoc#install-online[Install online]
-**** link:en_US/installation/installation-for-windows.adoc#check-prerequisites[Check prerequisites]
-**** link:en_US/installation/installation-for-windows.adoc#start-to-install-1[Start to install]
 *** link:en_US/installation/installation-for-windows.adoc#install-offline[Install offline]
-**** link:en_US/installation/installation-for-windows.adoc#check-prerequisites-1[Check prerequisites]
-**** link:en_US/installation/installation-for-windows.adoc#start-to-install-2[Start to install]
 ** link:en_US/installation/installation-for-windows.adoc#install-neovim[Install Neovim]
 . link:en_US/installation/installation-for-linux.adoc#install-spacevim-on-linux[SpaceVim on Linux]
 * link:en_US/installation/installation-for-linux.adoc#install-spacevim-on-linux[Install SpaceVim on Linux]
@@ -51,11 +45,7 @@ https://github.com/spacevim/spacevim[SpaceVim]
 *** link:en_US/installation/installation-for-linux.adoc#install-offline-prerequisites[Install offline prerequisites]
 ** link:en_US/installation/installation-for-linux.adoc#start-to-install[Start to install]
 *** link:en_US/installation/installation-for-linux.adoc#install-online[Install online]
-**** link:en_US/installation/installation-for-linux.adoc#check-prerequisites[Check prerequisites]
-**** link:en_US/installation/installation-for-linux.adoc#start-to-install-1[Start to install]
 *** link:en_US/installation/installation-for-linux.adoc#install-offline[Install offline]
-**** link:en_US/installation/installation-for-linux.adoc#check-prerequisites-1[Check prerequisites]
-**** link:en_US/installation/installation-for-linux.adoc#start-to-install-2[Start to install]
 . link:en_US/IDE[IDE]
 * link:en_US/IDE/JavaScript.adoc#ide-for-javascript[IDE for JavaScript]
 ** link:en_US/IDE/JavaScript.adoc#table-of-contents[Table of Contents]
