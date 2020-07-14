@@ -93,7 +93,7 @@ ____
 
 == 感谢
 
-很感谢[@RenChunhui](https://github.com/RenChunhui)无私的帮助，要是没有TA的帮助，我肯定无法完成这个。因为这个tern真的很让人头疼。
+很感谢 https://github.com/renchunhui[@RenChunhui] 无私的帮助，要是没有TA的帮助，我肯定无法完成这个。因为这个tern真的很让人头疼。
 
 '''''
 

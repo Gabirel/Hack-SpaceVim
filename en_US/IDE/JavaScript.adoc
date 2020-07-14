@@ -118,7 +118,7 @@ Here’s the example config:
 
 == Credits & Thanks
 
-Thanks to [@RenChunhui](https://github.com/renchunhui), I can make this topic happen. I could never reach so for without his unselfish help.
+Thanks to https://github.com/renchunhui[@RenChunhui], I can make this topic happen. I could never reach so for without his unselfish help.
 
 '''''
 
