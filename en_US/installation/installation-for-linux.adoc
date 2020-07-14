@@ -1,23 +1,10 @@
-== Install SpaceVim on Linux
+= Install SpaceVim on Linux
+:toc:
+:toclevels: 4
 
-=== Table of Contents
+== Install prerequisites
 
-* link:#install-spacevim-on-linux[Install SpaceVim on Linux]
-** link:#install-prerequisites[Install prerequisites]
-*** link:#install-online-prerequisites[Install online prerequisites]
-*** link:#install-offline-prerequisites[Install offline prerequisites]
-** link:#start-to-install[Start to install]
-*** link:#install-online[Install online]
-**** link:#check-prerequisites[Check prerequisites]
-**** link:#start-to-install-1[Start to install]
-*** link:#install-offline[Install offline]
-**** link:#check-prerequisites-1[Check prerequisites]
-**** link:#start-to-install-2[Start to install]
-**** link:#how-can-i-update-offline-if-i-have-no-connection-to-the-internet[How can I update offline if I have no connection to the Internet?]
-
-=== Install prerequisites
-
-==== Install online prerequisites
+=== Install online prerequisites
 
 * git: For downloading and updating plugins of SpaceVim
 * lua: For neocomplete
@@ -25,7 +12,7 @@
 * vim/gvim: Vim’s program
 * https://github.com/powerline/fonts/tree/master/DejaVuSansMono[DejaVu Sans Mono for PowerLine]: Used by the plugins of SpaceVim
 
-==== Install offline prerequisites
+=== Install offline prerequisites
 
 * git: For downloading and updating plugins of SpaceVim
 * lua: For neocomplete
@@ -35,11 +22,11 @@
 * https://github.com/Gabirel/Hack-SpaceVim/releases[Offline plugins package]: All plugins used by SpaceVim
 * https://github.com/spacevim/spacevim[SpaceVim]
 
-=== Start to install
+== Start to install
 
-==== Install online
+=== Install online
 
-===== Check prerequisites
+==== Check prerequisites
 
 [arabic]
 . git –version
@@ -86,7 +73,7 @@ ____
 sudo pacman -S git
 ____
 
-===== Start to install
+==== Start to install
 
 [arabic]
 . Back up your own `.vimrc`. Just in case you don’t like SpaceVim
@@ -113,9 +100,9 @@ image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0
 [arabic, start=6]
 . Install fonts, download fonts *in advance*: https://github.com/powerline/fonts/tree/master/DejaVuSansMono[DejaVu Sans Mono for PowerLine.ttf].
 
-==== Install offline
+=== Install offline
 
-===== Check prerequisites
+==== Check prerequisites
 
 List is the same as link:#check-prerequisites[Install online: Check prerequisites]. So I won’t repeat it:
 
@@ -124,7 +111,7 @@ List is the same as link:#check-prerequisites[Install online: Check prerequisite
 * python(2/3)
 * vim/gvim
 
-===== Start to install
+==== Start to install
 
 Things are getting easier in SpaceVim-v0.9.0-dev. Yes, you can install SpaceVim without any Internet connection.
 
@@ -152,7 +139,7 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 
 *Congratulations! Install offline successfully!*
 
-===== How can I update offline if I have no connection to the Internet?
+==== How can I update offline if I have no connection to the Internet?
 
 As [@TamaMcGlinn](https://github.com/TamaMcGlinn) mentions, https://git-scm.com/docs/git-bundle[`git bundle`] is suitable for incremental updates for plugins.
 
@@ -164,4 +151,7 @@ More details: https://github.com/Gabirel/Hack-SpaceVim/issues/12#issuecomment-65
 
 '''''
 
-link:installation-for-windows.md#install-spacevim-on-windows[Instructions for Windows] | link:../FAQ.md#faq[FAQ] | link:../README.md#table-of-contents[Index] | link:../../README_zh_CN.md#hack-spacevim[中文文档]
+link:installation-for-windows.md#install-spacevim-on-windows[Instructions for Windows] | 
+link:../FAQ.md#faq[FAQ] | 
+link:../README.md#table-of-contents[Index] | 
+link:../../README_zh_CN.md#hack-spacevim[中文文档]

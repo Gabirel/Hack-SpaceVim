@@ -1,24 +1,10 @@
-== 在Linux上安装SpaceVim
+= 在Linux上安装SpaceVim
+:toc:
+:toclevels: 4
 
-=== Table of Contents
+== 安装依赖
 
-* link:#在linux上安装spacevim[在Linux上安装SpaceVim]
-** link:#table-of-contents[Table of Contents]
-** link:#安装依赖[安装依赖]
-*** link:#在线安装依赖[在线安装依赖]
-*** link:#离线安装依赖[离线安装依赖]
-** link:#开始安装[开始安装]
-*** link:#在线安装[在线安装]
-**** link:#检查依赖[检查依赖]
-**** link:#开始安装-1[开始安装]
-*** link:#离线安装[离线安装]
-**** link:#检查依赖-1[检查依赖]
-**** link:#开始安装-2[开始安装]
-**** link:#离线状态如何更新？[离线状态如何更新？]
-
-=== 安装依赖
-
-==== 在线安装依赖
+=== 在线安装依赖
 
 * git: 用于下载和更新SpaceVim的插件
 * lua: 用于neocomplete补全
@@ -26,7 +12,7 @@
 * vim/gvim: Vim主要程序
 * https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine]: 用于SpaceVim的插件
 
-==== 离线安装依赖
+=== 离线安装依赖
 
 * git: 用于下载和更新SpaceVim的插件
 * lua: 用于neocomplete补全
@@ -36,13 +22,13 @@
 * https://github.com/Gabirel/Hack-SpaceVim/releases[Offline plugins package]: SpaceVim的插件
 * https://github.com/spacevim/spacevim[SpaceVim]
 
-=== 开始安装
+== 开始安装
 
 image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/4418cda66a8170e73b0ee8afbd4383db6be057e9/meme-shocking.jpg[shocking]
 
-==== 在线安装
+=== 在线安装
 
-===== 检查依赖
+==== 检查依赖
 
 [arabic]
 . git –version
@@ -89,7 +75,7 @@ ____
 sudo pacman -S git
 ____
 
-===== 开始安装
+==== 开始安装
 
 [arabic]
 . 备份你自己的`vimrc`，以防你不喜欢SpaceVim。
@@ -116,9 +102,9 @@ image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0
 [arabic, start=6]
 . 安装字体，请**提前**下载好字体： https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine.ttf].
 
-==== 离线安装
+=== 离线安装
 
-===== 检查依赖
+==== 检查依赖
 
 以下检查项同link:#在线安装[在线安装]相同，故不再赘述：
 
@@ -127,7 +113,7 @@ image:https://gist.github.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/8bdd0
 * python(2/3)
 * vim/gvim
 
-===== 开始安装
+==== 开始安装
 
 离线安装在SpaceVim-v0.9.0-dev中已经变得很简单。是的，你现在可以非常简单地安装SpaceVim而且不需要任何英特网连接。
 
@@ -155,7 +141,7 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 
 *恭喜！离线安装已完成！*
 
-===== 离线状态如何更新？
+==== 离线状态如何更新？
 
 [@TamaMcGlinn](https://github.com/TamaMcGlinn) 提出了使用 https://git-scm.com/docs/git-bundle[`git bundle`] 想法。这个想法十分适合插件的增量更新。
 
@@ -167,4 +153,7 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 
 '''''
 
-link:installation-for-windows.md#在windows上安装spacevim[Windows指南] | link:../FAQ.md#faq[常见问题] | link:../README.md#table-of-contents[索引] | link:../../README.md#hack-spacevim[English Document]
+link:installation-for-windows.md#在windows上安装spacevim[Windows指南] | 
+link:../FAQ.md#faq[常见问题] | 
+link:../README.md#table-of-contents[索引] | 
+link:../../README.md#hack-spacevim[English Document]
