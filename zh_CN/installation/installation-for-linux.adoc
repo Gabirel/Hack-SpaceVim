@@ -141,7 +141,7 @@ ln -svf ~/.SpaceVim/* ~/.vim/
 
 ==== 离线状态如何更新？
 
-[@TamaMcGlinn](https://github.com/TamaMcGlinn) 提出了使用 https://git-scm.com/docs/git-bundle[`git bundle`] 想法。这个想法十分适合插件的增量更新。
+https://github.com/TamaMcGlinn[@TamaMcGlinn] 提出了使用 https://git-scm.com/docs/git-bundle[`git bundle`] 想法。这个想法十分适合插件的增量更新。
 
 这样一来，你就不需要通过**U盘**或者**内部邮件**的方式来进行全量拷贝。
 

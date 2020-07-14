@@ -134,14 +134,14 @@ mkdir .vim
 ln -svf ~/.SpaceVim/* ~/.vim/
 ----
 
-[arabic, start=3]
+[arabic, start=4]
 . Open vim in your terminal and try it.
 
 *Congratulations! Install offline successfully!*
 
 ==== How can I update offline if I have no connection to the Internet?
 
-As [@TamaMcGlinn](https://github.com/TamaMcGlinn) mentions, https://git-scm.com/docs/git-bundle[`git bundle`] is suitable for incremental updates for plugins.
+As https://github.com/TamaMcGlinn[@TamaMcGlinn] mentions, https://git-scm.com/docs/git-bundle[`git bundle`] is suitable for incremental updates for plugins.
 
 In this way, you don’t have to copy the whole plugins via *USB* or *internal email*.
 
