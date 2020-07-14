@@ -14,7 +14,7 @@ http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintai
 == 介绍
 
 https://github.com/spacevim/spacevim[SpaceVim] | 
-link:README.md[Hack-SpaceVim English] | 
+link:README.adoc[Hack-SpaceVim English] | 
 https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] | 
 https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 
