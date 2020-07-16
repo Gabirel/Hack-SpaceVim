@@ -92,6 +92,16 @@ https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 What does `Hack-SpaceVim` really do?::
 Currently, it is trying to be something really useful to whom wants to master or use SpaceVim, including various aspects. Not just SpaceVim, but also vim/nvim.
 
+== Contributors
+
+++++
+<a href="https://github.com/Gabirel/Hack-SpaceVim/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Gabirel/Hack-SpaceVim" />
+</a>
+++++
+
+Made with https://contributors-img.web.app[contributors-img].
+
 == Reference
 
 New to Vim: https://github.com/mhinz/vim-galore[vim-galore]

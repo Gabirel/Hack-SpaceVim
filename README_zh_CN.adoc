@@ -94,6 +94,14 @@ https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 `Hack-SpaceVim`到底是干吗的？::
 目前，它正努力让任何希望掌握和使用SpaceVim的人变得真正有用，这包括了各个方便。不止是SpaceVim本身，也包含了vim/nvim。
 
+== Contributors
+
+++++
+<a href="https://github.com/Gabirel/Hack-SpaceVim/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Gabirel/Hack-SpaceVim" />
+</a>
+++++
+
 == 参考
 
 Vim新人可以看看: https://github.com/mhinz/vim-galore[vim-galore]
