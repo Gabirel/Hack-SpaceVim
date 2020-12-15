@@ -11,6 +11,12 @@ https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.4.0--dev-FF0
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg[Average time to resolve an issue]] 
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg[Percentage of issues still open]]
 
+'''
+
+Hack-SpaceVim has opened discussions now. Feel free to use https://github.com/Gabirel/Hack-SpaceVim/discussions/[discussions].
+
+Try to comment on https://github.com/Gabirel/Hack-SpaceVim/discussions/48[What do you want from Hack-SpaceVim mostly?] for yourself.
+
 == Introduction
 
 https://github.com/spacevim/spacevim[SpaceVim] | 

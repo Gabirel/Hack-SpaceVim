@@ -11,6 +11,12 @@ https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.4.0--dev-FF0
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg[Average time to resolve an issue]] 
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg[Percentage of issues still open]]
 
+'''
+
+Hack-SpaceVim现在已经开放了discussions（讨论区）了。详情可见：https://github.com/Gabirel/Hack-SpaceVim/discussions/[discussions].
+
+可以在https://github.com/Gabirel/Hack-SpaceVim/discussions/48[What do you want from Hack-SpaceVim mostly?]底下评论告诉我你最想要什么吧～
+
 == 介绍
 
 https://github.com/spacevim/spacevim[SpaceVim] | 
