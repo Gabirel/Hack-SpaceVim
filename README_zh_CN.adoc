@@ -13,9 +13,7 @@ http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintai
 
 '''
 
-Hack-SpaceVim现在已经开放了discussions（讨论区）了。详情可见：https://github.com/Gabirel/Hack-SpaceVim/discussions/[discussions].
-
-可以在 https://github.com/Gabirel/Hack-SpaceVim/discussions/48[What do you want from Hack-SpaceVim mostly?] 底下评论告诉我你最想要什么吧～
+可通过 https://github.com/Gabirel/Hack-SpaceVim/issues[issues] 来获得最新的进展。
 
 == 介绍
 
