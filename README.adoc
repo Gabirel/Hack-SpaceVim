@@ -7,7 +7,7 @@
 https://spacevim.org[image:https://spacevim.org/img/build-with-SpaceVim.svg[image]] 
 https://travis-ci.org/Gabirel/Hack-SpaceVim[image:https://travis-ci.org/Gabirel/Hack-SpaceVim.svg?branch=master[Build Status]] 
 link:LICENSE[image:https://img.shields.io/badge/license-MIT-blue.svg?style=flat[MIT License]]
-https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.5.0-FF00CC.svg[spacevim-version]] 
+https://spacevim.org[image:https://img.shields.io/badge/spacevim-v1.8.0-FF00CC.svg[spacevim-version]] 
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/resolution/Gabirel/Hack-SpaceVim.svg[Average time to resolve an issue]] 
 http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintained.com/badge/open/Gabirel/Hack-SpaceVim.svg[Percentage of issues still open]]
 
