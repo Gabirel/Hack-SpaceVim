@@ -1,4 +1,4 @@
-= Hack-SpaceVim - Guide for SpaceVim
+= Hack-SpaceVim - Guider for SpaceVim
 :sectnums:
 :toc:
 :toclevels: 4
