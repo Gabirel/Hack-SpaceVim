@@ -4,6 +4,38 @@
 :toclevels: 3
 :toc-title:
 
+== 通用
+
+=== 改变 layer 的选项
+
+*1. 我想要通过 `init.vim` 来改变 shell 选项。我该怎么做？*
+
+_问题来源: https://github.com/Gabirel/Hack-SpaceVim/issues/51[Hack-SpaceVim#51@ViiEx]_
+
+A: *关键思想* 是覆写那些被默认载入的选项（或者变量）。
+
+例如，当我使用 SpaceVim 的时候，改变其 shell 的默认高度以及默认打开方向。
+
+那么就将下面的代码加入到 `init.vim` 中即可：
+
+[source,viml]
+----
+call SpaceVim#layers#load('shell')
+
+" 这个 call 函数必须在 `call SpaceVim#layers#load('shell')` 的下面
+" 否则，我们加载的选项就会被覆盖掉，导致失效
+call SpaceVim#layers#load('shell',
+    \ {
+    \  'default_position' : 'bottom',
+    \  'default_height' : 100,
+    \ }
+    \ )
+----
+
+Demo:
+
+image:https://user-images.githubusercontent.com/12933851/172159423-9ec89e15-d5e9-408a-b554-12e787d52949.png[demo]
+
 == Windows
 
 === 配置环境变量

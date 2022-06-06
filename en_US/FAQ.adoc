@@ -4,6 +4,38 @@
 :toclevels: 4
 :toc-title:
 
+== General
+
+=== Change layer options
+
+*1. I would like to change options from shell layer using `init.vim`. How could I achieve that?*
+
+_Question comes from: https://github.com/Gabirel/Hack-SpaceVim/issues/51[Hack-SpaceVim#51@ViiEx]_
+
+A: *Main idea* is to overwrite the default options(variables).
+
+For example, I would like to change the default height and default position when I use shell inside SpaceVim.
+
+Add codes below into your `init.vim`:
+
+[source,viml]
+----
+call SpaceVim#layers#load('shell')
+
+" this call function MUST STAY BELOW
+" Otherwise, it will get overwritten by `call SpaceVim#layers#load('shell')`
+call SpaceVim#layers#load('shell',
+    \ {
+    \  'default_position' : 'bottom',
+    \  'default_height' : 100,
+    \ }
+    \ )
+----
+
+Demo:
+
+image:https://user-images.githubusercontent.com/12933851/172159423-9ec89e15-d5e9-408a-b554-12e787d52949.png[demo]
+
 == Windows
 
 === Set up your PATH
