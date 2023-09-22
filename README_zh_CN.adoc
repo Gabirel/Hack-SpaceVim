@@ -93,8 +93,8 @@ https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
 ** *针对初学者：* toml风格的配置文件不会帮助你提升vim脚本的能力。
 ** 如果你使用 `init.toml` 并且为了能够自定义代码/函数，你必须要使用 https://spacevim.org/documentation/#bootstrap-functions[bootstrap functions]. 这样你就会污染SpaceVim的代码。
 
-`Hack-SpaceVim` 到底是干吗的？::
-目前，它正努力让任何希望掌握和使用SpaceVim的人变得真正有用，这包括了各个方便。不止是SpaceVim本身，也包含了vim/nvim。
+`Hack-SpaceVim` 到底是干嘛的？::
+目前，它正努力让任何希望掌握和使用SpaceVim的人达成目标，这包括了各个方面。不止是SpaceVim本身，也包含了vim/nvim。
 
 == Contributors
 
