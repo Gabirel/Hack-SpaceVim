@@ -26,7 +26,7 @@
 * https://github.com/Shougo/vimproc.vim/releases[vimproc_win64(32).dll]: vimporc插件依赖，*必须*
 * https://www.dllme.com/dll/download/29939/vcruntime140.dll[vcruntime140.dll]: 针对vimruntime140 Error（当必要时下载）
 * https://github.com/Gabirel/Hack-SpaceVim/releases[插件压缩包]: SpaceVim的插件离线包（*建议自行打包下载*）
-* https://github.com/SpaceVim/SpaceVim.git[SpaceVim]
+* https://gitlab.com/SpaceVim/SpaceVim.git[SpaceVim]
 
 == 开始安装
 
@@ -59,7 +59,7 @@
 ==== 正式安装
 
 [arabic]
-. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+. git clone https://gitlab.com/SpaceVim/SpaceVim.git vimfiles
 . 双击桌面的gvim图标，或打开cmd.exe后运行gvim，正常情况下会打开一个新的终端克隆`dein.vim`，如图所示：
 
 image:https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/2ac0304f46db1c6470f8f4982296d08875de2894/clone-dein.vim.PNG[dein.vim-clone]
@@ -110,7 +110,7 @@ https://github.com/Shougo/vimproc.vim/releases[点我下载]，位置放在：`C
 因link:#正式安装[在线安装： 正式安装]中已有详细说明，故不赘述重复部分，只对不同点作出详细说明：
 
 [arabic]
-. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+. git clone https://gitlab.com/SpaceVim/SpaceVim.git vimfiles
 . 解压打包好的插件列表至：
 
 ____
@@ -183,7 +183,7 @@ ____
 . 安装SpaceVim
 
 ____
-git clone https://github.com/SpaceVim/SpaceVim.git %userprofile% +
+git clone https://gitlab.com/SpaceVim/SpaceVim.git %userprofile% +
 ____
 
 *注意：neovim中施主不需要安装Lua支持，因为neovim(v0.2)目前不支持Lua，因此SpaceVim不会使用neocomplete，而会使用deopelete*

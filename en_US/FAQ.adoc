@@ -88,9 +88,9 @@ set pythondll=python27.dll
 A: There are 4 kind of possibilities:
 
 * Check out whether you can execute `lua` command in your new terminal and your gvim has `+lua` feature. SpaceVim will use `neocomplcache` instead of `neocomplete` without lua support, which makes SpaceVim gets frozen or have some delay.
-* You may encounter bugs of SpaceVim. Feel free to use https://github.com/spacevim/spacevim/issues[issue tracker] to solve this.
+* You may encounter bugs of SpaceVim. Feel free to use https://gitlab.com/SpaceVim/SpaceVim/issues[issue tracker] to solve this.
 * Your config file is probably the problem. For example, your SpaceVim will get frozen totally if you make `loadEagerly` as `**/*.js` when writing nodejs file.
-* Maybe one of plugins has some conflicts with another plugin. Please open a new https://github.com/spacevim/spacevim/issues[issue] to help you fix this problem if you suspect.
+* Maybe one of plugins has some conflicts with another plugin. Please open a new https://gitlab.com/SpaceVim/SpaceVim/issues[issue] to help you fix this problem if you suspect.
 
 === vcruntime140.dll Error
 

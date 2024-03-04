@@ -22,7 +22,7 @@
 * vim/gvim: Vim’s program
 * https://github.com/powerline/fonts/tree/master/DejaVuSansMono[DejaVu Sans Mono for PowerLine]: Used by the plugins of SpaceVim
 * https://github.com/Gabirel/Hack-SpaceVim/releases[Offline plugins package]: All plugins used by SpaceVim
-* https://github.com/spacevim/spacevim[SpaceVim]
+* https://gitlab.com/SpaceVim/SpaceVim[SpaceVim]
 
 == Start to install
 

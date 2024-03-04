@@ -26,7 +26,7 @@
 * https://github.com/Shougo/vimproc.vim/releases[vimproc_win64(32).dll]: vimporc needs this, *NECESSARY*
 * https://www.dllme.com/dll/download/29939/vcruntime140.dll[vcruntime140.dll]: Fix vimruntime140 Error(download it when you really need)
 * https://github.com/Gabirel/Hack-SpaceVim/releases[Plugins Offline package]: All plugins of SpaceVim（*Recommend packing it by yourself*）
-* https://github.com/SpaceVim/SpaceVim.git[SpaceVim]
+* https://gitlab.com/SpaceVim/SpaceVim.git[SpaceVim]
 
 == Start to install
 
@@ -59,7 +59,7 @@ The correct result✅： > Opened a program
 ==== Start to install
 
 [arabic]
-. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+. git clone https://gitlab.com/SpaceVim/SpaceVim.git vimfiles
 . Double-click Gvim’s icon, or open a new `cmd.exe` and execute `gvim`. Normally it should open a new terminal to clone `dein.vim`. As it shows below:
 
 image:https://gist.githubusercontent.com/Gabirel/b71a01cce86df216abd4fd0968864942/raw/2ac0304f46db1c6470f8f4982296d08875de2894/clone-dein.vim.PNG[dein.vim-clone]
@@ -114,7 +114,7 @@ List is the same as link:#check-prerequisites[Install online: Check prerequisite
 Still this part has the same introductions in link:#start-to-install-1[Install online: Start to install]. I will skip the same part. Only explain at different parts.
 
 [arabic]
-. git clone https://github.com/SpaceVim/SpaceVim.git vimfiles
+. git clone https://gitlab.com/SpaceVim/SpaceVim.git vimfiles
 . Extract the package to:
 
 ____
@@ -195,7 +195,7 @@ If you want to have python3 support, please install it according to step 6; Also
 . Install SpaceVim
 
 ____
-git clone https://github.com/SpaceVim/SpaceVim.git %userprofile% +
+git clone https://gitlab.com/SpaceVim/SpaceVim.git %userprofile% +
 ____
 
 *Congratulations! You’ve installed it successfully.*

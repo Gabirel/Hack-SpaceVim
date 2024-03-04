@@ -22,7 +22,7 @@
 * vim/gvim: Vim主要程序
 * https://github.com/wsdjeg/DotFiles/blob/master/fonts/DejaVu%20Sans%20Mono%20for%20Powerline.ttf[DejaVu Sans Mono for PowerLine]: 用于SpaceVim的插件
 * https://github.com/Gabirel/Hack-SpaceVim/releases[Offline plugins package]: SpaceVim的插件
-* https://github.com/spacevim/spacevim[SpaceVim]
+* https://gitlab.com/SpaceVim/SpaceVim[SpaceVim]
 
 == 开始安装
 
