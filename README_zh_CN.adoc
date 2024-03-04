@@ -17,10 +17,10 @@ http://isitmaintained.com/project/Gabirel/Hack-SpaceVim[image:http://isitmaintai
 
 == 介绍
 
-https://github.com/spacevim/spacevim[SpaceVim] | 
+https://gitlab.com/SpaceVim/SpaceVim[SpaceVim] | 
 link:README.adoc[Hack-SpaceVim English] | 
 https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] | 
-https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
+https://gitlab.com/SpaceVim/SpaceVim/issues[Bug report & Feature request]
 
 .你能从Hack-SpaceVim得到什么
 

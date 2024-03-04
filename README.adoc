@@ -17,10 +17,10 @@ You may want to check https://github.com/Gabirel/Hack-SpaceVim/issues[issues] fo
 
 == Introduction
 
-https://github.com/spacevim/spacevim[SpaceVim] | 
+https://gitlab.com/SpaceVim/SpaceVim[SpaceVim] | 
 link:README_zh_CN.adoc[Hack-SpaceVim 中文版] | 
 https://github.com/Gabirel/Hack-SpaceVim/issues[Ask questions] | 
-https://github.com/spacevim/spacevim/issues[Bug report & Feature request]
+https://gitlab.com/SpaceVim/SpaceVim/issues[Bug report & Feature request]
 
 .What can you get from Hack-SpaceVim
 
